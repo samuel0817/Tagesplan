@@ -16,19 +16,19 @@
 /* Layout idea: eine Spalte, Tagesreiter oben, Zeitleiste mit farbigen Kategorien. */
 :root{
   --bg:#f3f4f7; --surface:#ffffff; --ink:#13171d; --muted:#5b6471; --line:#dfe3e9;
-  --schule:#2f6fe4; --sport:#e0530a; --arbeit:#8a3fd0; --lernen:#c99200; --selbst:#0f9d6e; --alltag:#6a7585; --klausur:#d4244a;
+  --schule:#2f6fe4; --sport:#e0530a; --arbeit:#8a3fd0; --lernen:#c99200; --selbst:#0f9d6e; --alltag:#6a7585; --klausur:#d4244a; --fahr:#0e8fa3;
   --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Barlow",system-ui,sans-serif;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0d1015; --surface:#161a21; --ink:#eef1f6; --muted:#9ba5b3; --line:#262c36;
-    --schule:#5f9dff; --sport:#ff8c4d; --arbeit:#b98aff; --lernen:#f3c437; --selbst:#41d3a3; --alltag:#8d98a8; --klausur:#ff6283;
+    --schule:#5f9dff; --sport:#ff8c4d; --arbeit:#b98aff; --lernen:#f3c437; --selbst:#41d3a3; --alltag:#8d98a8; --klausur:#ff6283; --fahr:#3cc6d9;
     color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0d1015; --surface:#161a21; --ink:#eef1f6; --muted:#9ba5b3; --line:#262c36;
-  --schule:#5f9dff; --sport:#ff8c4d; --arbeit:#b98aff; --lernen:#f3c437; --selbst:#41d3a3; --alltag:#8d98a8; --klausur:#ff6283;
+  --schule:#5f9dff; --sport:#ff8c4d; --arbeit:#b98aff; --lernen:#f3c437; --selbst:#41d3a3; --alltag:#8d98a8; --klausur:#ff6283; --fahr:#3cc6d9;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -105,9 +105,11 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 (function(){
   var CATS = {
     schule:{n:"Schule"}, sport:{n:"Gym & Fußball"}, arbeit:{n:"Fotografie"},
-    lernen:{n:"Lernen"}, selbst:{n:"Zeit für mich"}, alltag:{n:"Essen & Alltag"}, klausur:{n:"Klausur"}
+    lernen:{n:"Lernen"}, selbst:{n:"Zeit für mich"}, alltag:{n:"Essen & Alltag"}, klausur:{n:"Klausur"}, fahr:{n:"Fahrschule"}
   };
-  var PILL = ["22:15","22:25","Tabletten: Melatonin, Eisen, Magnesium","alltag"];
+  var PILL = ["22:20","22:30","Tabletten: Melatonin, Eisen, Magnesium","alltag"];
+  var BIBEL = ["22:40","22:55","Bibel lesen","selbst"];
+  var FAHR = ["18:15","20:15","Fahrschule (mit Hin- und Rückfahrt)","fahr"];
   var WEG_HIN = function(s,e){return [s,e,"Weg zur Schule (20 Min)","alltag"];};
   var WEG_HEIM = function(s,e){return [s,e,"Heimweg (20 Min)","alltag"];};
   var COOKIE = ["20:45","21:30","Cookie rausgehen","alltag"];
@@ -118,10 +120,9 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
        WEG_HIN("07:25","07:45"),
        ["07:45","14:00","Schule","schule"],
        WEG_HEIM("14:00","14:20"),
-       ["16:00","19:00","Lernen","lernen","Deine beste Lernzeit."],
-       ["19:30","20:30","Gym: Rücken (1 Std)","sport"],
-       ["20:30","20:45","Duschen","alltag"],
-       COOKIE, ROUTINE, PILL],
+       ["16:00","18:00","Lernen","lernen","Deine beste Lernzeit."],
+       FAHR,
+       COOKIE, ROUTINE, PILL, BIBEL],
     2:[["07:00","07:20","Aufstehen","alltag"],
        ["07:30","08:05","Lernen (morgens)","lernen"],
        WEG_HIN("08:10","08:30"),
@@ -129,16 +130,14 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
        WEG_HEIM("14:45","15:05"),
        ["16:00","17:00","Lernen","lernen"],
        ["17:15","20:15","Fußball: fertig machen, Fahrt, Training ab 18:00","sport","Zuhause frühestens 20:15."],
-       COOKIE, ROUTINE, PILL],
+       COOKIE, ROUTINE, PILL, BIBEL],
     3:[["07:00","07:20","Aufstehen","alltag"],
        WEG_HIN("07:25","07:45"),
        ["07:45","14:45","Schule","schule"],
        WEG_HEIM("14:45","15:05"),
-       ["16:00","18:15","Lernen","lernen","Deine beste Lernzeit."],
-       ["18:30","19:30","Gym: Brust (1 Std)","sport"],
-       ["19:40","19:55","Duschen","alltag"],
-       ["20:05","20:40","Zeit für mich","selbst","Frei, ohne Aufgabe."],
-       COOKIE, ROUTINE, PILL],
+       ["16:00","18:00","Lernen","lernen","Deine beste Lernzeit."],
+       FAHR,
+       COOKIE, ROUTINE, PILL, BIBEL],
     4:[["07:00","07:20","Aufstehen","alltag"],
        ["07:30","08:05","Lernen (morgens)","lernen"],
        WEG_HIN("08:10","08:30"),
@@ -149,7 +148,7 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
        ["14:55","16:25","Schule (letzte Stunden)","schule"],
        WEG_HEIM("16:25","16:45"),
        ["17:15","20:15","Fußball: fertig machen, Fahrt, Training ab 18:00","sport","Zuhause frühestens 20:15."],
-       COOKIE, ROUTINE, PILL],
+       COOKIE, ROUTINE, PILL, BIBEL],
     5:[["07:00","07:20","Aufstehen","alltag"],
        ["07:30","08:45","Lernen (morgens)","lernen","Vor der Schule lernen statt Sport."],
        WEG_HIN("09:15","09:35"),
@@ -160,13 +159,13 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
        ["19:25","19:40","Duschen","alltag"],
        ["19:50","20:40","Zeit für mich","selbst","Frei, ohne Aufgabe."],
        COOKIE,
-       ["21:30","22:00","Abendroutine, Spieltasche packen, Bett fertig","alltag"], PILL],
+       ["21:30","22:00","Abendroutine, Spieltasche packen, Bett fertig","alltag"], PILL, BIBEL],
     6:[["08:00","08:30","Aufstehen","alltag"],
        ["16:00","17:45","Zeit für mich","selbst","Frei, ohne Aufgabe."],
        ["18:00","19:15","Gym: Arme + Schultern (1 Std 15)","sport"],
        ["19:25","19:40","Duschen","alltag"],
        ["19:50","20:30","Zeit für mich","selbst","Frei, ohne Aufgabe."],
-       COOKIE, ROUTINE, PILL],
+       COOKIE, ROUTINE, PILL, BIBEL],
     0:[["08:00","08:30","Aufstehen","alltag"],
        ["09:00","12:00","Lernen: Schulstoff","lernen","Morgens kein Sport, die Zeit gehört dem Lernen."],
        ["12:30","15:30","Zeit für mich","selbst","Frei, ohne Aufgabe."],
@@ -175,10 +174,10 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
        ["18:30","19:30","Gym: Brust (1 Std)","sport"],
        ["19:40","19:55","Duschen","alltag"],
        ["20:05","20:30","Zeit für mich","selbst","Frei, ohne Aufgabe."],
-       COOKIE, ROUTINE, PILL]
+       COOKIE, ROUTINE, PILL, BIBEL]
   };
   /* Lernplan und Sondertage (aus Klausurterminen berechnet): Hauptfächer 5 Tage, Nebenfächer 3 Tage vorher */
-  var OV = {"2026-11-12":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für Physik (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"]],"study":["Physik · Tag 1/5"]},"2026-11-13":{"dropCat":["lernen"],"add":[["15:00","17:00","Lernen für Physik (Tag 2/5)","lernen","Aufgaben üben"],["17:00","18:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Physik · Tag 2/5"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-11-14":{"dropCat":["lernen"],"add":[["09:00","11:20","Lernen für Physik (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["11:20","12:00","Lernen (frei wählen)","lernen"],["08:00","20:00","Spieltag (Anstoß eintragen)","sport","Kein Gym. Nachher essen und ruhen."]],"study":["Physik · Tag 3/5"],"drop":["Zeit für mich"]},"2026-11-15":{"dropCat":["lernen"],"add":[["09:00","10:30","Lernen für Physik (Tag 4/5)","lernen","Altklausur rechnen"],["10:30","12:00","Lernen (frei wählen)","lernen"]],"study":["Physik · Tag 4/5"]},"2026-11-16":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für Physik (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"],["17:30","19:00","Lernen (frei wählen)","lernen"]],"study":["Physik · Tag 5/5"]},"2026-11-22":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für GS (Tag 1/3)","lernen","Stoff sichten und lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 1/3"]},"2026-11-23":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für GS (Tag 2/3)","lernen","Üben und wiederholen"],["18:00","19:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 2/3"]},"2026-11-24":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für GS (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["16:00","16:20","Lernen für GS (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["16:20","17:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 3/3"]},"2026-11-29":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für VWL (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 1/5"]},"2026-11-30":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für VWL (Tag 2/5)","lernen","Aufgaben üben"],["17:30","19:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 2/5"]},"2026-12-01":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für VWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["16:00","16:50","Lernen für VWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"]],"study":["VWL · Tag 3/5"]},"2026-12-02":{"dropCat":["lernen"],"add":[["16:00","18:20","Lernen für VWL (Tag 4/5)","lernen","Altklausur rechnen"]],"study":["VWL · Tag 4/5"]},"2026-12-03":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für VWL (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"]],"study":["VWL · Tag 5/5"]},"2026-12-06":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für BWL (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 1/5"]},"2026-12-07":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für BWL (Tag 2/5)","lernen","Aufgaben üben"],["17:30","19:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 2/5"]},"2026-12-08":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für BWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["16:00","16:50","Lernen für BWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"]],"study":["BWL · Tag 3/5"]},"2026-12-09":{"dropCat":["lernen"],"add":[["16:00","18:20","Lernen für BWL (Tag 4/5)","lernen","Altklausur rechnen"]],"study":["BWL · Tag 4/5"]},"2026-12-10":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für BWL (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"]],"study":["BWL · Tag 5/5"]},"2026-12-11":{"dropCat":["lernen"],"add":[["15:00","17:00","Lernen für Deutsch (Tag 1/3)","lernen","Stoff sichten und lernen"],["17:00","18:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Deutsch · Tag 1/3"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-12-12":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für Deutsch (Tag 2/3)","lernen","Üben und wiederholen"],["11:00","12:00","Lernen für Englisch (Tag 1/3)","lernen","Stoff sichten und lernen"]],"study":["Deutsch · Tag 2/3","Englisch · Tag 1/3"]},"2026-12-13":{"dropCat":["lernen"],"add":[["09:00","10:00","Lernen für Deutsch (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["10:00","12:00","Lernen für Englisch (Tag 2/3)","lernen","Üben und wiederholen"]],"study":["Deutsch · Tag 3/3","Englisch · Tag 2/3"]},"2026-12-14":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Englisch (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["18:00","19:00","Lernen (frei wählen)","lernen"]],"study":["Englisch · Tag 3/3"]},"2026-12-16":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Mathe (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"]],"study":["Mathe · Tag 1/5"]},"2026-12-17":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für Mathe (Tag 2/5)","lernen","Aufgaben üben"]],"study":["Mathe · Tag 2/5"]},"2026-12-18":{"dropCat":["lernen"],"add":[["15:00","17:00","Lernen für Mathe (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["17:00","18:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Mathe · Tag 3/5"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-12-19":{"dropCat":["lernen"],"add":[["09:00","10:50","Lernen für Mathe (Tag 4/5)","lernen","Altklausur rechnen"],["10:50","12:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 4/5"]},"2026-12-20":{"dropCat":["lernen"],"add":[["09:00","10:30","Lernen für Mathe (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"],["10:30","12:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 5/5"]},"2026-11-21":{"add":[["08:00","20:00","Spieltag (Anstoß eintragen)","sport","Kein Gym."]],"drop":["Zeit für mich"]},"2026-11-17":{"add":[["09:35","11:05","KLAUSUR Physik","klausur"]]}};
+  var OV = {"2026-11-12":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für Physik (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"]],"study":["Physik · Tag 1/5"]},"2026-11-13":{"dropCat":["lernen"],"add":[["15:00","17:00","Lernen für Physik (Tag 2/5)","lernen","Aufgaben üben"],["17:00","18:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Physik · Tag 2/5"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-11-14":{"dropCat":["lernen"],"add":[["09:00","11:20","Lernen für Physik (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["11:20","12:00","Lernen (frei wählen)","lernen"],["08:00","20:00","Spieltag (Anstoß eintragen)","sport","Kein Gym. Nachher essen und ruhen."]],"study":["Physik · Tag 3/5"],"drop":["Zeit für mich"]},"2026-11-15":{"dropCat":["lernen"],"add":[["09:00","10:30","Lernen für Physik (Tag 4/5)","lernen","Altklausur rechnen"],["10:30","12:00","Lernen (frei wählen)","lernen"]],"study":["Physik · Tag 4/5"]},"2026-11-16":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für Physik (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"],["17:30","18:00","Lernen (frei wählen)","lernen"]],"study":["Physik · Tag 5/5"]},"2026-11-22":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für GS (Tag 1/3)","lernen","Stoff sichten und lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 1/3"]},"2026-11-23":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für GS (Tag 2/3)","lernen","Üben und wiederholen"]],"study":["GS · Tag 2/3"]},"2026-11-24":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für GS (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["16:00","16:20","Lernen für GS (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["16:20","17:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 3/3"]},"2026-11-29":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für VWL (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 1/5"]},"2026-11-30":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für VWL (Tag 2/5)","lernen","Aufgaben üben"],["17:30","18:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 2/5"]},"2026-12-01":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für VWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["16:00","16:50","Lernen für VWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"]],"study":["VWL · Tag 3/5"]},"2026-12-02":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für VWL (Tag 4/5)","lernen","Altklausur rechnen"]],"study":["VWL · Tag 4/5"]},"2026-12-03":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für VWL (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"]],"study":["VWL · Tag 5/5"]},"2026-12-06":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für BWL (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 1/5"]},"2026-12-07":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für BWL (Tag 2/5)","lernen","Aufgaben üben"],["17:30","18:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 2/5"]},"2026-12-08":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für BWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["16:00","16:50","Lernen für BWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"]],"study":["BWL · Tag 3/5"]},"2026-12-09":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für BWL (Tag 4/5)","lernen","Altklausur rechnen"]],"study":["BWL · Tag 4/5"]},"2026-12-10":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für BWL (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"]],"study":["BWL · Tag 5/5"]},"2026-12-11":{"dropCat":["lernen"],"add":[["15:00","17:00","Lernen für Deutsch (Tag 1/3)","lernen","Stoff sichten und lernen"],["17:00","18:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Deutsch · Tag 1/3"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-12-12":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für Deutsch (Tag 2/3)","lernen","Üben und wiederholen"],["11:00","12:00","Lernen für Englisch (Tag 1/3)","lernen","Stoff sichten und lernen"]],"study":["Deutsch · Tag 2/3","Englisch · Tag 1/3"]},"2026-12-13":{"dropCat":["lernen"],"add":[["09:00","10:00","Lernen für Deutsch (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["10:00","12:00","Lernen für Englisch (Tag 2/3)","lernen","Üben und wiederholen"]],"study":["Deutsch · Tag 3/3","Englisch · Tag 2/3"]},"2026-12-14":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Englisch (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"]],"study":["Englisch · Tag 3/3"]},"2026-12-16":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Mathe (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"]],"study":["Mathe · Tag 1/5"]},"2026-12-17":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für Mathe (Tag 2/5)","lernen","Aufgaben üben"]],"study":["Mathe · Tag 2/5"]},"2026-12-18":{"dropCat":["lernen"],"add":[["15:00","17:00","Lernen für Mathe (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["17:00","18:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Mathe · Tag 3/5"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-12-19":{"dropCat":["lernen"],"add":[["09:00","10:50","Lernen für Mathe (Tag 4/5)","lernen","Altklausur rechnen"],["10:50","12:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 4/5"]},"2026-12-20":{"dropCat":["lernen"],"add":[["09:00","10:30","Lernen für Mathe (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"],["10:30","12:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 5/5"]},"2026-11-21":{"add":[["08:00","20:00","Spieltag (Anstoß eintragen)","sport","Kein Gym."]],"drop":["Zeit für mich"]},"2026-11-17":{"add":[["09:35","11:05","KLAUSUR Physik","klausur"]]}};
   var EX = [
     ["2026-11-17","Physik"],["2026-11-25","GS"],["2026-12-04","VWL"],["2026-12-11","BWL"],
     ["2026-12-14","Deutsch"],["2026-12-15","Englisch (prüfen)"],["2026-12-21","Mathe"]
@@ -301,9 +300,7 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
       row.style.setProperty("--cat","var(--"+cat+")");
       var tm=el("div","time",b[0]); tm.appendChild(el("small",null,b[1]));
       var mid=el("div");
-      var tag=el("div","tag",CATS[cat].n);
-      if(isToday&&nm>=s&&nm<e){tag.appendChild(el("span","now-tag","jetzt"));}
-      mid.appendChild(tag);
+      if(isToday&&nm>=s&&nm<e){var tag=el("div","tag");tag.appendChild(el("span","now-tag","jetzt"));mid.appendChild(tag);}
       mid.appendChild(el("div","t",b[2]));
       if(b[4]){mid.appendChild(el("div","n",b[4]));}
       var chk=el("button","check",isDone?"✓":"");
