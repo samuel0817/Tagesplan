@@ -95,7 +95,6 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
     </div>
     <div class="exams" id="exams"></div>
     <div class="tabs" id="tabs" role="tablist"></div>
-    <div class="chips" id="chips"></div>
   </header>
   <div class="progress"><span id="ptext"></span><div class="bar"><span id="pbar"></span></div></div>
   <div id="notice"></div>
@@ -263,7 +262,7 @@ button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
     var key=iso(date), isToday=(key===iso(today));
     document.getElementById("title").textContent = isToday?"Heute":WDL[date.getDay()];
     document.getElementById("sub").textContent = WDL[date.getDay()]+", "+date.getDate()+". "+MON[date.getMonth()]+" "+date.getFullYear();
-    renderStudy(key); renderTabs(); renderChips();
+    renderStudy(key); renderTabs();
 
     var blocks=(DAY[date.getDay()]||[]).slice();
     var ov=OV[key];
