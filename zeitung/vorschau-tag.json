@@ -8,16 +8,16 @@
    "text": "Teheran bestreitet Gespräche mit den USA, weitere Tanker sollen auf Minen gelaufen sein. Brent steigt wieder auf rund 93 Dollar."
   },
   {
-   "head": "Ukraine-Gespräche ohne Durchbruch:",
-   "text": "In Abu Dhabi gibt es nur einen großen Gefangenenaustausch; die US-Unterhändler reisen jetzt zu Putin."
-  },
-  {
    "head": "Fed vor Zinserhöhung:",
    "text": "Nach heißen Inflationsdaten bringt Fed-Gouverneur Waller sogar 0,5 Prozentpunkte im Dezember ins Spiel. Der Euro fällt auf ein 18-Monatstief."
   },
   {
    "head": "Wirtschaftsweise:",
    "text": "Deutschland wächst 2026 um 1,3 Prozent, aber im Bundeshaushalt drohen langfristig riesige Lücken."
+  },
+  {
+   "head": "EU gegen Abo-Fallen:",
+   "text": "Die Kommission schlägt den Digital Fairness Act vor, mit Strafen bis 6 Prozent vom Umsatz für Onlinehändler, Streaming- und App-Anbieter."
   },
   {
    "head": "DAX knapp unter Rekord:",
@@ -33,22 +33,6 @@
     "note": "11.11., Schluss",
     "srcName": "dpa-AFX via ariva",
     "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-12203717"
-   },
-   {
-    "name": "EUR/USD",
-    "value": "1,1092",
-    "change": "−0,7 %",
-    "note": "11.11., abends; 18-Monatstief",
-    "srcName": "Dow Jones via finanzen.at",
-    "url": "https://www.finanzen.at/nachrichten/aktien/maerkte-europa-freundlich-ki-optimismus-kehrt-zurueck-1036750622"
-   },
-   {
-    "name": "Brent-Öl",
-    "value": "92,88 $",
-    "change": "+1,45 %",
-    "note": "11.11., 15:12 Uhr",
-    "srcName": "dpa-AFX via finanzen.net",
-    "url": "https://www.finanzen.net/nachricht/rohstoffe/oelpreise-legen-nach-kursrutsch-zu-16056558"
    },
    {
     "name": "Euro Stoxx 50",
@@ -73,9 +57,25 @@
     "note": "10.11., Schluss",
     "srcName": "MarketScreener",
     "url": "https://www.marketscreener.com/quote/index/MSCI-WORLD-107361487/"
+   },
+   {
+    "name": "Shanghai",
+    "value": "3.680,64",
+    "change": "+0,46 %",
+    "note": "11.11., Schluss",
+    "srcName": "Xinhua via ad-hoc-news",
+    "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/shanghai-composite-closes-0-46-prozent-higher-at-3-680-64-points/70493886"
+   },
+   {
+    "name": "Stärkste Bewegung: Nasdaq 100",
+    "value": "28.532",
+    "change": "+2,9 %",
+    "note": "11.11., ca. 18 Uhr, Handel lief noch",
+    "srcName": "dpa-AFX via finanzen.at",
+    "url": "https://www.finanzen.at/nachrichten/aktien/aktien-europa-schluss-dritter-aufwartstag-in-folge-ki-sorgen-lassen-nach-1036750528"
    }
   ],
-  "comment": "Europa hat den dritten Tag in Folge zugelegt, weil die Sorge um überbewertete KI-Aktien nach den CoreWeave-Zahlen nachgelassen hat. Gegenwind kommt von den steigenden US-Zinserwartungen und einem wieder anziehenden Ölpreis."
+  "comment": "Europa den dritten Tag im Plus, weil die Angst vor überbewerteten KI-Aktien nachlässt; Hongkong fiel dagegen um knapp 1 Prozent. Gegenwind kommt von steigenden US-Zinserwartungen."
  },
  "sections": [
   {
@@ -116,22 +116,6 @@
       }
      ],
      "topic": "Konjunktur"
-    },
-    {
-     "region": "Welt",
-     "head": "Ukraine-Gespräche in Abu Dhabi: nur Gefangenenaustausch",
-     "text": "Die von den USA vermittelten Gespräche zwischen Russland und der Ukraine endeten mit der Einigung auf einen großen Gefangenenaustausch, aber ohne Durchbruch bei Waffenstillstand oder Gebieten. Die US-Unterhändler Kushner und Witkoff reisen nun zu Putin. Für die Märkte bleibt damit offen, wann mehr russisches Öl und Gas auf den Weltmarkt kommen und wann der Wiederaufbau beginnt.",
-     "sources": [
-      {
-       "name": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
-      },
-      {
-       "name": "Euronews",
-       "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
-      }
-     ],
-     "topic": "Konflikt"
     },
     {
      "region": "EU",

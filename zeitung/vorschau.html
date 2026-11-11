@@ -193,7 +193,7 @@ ul.plain li { padding: 3px 0; }
       var ms = el("section", "sec");
       ms.appendChild(el("h2", null, "Märkte"));
       var tiles = el("div", "tiles");
-      m.rows.slice(0, 3).forEach(function (r) {
+      m.rows.forEach(function (r) {
         var t = el("div", "tile");
         t.appendChild(el("div", "tn", r.name));
         t.appendChild(el("div", "tv", r.value));
@@ -202,23 +202,6 @@ ul.plain li { padding: 3px 0; }
         tiles.appendChild(t);
       });
       ms.appendChild(tiles);
-      var wrap = el("div", "tablewrap");
-      var tb = el("table");
-      var thead = el("tr");
-      ["Markt", "Stand", "Veränderung", "Stichtag, Quelle"].forEach(function (h) { thead.appendChild(el("th", null, h)); });
-      tb.appendChild(thead);
-      m.rows.slice(3).forEach(function (r) {
-        var tr = el("tr");
-        tr.appendChild(el("td", null, r.name));
-        tr.appendChild(el("td", "num", r.value));
-        tr.appendChild(el("td", "num", r.change));
-        var tdn = el("td", "note");
-        tdn.appendChild(document.createTextNode(r.note || ""));
-        var u = safeUrl(r.url);
-        if (u) { tdn.appendChild(document.createTextNode(" ")); var a = el("a", null, r.srcName || "Quelle"); a.href = u; a.target = "_blank"; a.rel = "noopener noreferrer"; tdn.appendChild(a); }
-        tr.appendChild(tdn); tb.appendChild(tr);
-      });
-      wrap.appendChild(tb); ms.appendChild(wrap);
       if (m.comment) ms.appendChild(el("p", "note", m.comment));
       frag.appendChild(ms);
     }
