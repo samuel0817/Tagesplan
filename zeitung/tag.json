@@ -1,1 +1,292 @@
-{"kind":"tag","dateLabel":"Mittwoch, 11. November 2026","updatedAt":"2026-11-11T05:45:00Z","top":[{"head":"Inflation in den USA bleibt hoch:","text":"Oktober-CPI +0,4 % zum Vormonat (erwartet 0,3 %), eine Zinserhöhung der Fed im Dezember rückt näher."},{"head":"Demokraten drehen das Kräfteverhältnis bei den Midterms","text":"und planen im Januar ein Bündel an KI- und Rechenzentrums-Gesetzen; das belastet die Tech-Branche."},{"head":"Nvidia unter Druck:","text":"Der Verwaltungsrat untersucht CEO Jensen Huang, die Aktie fiel am Montag um rund 6 %; am 17.11. kommen die Quartalszahlen."},{"head":"Euroraum-Inflation bei 4,0 %","text":"(Oktober, höchster Stand seit September 2023); die EZB-Zinserhöhung im Dezember gilt als wahrscheinlich."},{"head":"Deutschland wächst kaum:","text":"BIP im 3. Quartal +0,2 %; der Haushalt 2027 hat eine Lücke von rund 107 Mrd. € für 2028–2030."}],"sections":[{"name":"USA","items":[{"head":"Oktober-Inflation überrascht nach oben","text":"Die Verbraucherpreise stiegen im Oktober um 0,4 % zum Vormonat (erwartet: 0,3 %), die Kernrate (Inflation ohne Energie und Lebensmittel) um 0,3 % (erwartet: 0,2 %). Im September waren es +0,6 %. Eine Jahresrate für Oktober gibt es nicht, weil wegen des Shutdowns im Vorjahr Vergleichsdaten fehlen; zuletzt lag sie bei 3,7 %. Etwa ein Drittel des Anstiegs kam aus den Wohnkosten. Warum es wichtig ist: Die Inflation ist deutlich über dem Ziel von 2 % und entfernt sich weiter davon, das ist schlecht für Verbraucher und Kreditnehmer.","sources":[{"name":"CNBC","url":"https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"},{"name":"CNN","url":"https://cnn.com/2026/11/10/business/us-inflation-cpi-consumer-prices-october"},{"name":"ABC News","url":"https://abcnews.com/Business/inflation-report-provide-1st-snapshot-prices-midterm-elections/story?id=137970527"}]},{"head":"Fed: Zinserhöhung wird wahrscheinlicher","text":"Die Fed unter Chef Kevin Warsh ließ den Leitzins (Zins, zu dem sich Banken bei der Zentralbank Geld leihen) am 28. Oktober bei 3,75–4,00 %; Lisa Cook und Beth Hammack stimmten dagegen und wollten um 0,25 Punkte erhöhen. Nach den Daten sagte Waller, auch eine Erhöhung um 0,5 Punkte sei denkbar; Logan hält zwei weitere Schritte von 0,25 Punkten für nötig (laut CNBC). Der Markt sieht für 0,5 Punkte rund 14 % Chance (FedWatch). Zahlen von 75–80 % für eine Dezember-Erhöhung stammen nur aus einer Quelle und sind nicht bestätigt. Nächste Sitzung: 8.–9. Dezember. Wichtig: Höhere Zinsen belasten Aktien, Immobilien und Staatshaushalt.","sources":[{"name":"Axios","url":"https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook"},{"name":"political.org","url":"https://political.org/2026/11/09/inflation-stays-hot-ahead-of-key-october-cpi-report-as-fed-rate-hike-odds-climb-before-december-meeting/"}]},{"head":"Midterms: Demokraten übernehmen den Kongress","text":"Nach der Wahl am 3. November kommen die Demokraten laut vorläufigem Stand auf mindestens 54 Senats- und 247 Hausmandate (Auszählung läuft, Zahlen nicht vollständig bestätigt). Präsident Trump behält sein Vetorecht, kann also Gesetze weiter blockieren. Die Demokraten wollen im Januar viele KI-Gesetze einbringen: Schutz der Stromkunden vor Rechenzentrums-Kosten, unabhängige Tests, Haftungsregeln. UBS schätzt, dass etwa ein Drittel der bis 2028 erwarteten neuen Rechenzentren gefährdet ist. Wichtig: Der KI-Boom hängt an diesen Investitionen, das Risiko trifft Nvidia, Broadcom und Co.","sources":[{"name":"Reuters via Tribune","url":"https://tribune.com.pk/story/2639293/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress-1"},{"name":"CIO Dive","url":"https://www.ciodive.com/news/midterms-democrats-data-centers-AI/873807/"}]},{"head":"Wall Street erholt sich stark, bleibt aber unter dem Rekord","text":"Am Montag (9.11.) stieg der S&P 500 um rund 2,3 % auf 7.549,94 Punkte, der beste Tag seit April; Dow 52.389,75 (+2,2 %), Nasdaq 25.253,14 (+2,7 %). Er liegt noch 3,4 % unter dem Rekord vom 6. Oktober (7.818,93). Für Dienstag (10.11.) fand ich keinen verlässlichen Schlussstand; Ticker deuten auf leichte Verluste (Dow etwa −0,3 %), das ist nicht belegt.","sources":[{"name":"AP via La Nación","url":"https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-1192026-nid09112026/"}]},{"head":"Nvidia: Untersuchung gegen den Chef","text":"Der Verwaltungsrat prüft Vorwürfe zu einer Beziehung von CEO Jensen Huang mit einer früheren Managerin von Megaspeed, die US-Geheimdienste verdächtigen, für China zu arbeiten. Die Aktie fiel am Montag um rund 6 % (Schlusskurs Freitag: 186,64 $). Republikanische Ausschussvorsitzende verlangten ein Briefing am 18. November, Quartalszahlen kommen am 17. November. Huang bleibt vorerst CEO. Wichtig: Nvidia ist einer der wertvollsten Konzerne der Welt; belegt ist bisher nur die Untersuchung, kein Fehlverhalten.","sources":[{"name":"Reuters via NST","url":"https://www.nst.com.my/amp/business/corporate/2026/11/1573902/nvidias-out-hour-shares-fall-firm-probes-ceo-jensen-huang"},{"name":"ABC7","url":"https://abc7news.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"}]},{"head":"Ölpreis fällt, Iran-Spannung bleibt","text":"Brent fiel in der Vorwoche um etwa 16–17 %; am Montag erklärte Trump neue Angriffe auf den Iran für „höchst unwahrscheinlich“, solange verhandelt wird, ein Plus für Verbraucher und Inflation. Angriffe auf Schiffe nahe der Straße von Hormus gehen aber weiter.","sources":[{"name":"Khaleej Times","url":"https://www.khaleejtimes.com/business/oil-falls-almost-5-as-trump-signals-restraint-on-iran"}]},{"head":"Handelspolitik: Nichts Neues in den letzten 24 Stunden","text":"Es gab keine neuen Zollmeldungen, die ich belegen konnte. Hintergrund: Der Supreme Court kippte im März die IEEPA-Zölle, die Regierung nutzt Ersatzzölle.","sources":[{"name":"NPR","url":"https://npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada"}]}]},{"name":"Europa","items":[{"head":"Inflation im Euroraum steigt auf 4,0 %","text":"Die Schnellschätzung für Oktober liegt bei 4,0 % (September: 3,8 %), der höchste Wert seit September 2023. Energie verteuerte sich um 20,8 % zum Vorjahr; Italien kommt auf 5,6 %, Frankreich auf 3,8 %, Deutschland auf 2,8 %. Die endgültigen Zahlen folgen am 18. November. Wichtig: Das ist doppelt so hoch wie das EZB-Ziel von 2 %, die Kaufkraft sinkt.","sources":[{"name":"Euronews","url":"https://de.euronews.com/2026/11/04/eurozone-inflation-steigt-auf-4-prozent-hochster-stand-seit-uber-drei-jahren"}]},{"head":"EZB: Zinserhöhung im Dezember wahrscheinlich","text":"Die EZB ließ den Einlagenzins (Zins, den Banken bei der EZB für geparktes Geld bekommen) am 29. Oktober unverändert bei 2,5 %. Bundesbankpräsident Nagel hielt am 3. November eine Erhöhung im Dezember für wahrscheinlich; Marktpreise deuten auf etwa 72 % (eine Quelle: investinglive, nicht gegengeprüft). Nächste Entscheidung: 17. Dezember. Wichtig: Teurere Kredite für Firmen und Haushalte, gerade in einer Wirtschaft, die kaum wächst (Kommission im Mai: 0,9 % für den Euroraum 2026). Die Herbstprognose steht noch aus.","sources":[{"name":"infranken/dpa","url":"https://www.infranken.de/deutschland/ezb-belaesst-leitzins-bei-25-prozent-art-6407220,PRINT"},{"name":"dpa","url":"https://www.infranken.de/deutschland/nagel-zinserhoehung-im-dezember-wahrscheinlich-art-6408482,PRINT"},{"name":"EU-Kommission","url":"https://commission.europa.eu/news-and-media/news/eu-economy-forecast-slow-down-amid-rising-inflation-following-energy-shock-2026-05-21_en"}]},{"head":"Methanverordnung: Importpflichten sollen verschoben werden","text":"Der Rat will die Überwachungsregeln für Methan-Emissionen bei Energieimporten um ein Jahr aufschieben, das Parlament um drei Jahre. Ziel ist eine Einigung vor dem 1. Januar 2027. Wichtig: Die EU schwächt Klimaregeln ab, weil Energiesicherheit und Preise Vorrang bekommen. Das hilft Importeuren kurzfristig, kostet aber Klimaglaubwürdigkeit.","sources":[{"name":"Rat der EU","url":"https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/methane-regulation-council-agrees-to-postpone-monitoring-rules-for-one-year/"},{"name":"Brussels Times","url":"https://www.brusselstimes.com/eu-affairs/2395603/eu-delays-methane-emissions-rules-amid-energy-security-concerns"}]},{"head":"Auto-CO2: Parlamentsausschuss lockert das 2035-Ziel","text":"Der Umweltausschuss stimmte mit 48:30 dafür, das Flottenziel für 2035 von 100 % auf 87,5 % CO2-Minderung zu senken; für Transporter gelten 35 % bis 2030 und 80 % bis 2035, dazu Zusatzanrechnungen. Das ist erst eine Ausschussposition, kein Gesetz. Wichtig: Für Hersteller wie VW, BMW, Mercedes bedeutet das mehr Spielraum für Verbrenner; Investitionen in E-Mobilität werden unsicherer.","sources":[{"name":"Brussels Times","url":"https://www.brusselstimes.com/eu-affairs/2393286/eu-lawmakers-scale-back-2035-car-co2-reduction-targets-amid-industry-pressure"}]},{"head":"EU-Haushalt 2027: Ergebnis offen","text":"Am 10. November tagte der Vermittlungsausschuss, Frist ist der 16. November. Der Rat bietet 191,88 Mrd. € Verpflichtungen und 202,07 Mrd. € Zahlungen; das Parlament will, dass 65 % der Rückzahlung der NextGenEU-Schulden aus nicht genutzten Mitteln kommen. Ein Ergebnis habe ich nicht gefunden.","sources":[{"name":"Agence Europe","url":"https://agenceurope.eu/en/bulletin/article/13978/18/european-parliament-and-council-to-attempt-to-reach-agreement-on-tuesday-10-november-on-eu-annual-budget-for-2027"}]},{"head":"Frankreich: Haushaltsstreit treibt die Zinsen","text":"Die Rendite 10-jähriger französischer Staatsanleihen (Zins, den ein Staat für Kredit zahlt) liegt über 5 %, der Aufschlag zu Deutschland auf dem höchsten Stand seit 15 Jahren; S&P entscheidet am 27. November über das Rating (Bonitätsnote eines Schuldners), Abstimmungen über den Haushalt sind für 13. und 17. November angesetzt (nur aus Marktberichten, nicht aus Primärquellen belegt). Wichtig: Eine Herabstufung würde den Euroraum belasten."},{"head":"KI-Regulierung","text":"Das „Digital Omnibus“-Paket zum AI Act ist seit 27. Juli 2026 in Kraft; der Teil zu Datenschutz (DSGVO) wird noch verhandelt. Heute gab es dazu nichts Neues.","sources":[{"name":"Osborne Clarke","url":"https://www.osborneclarke.com/what-our-clients-are-talking-about/digital-regulation/digital-omnibus-package"}]},{"head":"Termine","text":"13.11. informeller Gipfel in Dublin; 20.11. EU–UK-Gipfel; 25.11. EU–Westbalkan."}]},{"name":"Deutschland","items":[{"head":"Wachstum dümpelt","text":"Das BIP stieg im 3. Quartal um 0,2 % zum Vorquartal und 1,3 % zum Vorjahr; Investitionen und Exporte schwächen sich ab. Das ist schwach, die Industrie trägt wenig.","sources":[{"name":"Destatis via DATEV","url":"https://www.datev.de/web/de/berufsgruppenuebergreifend/nachrichten/ndsr/wirtschaft/Bruttoinlandsprodukt-in-Quartal3-2026-hoeher"},{"name":"ZDF","url":"https://www.zdfheute.de/wirtschaft/bip-deutschland-gewachsen-vorquartal-100.html"}]},{"head":"Arbeitsmarkt","text":"Die Arbeitslosigkeit sank im Oktober leicht, liegt aber über dem Vorjahr und nahe 3 Millionen. Die Inflation lag im Oktober bei 2,8 % (zuvor 3,3 %)."},{"head":"Haushalt 2027","text":"Ausgaben von 555,4 Mrd. €, Neuverschuldung 118,7 Mrd. € (zuzüglich Sondervermögen), Verteidigung rund 109,7 Mrd. €. Für 2028–2030 klafft eine Lücke von etwa 107 Mrd. €; Finanzminister Klingbeil kündigt einen schärferen Sparkurs ab 2028 an. Der Bundestag entscheidet Ende November. Ehrlich gesagt: Die Finanzierung ist nicht gesichert.","sources":[{"name":"ZDF","url":"https://www.zdfheute.de/politik/deutschland/haushalt-2027-bundestag-beratungen-klingbeil-100.html"}]},{"head":"Politik","text":"Kanzler Merz steht nach dem schlechten Abschneiden der CDU unter Druck; seit 13. Oktober ist Alexander Schweitzer (SPD) Arbeitsminister. Neue Regierungsbeschlüsse der letzten 24 Stunden habe ich nicht gefunden."}]}],"markets":{"rows":[{"name":"DAX","value":"26.347,45","change":"+0,31 %","note":"10.11., Schluss","srcName":"ariva/dpa-AFX","url":"https://www.ariva.de/news/aktien-frankfurt-schluss-dax-daemmt-gewinne-ein-12202108"},{"name":"S&P 500","value":"7.549,94","change":"+2,3 %","note":"9.11., Schluss; 10.11. nicht belegt","srcName":"AP","url":"https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-1192026-nid09112026/"},{"name":"Brent-Öl","value":"ca. 90 $","change":"ca. −2,6 %","note":"10.11. mittags; Schluss nicht bestätigt","srcName":"Reuters via Onvista","url":"https://onvista.de/news/2026/11-10-dax-nimmt-rekordjagd-wieder-auf-oelpreise-fallen-0-20-26574582"},{"name":"EUR/USD","value":"ca. 1,117","change":"ca. −0,5 %","note":"nur Ticker (finanzen.at), nicht gegengeprüft"}],"comment":"Der DAX liegt knapp 1,3 % unter seinem Rekord von 26.692,90 (5.11.). Infineon meldete ein Rekordquartal. Der MDAX schloss bei 31.034,35 (−0,12 %)."},"notes":["Nicht gefunden: Schlussstände der US-Indizes vom 10.11., Brent-Schluss, ein belastbarer EUR/USD-Kurs, das Ergebnis der EU-Haushaltsverhandlung vom 10.11.","Nur aus einer Quelle: Dezember-Zinswahrscheinlichkeiten (Fed und EZB), Frankreich-Details, EUR/USD.","Midterm-Sitzzahlen sind vorläufig, die Auszählung läuft.","Keine neuen Zoll- oder Regierungsmeldungen in den letzten 24 Stunden gefunden. Ich habe nichts ergänzt, um die Lücke zu füllen.","Einige Quellen sind Zweitveröffentlichungen von Agenturmeldungen (AP, Reuters); ältere Hintergrundquellen sind als solche gekennzeichnet."]}
+{
+ "kind": "tag",
+ "dateLabel": "Mittwoch, 11. November 2026, Abendausgabe",
+ "updatedAt": "2026-11-11T18:08:38Z",
+ "top": [
+  {
+   "head": "DAX knapp unter Rekord:",
+   "text": "Plus 1,2 Prozent auf 26.662,77 Punkte, getragen von Chipwerten und Siemens Energy. Das Rekordhoch liegt bei 26.692."
+  },
+  {
+   "head": "Siemens Energy:",
+   "text": "Rekordjahr, Dividende von 0,70 auf 2,30 Euro, zusätzlich bis zu 9 Milliarden Euro Aktienrückkauf bis 2030. Aktie plus 10,8 Prozent."
+  },
+  {
+   "head": "Euro auf 18-Monatstief:",
+   "text": "1,1092 Dollar, weil die Märkte nach heißen US-Inflationsdaten mit schnelleren Zinserhöhungen der Fed rechnen."
+  },
+  {
+   "head": "Hormus bleibt gefährlich:",
+   "text": "Iran meldet weitere Tanker, die auf Minen gelaufen sind, und schließt Gespräche mit den USA vorerst aus. Brent steigt wieder auf rund 93 Dollar."
+  },
+  {
+   "head": "Wirtschaftsweise:",
+   "text": "Deutschland wächst 2026 um 1,3 Prozent, deutlich mehr als im Frühjahr erwartet. Gleichzeitig Warnung vor großen Finanzlücken im Bundeshaushalt."
+  }
+ ],
+ "sections": [
+  {
+   "name": "USA",
+   "items": [
+    {
+     "head": "Fed-Mitglieder bereiten Zinserhöhungen vor",
+     "text": "Nach dem Oktober-Inflationsbericht mit plus 0,4 Prozent und einer Kernrate von 0,3 Prozent hat Fed-Gouverneur Waller eine Erhöhung um 0,5 Prozentpunkte im Dezember ins Spiel gebracht. Dallas-Fed-Chefin Logan fordert mindestens zwei weitere Schritte um je 0,25 Punkte. Die Rendite zehnjähriger US-Staatsanleihen stieg am Dienstag auf fast 5 Prozent, die zweijährige so stark wie seit April 2025 nicht mehr. Für Unternehmen und Hauskäufer werden Kredite damit teurer, und der Dollar wird stärker.",
+     "sources": [
+      {
+       "name": "Reuters via Yahoo Finance",
+       "url": "https://finance.yahoo.com/economy/policy/articles/fed-officials-open-door-half-164918823.html"
+      },
+      {
+       "name": "CNN",
+       "url": "https://www.cnn.com/2026/11/10/investing/bond-yields-inflation-fed"
+      }
+     ]
+    },
+    {
+     "head": "KI-Aktien erholen sich nach starken CoreWeave-Zahlen",
+     "text": "Der Cloudanbieter CoreWeave hat Zweifel am KI-Boom vorerst gedämpft: Umsatz und Prognose lagen über den Erwartungen, der Auftragsbestand stieg auf 132,5 Milliarden Dollar. Der Nasdaq 100 lag am Mittwoch zeitweise rund 2,5 bis 2,9 Prozent im Plus, der Dow Jones kaum verändert. Die Sorge, ein demokratisch kontrollierter Kongress könne Rechenzentren stärker regulieren, belastet die Branche seit der Wahl aber weiter.",
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+      },
+      {
+       "name": "dpa-AFX via ariva",
+       "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-weiter-erholt-und-12203752"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Europa",
+   "items": [
+    {
+     "head": "Euro fällt auf tiefsten Stand seit 18 Monaten",
+     "text": "Der Euro kostete am Abend 1,1092 Dollar, 0,7 Prozent weniger als am Vortag. Grund ist die Erwartung höherer US-Zinsen, die den Dollar attraktiver macht. Für exportstarke Konzerne aus der Eurozone ist das ein Vorteil, Importe wie Öl in Dollar werden dagegen teurer.",
+     "sources": [
+      {
+       "name": "Dow Jones via finanzen.at",
+       "url": "https://www.finanzen.at/nachrichten/aktien/maerkte-europa-freundlich-ki-optimismus-kehrt-zurueck-1036750622"
+      }
+     ]
+    },
+    {
+     "head": "EU-Haushalt 2027 steht: rund 199,7 Milliarden Euro",
+     "text": "Unterhändler von EU-Parlament und Mitgliedstaaten haben sich in der Nacht auf den Haushalt für 2027 geeinigt. Das Geld fließt unter anderem in Förderprogramme, Agrarhilfen und Regionalpolitik, von denen auch deutsche Unternehmen und Kommunen profitieren. Parlament und Rat müssen noch formell zustimmen.",
+     "sources": [
+      {
+       "name": "dpa-AFX via finanzen.at",
+       "url": "https://www.finanzen.at/nachrichten/aktien/dpa-afx-ueberblick-konjunktur-vom-11-11-2026-17-00-uhr-1036750197"
+      }
+     ]
+    },
+    {
+     "head": "Digital Fairness Act: Kommission will Abo-Fallen verbieten",
+     "text": "Die EU-Kommission hat ein Gesetz gegen manipulative Kauftricks, versteckte Preise und schwer kündbare Abos vorgeschlagen, mit Strafen bis zu 6 Prozent des Jahresumsatzes. Betroffen wären vor allem Onlinehändler, Streamingdienste, App-Anbieter und Spielefirmen; auch Käufe über KI-Assistenten sollen geregelt werden. Wirtschaftsverbände warnen vor mehr Bürokratie, beschlossen ist noch nichts.",
+     "sources": [
+      {
+       "name": "MS Aktuell",
+       "url": "https://ms-aktuell.de/welt/digital-fairness-act-11-11-2026/"
+      }
+     ]
+    },
+    {
+     "head": "Europas Börsen den dritten Tag im Plus",
+     "text": "Der Euro Stoxx 50 stieg um 1,04 Prozent auf 6.393,39 Punkte, den höchsten Stand seit zwei Monaten. Treiber waren Chipwerte wie Infineon und ASML. Rüstungswerte gaben nach, nachdem der tschechische Konzern CSG enttäuschende Zahlen vorgelegt und die Prognose gesenkt hatte.",
+     "sources": [
+      {
+       "name": "dpa-AFX via ariva",
+       "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-dritter-aufwaertstag-in-folge-12203761"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deutschland",
+   "items": [
+    {
+     "head": "Wirtschaftsweise heben Prognose an und warnen vor Schulden",
+     "text": "Der Sachverständigenrat erwartet 2026 ein Wachstum von 1,3 Prozent und 2027 von 1,0 Prozent; im Frühjahr waren es noch 0,5 und 0,8 Prozent. Die Erholung vom Energiepreisschock durch den Iran-Krieg sei schneller gekommen als gedacht. Gleichzeitig rechnen die Ökonomen mit 2,8 Prozent Inflation in diesem und 3,3 Prozent im nächsten Jahr und warnen vor langfristig riesigen Lücken im Bundeshaushalt. Die Regierung streitet parallel über Rente und Haushalt 2027.",
+     "sources": [
+      {
+       "name": "dpa-AFX via finanzen.at",
+       "url": "https://www.finanzen.at/nachrichten/aktien/roundup-2-blick-in-abgrund-wirtschaftsweise-warnen-vor-schulden-1036750145"
+      },
+      {
+       "name": "ZDFheute",
+       "url": "https://zdfheute.de/wirtschaft/wirtschaftsweise-staatsschulden-prognose-100.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Welt",
+   "items": [
+    {
+     "head": "Hormus: neue Minentreffer, Iran schließt Gespräche aus",
+     "text": "Irans Revolutionsgarden melden, dass am Dienstag und Mittwoch weitere Tanker auf Minen gelaufen und in Brand geraten seien; die britische Seebehörde UKMTO bestätigt Vorfälle, nennt aber keine Ursache. Irans Sicherheitschef Rezaei bestreitet Verhandlungen mit den USA und sagt, die Meerenge bleibe zu, bis Washington sieben Bedingungen erfülle. Brent stieg nach dem tiefsten Stand seit August wieder um rund 1,5 Prozent auf etwa 93 Dollar. Trotz der Angriffe fließt wieder fast so viel Öl aus der Golfregion wie vor dem Krieg, das bremst den Preis.",
+     "sources": [
+      {
+       "name": "Reuters via Sowetan",
+       "url": "https://www.sowetan.co.za/news/world/2026-11-11-oil-rebounds-as-hormuz-shipping-attacks-blunt-hopes-for-iran-truce/"
+      },
+      {
+       "name": "Al Jazeera/Reuters via Yahoo",
+       "url": "https://www.yahoo.com/news/politics/articles/iran-denies-talks-us-says-082156247.html"
+      },
+      {
+       "name": "dpa-AFX via finanzen.net",
+       "url": "https://www.finanzen.net/nachricht/rohstoffe/oelpreise-legen-nach-kursrutsch-zu-16056558"
+      }
+     ]
+    },
+    {
+     "head": "Ukraine-Gespräche in Abu Dhabi: nur Gefangenenaustausch",
+     "text": "Die von den USA vermittelten Gespräche zwischen Russland und der Ukraine endeten mit der Einigung auf einen großen Gefangenenaustausch, aber ohne Durchbruch bei Waffenstillstand oder Gebieten. Die US-Unterhändler Kushner und Witkoff reisen nun zu Putin. Für die Märkte bleibt damit offen, wann mehr russisches Öl und Gas auf den Weltmarkt kommen und wann der Wiederaufbau beginnt.",
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
+      },
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Veröffentlichte Zahlen",
+   "items": [
+    {
+     "head": "Siemens Energy: Rekordjahr und mehr Geld für Aktionäre",
+     "text": "Im Geschäftsjahr bis Ende September stieg der vergleichbare Umsatz um 15,5 Prozent auf 44,2 Milliarden Euro, die Marge vor Sondereffekten verdoppelte sich auf 12,4 Prozent, der Auftragsbestand erreicht 164 Milliarden Euro. Die Dividende soll von 0,70 auf 2,30 Euro steigen, dazu kommen bis zu 9 Milliarden Euro zusätzliche Aktienrückkäufe bis 2030. Für 2026/27 erwartet der Konzern 14 bis 16 Prozent Umsatzwachstum. Die Aktie stieg um 10,8 Prozent auf 132,76 Euro an die DAX-Spitze.",
+     "sources": [
+      {
+       "name": "Siemens Energy",
+       "url": "https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html"
+      },
+      {
+       "name": "dpa-AFX via finanzen.net",
+       "url": "https://www.finanzen.net/nachricht/aktien/hoher-strombedarf-siemens-energy-aktie-springt-an-nach-dem-rekordjahr-soll-das-wachstum-weitergehen-16055699"
+      }
+     ]
+    },
+    {
+     "head": "RWE: Energiehandel treibt Gewinn über die Erwartungen",
+     "text": "Nach neun Monaten stieg das bereinigte EBITDA um 35 Prozent auf 4,6 Milliarden Euro, das bereinigte Nettoergebnis auf 1,8 Milliarden nach 1,3 Milliarden im Vorjahr. Analysten hatten mit 4,43 und 1,71 Milliarden gerechnet. RWE erwartet 2026 das obere Ende der Prognose, also bis zu 6,35 Milliarden Euro EBITDA. Die Aktie stieg um 1,8 Prozent.",
+     "sources": [
+      {
+       "name": "RWE",
+       "url": "https://www.rwe.com/investor-relations/finanzkalender-und-veroeffentlichungen/news-und-ad-hoc-mitteilungen/news/news-2026-11-11/"
+      },
+      {
+       "name": "Börsen-Zeitung",
+       "url": "https://www.boersen-zeitung.de/unternehmen-branchen/rwe-schlaegt-erwartungen"
+      }
+     ]
+    },
+    {
+     "head": "E.ON: solide, aber ohne Überraschung",
+     "text": "Nach neun Monaten lag das bereinigte EBITDA mit 7,1 Milliarden Euro praktisch auf Vorjahresniveau, der bereinigte Konzernüberschuss stieg um 4 Prozent auf 2,2 Milliarden. Die Jahresprognose von 9,4 bis 9,6 Milliarden Euro EBITDA wurde bestätigt. Analysten hatten auf höhere Investitionspläne gehofft, die Aktie fiel um 1,7 Prozent.",
+     "sources": [
+      {
+       "name": "MarketScreener/Dow Jones",
+       "url": "https://de.marketscreener.com/boerse-nachrichten/eon-9m-2026-eckdaten-prognosen-ausblick-ce785edbd88ef324"
+      },
+      {
+       "name": "boerse-global via ad-hoc-news",
+       "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/rwe-aktie-stromhandel-ueberrascht/70491829"
+      }
+     ]
+    },
+    {
+     "head": "CoreWeave: Umsatz plus 168 Prozent, Prognose angehoben",
+     "text": "Der US-Anbieter von KI-Rechenzentren meldete für das dritte Quartal 3,66 Milliarden Dollar Umsatz nach 1,37 Milliarden im Vorjahr, erwartet waren 3,55 Milliarden. Der bereinigte Verlust je Aktie lag mit 0,95 Dollar unter den befürchteten 1,16 Dollar. Die Jahresprognose steigt auf 13,0 bis 13,3 Milliarden Dollar, der Auftragsbestand auf 132,5 Milliarden. Schwachstelle bleibt die Schuldenlast: Für das vierte Quartal erwartet CoreWeave über 1 Milliarde Dollar Zinskosten. Die Aktie legte am Mittwoch zweistellig zu, nachdem sie im Monat davor rund 40 Prozent verloren hatte.",
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+      },
+      {
+       "name": "CoreWeave",
+       "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+      }
+     ]
+    },
+    {
+     "head": "Brenntag: durchwachsenes Quartal",
+     "text": "Der Chemikalienhändler legte Quartalszahlen vor, die Händler als durchwachsen bewerteten. Die Aktie verlor 3,5 Prozent und war damit Schlusslicht im DAX.",
+     "sources": [
+      {
+       "name": "dpa-AFX via ariva",
+       "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-weiter-erholt-und-12203752"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "markets": {
+  "rows": [
+   {
+    "name": "DAX",
+    "value": "26.662,77",
+    "change": "+1,20 %",
+    "note": "11.11., Schluss",
+    "srcName": "dpa-AFX via ariva",
+    "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-12203717"
+   },
+   {
+    "name": "Euro Stoxx 50",
+    "value": "6.393,39",
+    "change": "+1,04 %",
+    "note": "11.11., Schluss",
+    "srcName": "dpa-AFX via ariva",
+    "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-dritter-aufwaertstag-in-folge-12203761"
+   },
+   {
+    "name": "Dow Jones",
+    "value": "52.231,89",
+    "change": "−0,30 %",
+    "note": "10.11., Schluss; am 11.11. bei Redaktionsschluss leicht im Plus",
+    "srcName": "dpa-AFX via ariva",
+    "url": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-im-plus-rekordhoch-im-12202597"
+   },
+   {
+    "name": "MSCI World",
+    "value": "4.836,01",
+    "change": "−0,21 %",
+    "note": "10.11., Schluss",
+    "srcName": "MarketScreener",
+    "url": "https://www.marketscreener.com/quote/index/MSCI-WORLD-107361487/"
+   },
+   {
+    "name": "Brent-Öl",
+    "value": "92,88 $",
+    "change": "+1,45 %",
+    "note": "11.11., 15:12 Uhr",
+    "srcName": "dpa-AFX via finanzen.net",
+    "url": "https://www.finanzen.net/nachricht/rohstoffe/oelpreise-legen-nach-kursrutsch-zu-16056558"
+   },
+   {
+    "name": "EUR/USD",
+    "value": "1,1092",
+    "change": "−0,7 %",
+    "note": "11.11., abends; 18-Monatstief",
+    "srcName": "Dow Jones via finanzen.at",
+    "url": "https://www.finanzen.at/nachrichten/aktien/maerkte-europa-freundlich-ki-optimismus-kehrt-zurueck-1036750622"
+   }
+  ],
+  "comment": "Europa hat den dritten Tag in Folge zugelegt, weil die Sorge um überbewertete KI-Aktien nach den CoreWeave-Zahlen nachgelassen hat. Gegenwind kommt von den steigenden US-Zinserwartungen und einem wieder anziehenden Ölpreis."
+ },
+ "notes": [
+  "Sonderausgabe am Abend: Die US-Börsen waren bei Redaktionsschluss noch geöffnet, deshalb stehen Dow Jones und MSCI World mit dem Schlussstand vom Dienstag.",
+  "Die Minentreffer in der Straße von Hormus meldet Iran selbst; unabhängig bestätigt sind nur Vorfälle, nicht deren Ursache.",
+  "Infineon und die US-Inflationsdaten standen bereits in der Morgenausgabe und sind hier nicht wiederholt."
+ ]
+}
