@@ -43,12 +43,12 @@
     "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-dritter-aufwaertstag-in-folge-12203761"
    },
    {
-    "name": "Dow Jones",
-    "value": "52.231,89",
-    "change": "−0,30 %",
-    "note": "10.11., Schluss; am 11.11. bei Redaktionsschluss leicht im Plus",
-    "srcName": "dpa-AFX via ariva",
-    "url": "https://www.ariva.de/news/dpa-afx-boersentag-auf-einen-blick-im-plus-rekordhoch-im-12202597"
+    "name": "Nasdaq 100",
+    "value": "28.532",
+    "change": "+2,9 %",
+    "note": "11.11., ca. 18 Uhr, Handel lief noch",
+    "srcName": "dpa-AFX via finanzen.at",
+    "url": "https://www.finanzen.at/nachrichten/aktien/aktien-europa-schluss-dritter-aufwartstag-in-folge-ki-sorgen-lassen-nach-1036750528"
    },
    {
     "name": "MSCI World",
@@ -67,12 +67,12 @@
     "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/shanghai-composite-closes-0-46-prozent-higher-at-3-680-64-points/70493886"
    },
    {
-    "name": "Stärkste Bewegung: Nasdaq 100",
-    "value": "28.532",
-    "change": "+2,9 %",
-    "note": "11.11., ca. 18 Uhr, Handel lief noch",
-    "srcName": "dpa-AFX via finanzen.at",
-    "url": "https://www.finanzen.at/nachrichten/aktien/aktien-europa-schluss-dritter-aufwartstag-in-folge-ki-sorgen-lassen-nach-1036750528"
+    "name": "Stärkste Bewegung: Nikkei 225",
+    "value": "61.248,59",
+    "change": "+1,31 %",
+    "note": "11.11., Schluss Tokio",
+    "srcName": "Armenpress",
+    "url": "https://armenpress.am/en/article/1265393"
    }
   ],
   "comment": "Europa den dritten Tag im Plus, weil die Angst vor überbewerteten KI-Aktien nachlässt; Hongkong fiel dagegen um knapp 1 Prozent. Gegenwind kommt von steigenden US-Zinserwartungen."
