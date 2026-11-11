@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Tagesplan">
+<meta name="theme-color" content="#0d1015">
+<title>Tagesplan</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: eine Spalte, Tagesreiter oben, Zeitleiste mit farbigen Kategorien. */
+:root{
+  --bg:#f3f4f7; --surface:#ffffff; --ink:#13171d; --muted:#5b6471; --line:#dfe3e9;
+  --schule:#2f6fe4; --sport:#e0530a; --arbeit:#8a3fd0; --lernen:#c99200; --selbst:#0f9d6e; --alltag:#6a7585; --klausur:#d4244a;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Barlow",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1015; --surface:#161a21; --ink:#eef1f6; --muted:#9ba5b3; --line:#262c36;
+    --schule:#5f9dff; --sport:#ff8c4d; --arbeit:#b98aff; --lernen:#f3c437; --selbst:#41d3a3; --alltag:#8d98a8; --klausur:#ff6283;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d1015; --surface:#161a21; --ink:#eef1f6; --muted:#9ba5b3; --line:#262c36;
+  --schule:#5f9dff; --sport:#ff8c4d; --arbeit:#b98aff; --lernen:#f3c437; --selbst:#41d3a3; --alltag:#8d98a8; --klausur:#ff6283;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.35;-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding:18px 16px 48px;display:flex;flex-direction:column;gap:16px}
+header{display:flex;flex-direction:column;gap:10px}
+.top{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--display);font-weight:700;font-size:40px;line-height:1;margin:0;text-wrap:balance}
+.sub{color:var(--muted);font-size:14px;margin-top:4px}
+.weeknav{display:flex;gap:6px}
+.weeknav button{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:18px;cursor:pointer}
+.exams{display:flex;gap:8px;flex-wrap:wrap}
+.exam{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--klausur);border-radius:10px;padding:6px 10px;font-size:13px;display:flex;gap:8px;align-items:baseline}
+.exam.lern{border-left-color:var(--lernen)}
+.exam b{font-family:var(--display);font-size:22px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;color:var(--ink)}
+.tabs{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.tab{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:7px 0 6px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:1px;font-family:var(--body)}
+.tab .w{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.tab .d{font-family:var(--display);font-size:22px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab[aria-selected="true"] .w{color:var(--bg);opacity:.75}
+.tab.today:not([aria-selected="true"]){border-color:var(--ink)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 11px 5px 8px;font-size:13px;font-weight:500;cursor:pointer;font-family:var(--body)}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--cat)}
+.chip[aria-pressed="true"]{background:color-mix(in srgb,var(--cat) 18%,var(--surface));border-color:var(--cat)}
+.progress{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
+.bar{flex:1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar span{display:block;height:100%;background:var(--selbst);width:0;transition:width .25s}
+.list{display:flex;flex-direction:column;gap:8px;margin:0;padding:0;list-style:none}
+.row{display:grid;grid-template-columns:54px 1fr 34px;gap:10px;align-items:center;background:color-mix(in srgb,var(--cat) 11%,var(--surface));border:1px solid color-mix(in srgb,var(--cat) 28%,var(--line));border-left:6px solid var(--cat);border-radius:12px;padding:10px 10px 10px 12px}
+.row.past{opacity:.55}
+.row.now{box-shadow:0 0 0 2px var(--cat)}
+.time{font-family:var(--display);font-weight:600;font-size:19px;line-height:1.05;font-variant-numeric:tabular-nums}
+.time small{display:block;font-size:14px;font-weight:500;color:var(--muted)}
+.t{font-weight:600;font-size:16px}
+.n{color:var(--muted);font-size:13px;margin-top:2px}
+.tag{display:inline-block;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--cat);margin-bottom:2px}
+.now-tag{background:var(--cat);color:var(--bg);border-radius:4px;padding:1px 5px;margin-left:6px}
+.check{width:30px;height:30px;border-radius:9px;border:2px solid var(--cat);background:transparent;color:var(--bg);cursor:pointer;font-size:17px;line-height:1;padding:0}
+.check[aria-pressed="true"]{background:var(--cat)}
+.row.done .t{text-decoration:line-through;color:var(--muted)}
+.banner{background:var(--klausur);color:#fff;border-radius:12px;padding:12px 14px;font-family:var(--display);font-size:24px;font-weight:700}
+.banner small{display:block;font-family:var(--body);font-size:13px;font-weight:500;opacity:.9}
+.empty{color:var(--muted);padding:14px 0}
+.notice{background:var(--lernen);color:#13171d;border-radius:12px;padding:10px 14px;font-weight:600;font-size:14px}
+button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.bar span{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">
+      <div>
+        <h1 id="title">Heute</h1>
+        <div class="sub" id="sub"></div>
+      </div>
+      <div class="weeknav">
+        <button id="prev" aria-label="Vorherige Woche">&#8249;</button>
+        <button id="next" aria-label="Nächste Woche">&#8250;</button>
+      </div>
+    </div>
+    <div class="exams" id="exams"></div>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="chips" id="chips"></div>
+  </header>
+  <div class="progress"><span id="ptext"></span><div class="bar"><span id="pbar"></span></div></div>
+  <div id="notice"></div>
+  <div id="banners"></div>
+  <ul class="list" id="list"></ul>
+</div>
+<script>
+(function(){
+  var CATS = {
+    schule:{n:"Schule"}, sport:{n:"Gym & Fußball"}, arbeit:{n:"Fotografie"},
+    lernen:{n:"Lernen"}, selbst:{n:"Zeit für mich"}, alltag:{n:"Essen & Alltag"}, klausur:{n:"Klausur"}
+  };
+  var PILL = ["22:15","22:25","Tabletten: Melatonin, Eisen, Magnesium","alltag"];
+  var WEG_HIN = function(s,e){return [s,e,"Weg zur Schule (20 Min)","alltag"];};
+  var WEG_HEIM = function(s,e){return [s,e,"Heimweg (20 Min)","alltag"];};
+  var COOKIE = ["20:45","21:30","Cookie rausgehen","alltag"];
+  var ROUTINE = ["21:30","22:00","Abendroutine, Tasche packen, Bett fertig","alltag"];
+  /* [start, ende, Titel, Kategorie, Notiz] */
+  var DAY = {
+    1:[["07:00","07:25","Aufstehen, Frühstück","alltag"],
+       WEG_HIN("07:25","07:45"),
+       ["07:45","14:00","Schule","schule"],
+       WEG_HEIM("14:00","14:20"),
+       ["14:30","15:00","Mittagessen","alltag"],
+       ["16:00","19:00","Lernen","lernen","Deine beste Lernzeit."],
+       ["19:00","19:30","Abendessen (leicht)","alltag"],
+       ["19:30","20:20","Gym: Rücken (ca. 50 Min)","sport"],
+       ["20:20","20:45","Duschen","alltag"],
+       COOKIE, ROUTINE, PILL],
+    2:[["07:00","07:30","Aufstehen, Frühstück","alltag"],
+       ["07:30","08:10","Lernen (morgens)","lernen"],
+       WEG_HIN("08:10","08:30"),
+       ["08:30","14:45","Schule","schule"],
+       WEG_HEIM("14:45","15:05"),
+       ["15:10","15:40","Mittagessen","alltag"],
+       ["16:00","17:00","Lernen","lernen"],
+       ["17:15","20:15","Fußball: fertig machen, Fahrt, Training ab 18:00","sport","Zuhause frühestens 20:15."],
+       ["20:15","20:45","Abendessen","alltag"],
+       COOKIE, ROUTINE, PILL],
+    3:[["07:00","07:25","Aufstehen, Frühstück","alltag"],
+       WEG_HIN("07:25","07:45"),
+       ["07:45","14:45","Schule","schule"],
+       WEG_HEIM("14:45","15:05"),
+       ["15:10","15:40","Mittagessen","alltag"],
+       ["16:00","19:00","Lernen","lernen","Deine beste Lernzeit."],
+       ["19:00","19:30","Abendessen","alltag"],
+       ["19:30","20:45","Fotografie-Arbeit (1 Std 15)","arbeit"],
+       COOKIE, ROUTINE, PILL],
+    4:[["07:00","07:30","Aufstehen, Frühstück","alltag"],
+       ["07:30","08:10","Lernen (morgens)","lernen"],
+       WEG_HIN("08:10","08:30"),
+       ["08:30","12:55","Schule (bis zur Freistunde)","schule"],
+       WEG_HEIM("12:55","13:15"),
+       ["13:15","14:05","Gym: Brust (ca. 50 Min)","sport","Direkt anfangen, du bist ja schon zu Hause."],
+       ["14:05","14:35","Essen","alltag"],
+       WEG_HIN("14:35","14:55"),
+       ["14:55","16:25","Schule (letzte Stunden)","schule"],
+       WEG_HEIM("16:25","16:45"),
+       ["16:45","17:10","Snack","alltag"],
+       ["17:15","20:15","Fußball: fertig machen, Fahrt, Training ab 18:00","sport","Zuhause frühestens 20:15."],
+       ["20:15","20:45","Abendessen","alltag"],
+       COOKIE, ROUTINE, PILL],
+    5:[["07:00","07:15","Aufstehen","alltag"],
+       ["07:15","08:30","Gym: Arme + Schultern (ca. 1 Std 15)","sport","Samstag ist Spiel: nicht bis zum Versagen."],
+       ["08:30","09:15","Duschen, Frühstück","alltag"],
+       WEG_HIN("09:15","09:35"),
+       ["09:35","14:00","Schule","schule"],
+       WEG_HEIM("14:00","14:20"),
+       ["14:30","15:00","Mittagessen","alltag"],
+       ["16:00","19:00","Fotografie-Arbeit (3 Std)","arbeit"],
+       ["19:00","19:30","Abendessen","alltag"],
+       ["19:30","20:45","Zeit für mich","selbst","Frei, ohne Aufgabe."],
+       COOKIE,
+       ["21:30","22:00","Abendroutine, Spieltasche packen, Bett fertig","alltag"], PILL],
+    6:[["07:00","08:00","Aufstehen, Frühstück","alltag"],
+       ["16:00","18:30","Zeit für mich","selbst","Frei, ohne Aufgabe."],
+       ["18:30","19:00","Abendessen","alltag"],
+       ["19:00","20:30","Zeit für mich","selbst","Der Rest vom Tag gehört dir."],
+       COOKIE, ROUTINE, PILL],
+    0:[["07:00","09:00","Aufstehen, Frühstück","alltag"],
+       ["09:00","12:00","Lernen: Schulstoff","lernen","Morgens kein Sport, die Zeit gehört dem Lernen."],
+       ["12:00","12:20","Kleiner Snack vor dem Gym","alltag"],
+       ["12:30","13:20","Gym: Brust + Rücken locker (ca. 50 Min)","sport"],
+       ["13:20","13:40","Duschen","alltag"],
+       ["13:40","14:10","Mittagessen","alltag"],
+       ["16:00","17:45","Fotografie-Arbeit (1 Std 45)","arbeit"],
+       ["17:45","18:00","Wochenplanung (15 Min)","alltag"],
+       ["18:30","19:00","Abendessen","alltag"],
+       ["19:00","20:30","Zeit für mich","selbst","Frei, ohne Aufgabe."],
+       COOKIE, ROUTINE, PILL]
+  };
+  /* Lernplan und Sondertage (aus Klausurterminen berechnet): Hauptfächer 5 Tage, Nebenfächer 3 Tage vorher */
+  var OV = {"2026-11-12":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für Physik (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"]],"study":["Physik · Tag 1/5"]},"2026-11-13":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Physik (Tag 2/5)","lernen","Aufgaben üben"],["18:00","19:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Physik · Tag 2/5"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-11-14":{"dropCat":["lernen"],"add":[["09:00","11:20","Lernen für Physik (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["11:20","12:00","Lernen (frei wählen)","lernen"],["08:00","20:00","Spieltag (Anstoß eintragen)","sport","Kein Gym. Nachher essen und ruhen."]],"study":["Physik · Tag 3/5"],"drop":["Zeit für mich"]},"2026-11-15":{"dropCat":["lernen"],"add":[["09:00","10:30","Lernen für Physik (Tag 4/5)","lernen","Altklausur rechnen"],["10:30","12:00","Lernen (frei wählen)","lernen"]],"study":["Physik · Tag 4/5"]},"2026-11-16":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für Physik (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"],["17:30","19:00","Lernen (frei wählen)","lernen"]],"study":["Physik · Tag 5/5"]},"2026-11-22":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für GS (Tag 1/3)","lernen","Stoff sichten und lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 1/3"]},"2026-11-23":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für GS (Tag 2/3)","lernen","Üben und wiederholen"],["18:00","19:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 2/3"]},"2026-11-24":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für GS (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["16:00","16:20","Lernen für GS (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["16:20","17:00","Lernen (frei wählen)","lernen"]],"study":["GS · Tag 3/3"]},"2026-11-29":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für VWL (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 1/5"]},"2026-11-30":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für VWL (Tag 2/5)","lernen","Aufgaben üben"],["17:30","19:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 2/5"]},"2026-12-01":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für VWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["16:00","16:50","Lernen für VWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"]],"study":["VWL · Tag 3/5"]},"2026-12-02":{"dropCat":["lernen"],"add":[["16:00","18:20","Lernen für VWL (Tag 4/5)","lernen","Altklausur rechnen"],["18:20","19:00","Lernen (frei wählen)","lernen"]],"study":["VWL · Tag 4/5"]},"2026-12-03":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für VWL (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"]],"study":["VWL · Tag 5/5"]},"2026-12-06":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für BWL (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["11:00","12:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 1/5"]},"2026-12-07":{"dropCat":["lernen"],"add":[["16:00","17:30","Lernen für BWL (Tag 2/5)","lernen","Aufgaben üben"],["17:30","19:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 2/5"]},"2026-12-08":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für BWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["16:00","16:50","Lernen für BWL (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"]],"study":["BWL · Tag 3/5"]},"2026-12-09":{"dropCat":["lernen"],"add":[["16:00","18:20","Lernen für BWL (Tag 4/5)","lernen","Altklausur rechnen"],["18:20","19:00","Lernen (frei wählen)","lernen"]],"study":["BWL · Tag 4/5"]},"2026-12-10":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für BWL (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"]],"study":["BWL · Tag 5/5"]},"2026-12-11":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Deutsch (Tag 1/3)","lernen","Stoff sichten und lernen"],["18:00","19:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Deutsch · Tag 1/3"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-12-12":{"dropCat":["lernen"],"add":[["09:00","11:00","Lernen für Deutsch (Tag 2/3)","lernen","Üben und wiederholen"],["11:00","12:00","Lernen für Englisch (Tag 1/3)","lernen","Stoff sichten und lernen"]],"study":["Deutsch · Tag 2/3","Englisch · Tag 1/3"]},"2026-12-13":{"dropCat":["lernen"],"add":[["09:00","10:00","Lernen für Deutsch (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["10:00","12:00","Lernen für Englisch (Tag 2/3)","lernen","Üben und wiederholen"]],"study":["Deutsch · Tag 3/3","Englisch · Tag 2/3"]},"2026-12-14":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Englisch (Tag 3/3)","lernen","Kurz wiederholen, Fehlerliste"],["18:00","19:00","Lernen (frei wählen)","lernen"]],"study":["Englisch · Tag 3/3"]},"2026-12-16":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Mathe (Tag 1/5)","lernen","Stoff sichten, Formeln und Begriffe lernen"],["18:00","19:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 1/5"]},"2026-12-17":{"dropCat":["lernen"],"add":[["07:30","08:10","Lernen für Mathe (Tag 2/5)","lernen","Aufgaben üben"]],"study":["Mathe · Tag 2/5"]},"2026-12-18":{"dropCat":["lernen"],"add":[["16:00","18:00","Lernen für Mathe (Tag 3/5)","lernen","Aufgaben üben, Lücken schließen"],["18:00","19:00","Fotografie-Arbeit (1 Std)","arbeit"]],"study":["Mathe · Tag 3/5"],"drop":["Fotografie-Arbeit (3 Std)"]},"2026-12-19":{"dropCat":["lernen"],"add":[["09:00","10:50","Lernen für Mathe (Tag 4/5)","lernen","Altklausur rechnen"],["10:50","12:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 4/5"]},"2026-12-20":{"dropCat":["lernen"],"add":[["09:00","10:30","Lernen für Mathe (Tag 5/5)","lernen","Fehler ansehen, kein neuer Stoff"],["10:30","12:00","Lernen (frei wählen)","lernen"]],"study":["Mathe · Tag 5/5"]},"2026-11-21":{"add":[["08:00","20:00","Spieltag (Anstoß eintragen)","sport","Kein Gym."]],"drop":["Zeit für mich"]},"2026-11-17":{"add":[["09:35","11:05","KLAUSUR Physik","klausur"]]}};
+  var EX = [
+    ["2026-11-17","Physik"],["2026-11-25","GS"],["2026-12-04","VWL"],["2026-12-11","BWL"],
+    ["2026-12-14","Deutsch"],["2026-12-15","Englisch (prüfen)"],["2026-12-21","Mathe"]
+  ];
+  var PLAN_END = "2026-12-21";
+  var WD = ["So","Mo","Di","Mi","Do","Fr","Sa"];
+  var WDL = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
+  var MON = ["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"];
+
+  function p2(n){return (n<10?"0":"")+n;}
+  function iso(d){return d.getFullYear()+"-"+p2(d.getMonth()+1)+"-"+p2(d.getDate());}
+  function mins(s){var a=s.split(":");return +a[0]*60+ +a[1];}
+  function atMidnight(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate());}
+
+  var today = atMidnight(new Date());
+  var weekOffset = 0, sel = 0, filter = null;
+
+  function monday(off){
+    var d = new Date(today); var k=(d.getDay()+6)%7;
+    d.setDate(d.getDate()-k+off*7); return d;
+  }
+  function load(key){try{return localStorage.getItem(key)==="1";}catch(e){return false;}}
+  function save(key,v){try{if(v){localStorage.setItem(key,"1");}else{localStorage.removeItem(key);}}catch(e){}}
+  // Alte Häkchen nach 30 Tagen aufräumen, damit der Speicher nicht wächst.
+  (function prune(){
+    try{
+      var lim=new Date(today); lim.setDate(lim.getDate()-30); var ls=iso(lim);
+      for(var i=localStorage.length-1;i>=0;i--){
+        var k=localStorage.key(i);
+        if(k&&k.indexOf("done:")===0&&k.split(":")[1]<ls){localStorage.removeItem(k);}
+      }
+    }catch(e){}
+  })();
+
+  sel = (today.getDay()+6)%7;
+
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e;}
+
+  function renderStudy(key){
+    var box=document.getElementById("exams"); box.innerHTML="";
+    var ov=OV[key]; var st=(ov&&ov.study)||[];
+    st.forEach(function(x){
+      var e=el("div","exam lern");
+      e.appendChild(el("span",null,"Heute lernen für"));
+      e.appendChild(el("b",null,x));
+      box.appendChild(e);
+    });
+  }
+
+  function renderTabs(){
+    var tabs=document.getElementById("tabs"); tabs.innerHTML="";
+    var mon=monday(weekOffset);
+    for(var i=0;i<7;i++){
+      var d=new Date(mon); d.setDate(mon.getDate()+i);
+      var b=el("button","tab"+(iso(d)===iso(today)?" today":""));
+      b.setAttribute("role","tab");
+      b.setAttribute("aria-selected",i===sel?"true":"false");
+      b.appendChild(el("span","w",WD[d.getDay()]));
+      b.appendChild(el("span","d",String(d.getDate())));
+      (function(ix){b.addEventListener("click",function(){sel=ix;render();});})(i);
+      tabs.appendChild(b);
+    }
+  }
+
+  function renderChips(){
+    var box=document.getElementById("chips"); box.innerHTML="";
+    Object.keys(CATS).forEach(function(k){
+      if(k==="klausur")return;
+      var b=el("button","chip"); b.style.setProperty("--cat","var(--"+k+")");
+      b.setAttribute("aria-pressed",filter===k?"true":"false");
+      b.appendChild(el("i"));
+      b.appendChild(document.createTextNode(CATS[k].n));
+      b.addEventListener("click",function(){filter=(filter===k?null:k);render();});
+      box.appendChild(b);
+    });
+  }
+
+  function render(){
+    var mon=monday(weekOffset);
+    var date=new Date(mon); date.setDate(mon.getDate()+sel);
+    var key=iso(date), isToday=(key===iso(today));
+    document.getElementById("title").textContent = isToday?"Heute":WDL[date.getDay()];
+    document.getElementById("sub").textContent = WDL[date.getDay()]+", "+date.getDate()+". "+MON[date.getMonth()]+" "+date.getFullYear();
+    renderStudy(key); renderTabs(); renderChips();
+
+    var blocks=(DAY[date.getDay()]||[]).slice();
+    var ov=OV[key];
+    if(ov){
+      if(ov.dropCat){blocks=blocks.filter(function(b){return ov.dropCat.indexOf(b[3])<0;});}
+      if(ov.drop){blocks=blocks.filter(function(b){return ov.drop.indexOf(b[2])<0;});}
+      if(ov.add){blocks=blocks.concat(ov.add);}
+    }
+    blocks.sort(function(a,b){return mins(a[0])-mins(b[0])||mins(a[1])-mins(b[1]);});
+
+    var nb=document.getElementById("notice"); nb.innerHTML="";
+    var endD=new Date(PLAN_END+"T00:00:00"); var left=Math.round((endD-today)/86400000);
+    if(left<0){nb.appendChild(el("div","notice","Der Lernplan ist abgelaufen. Schick Claude neue Klausuren, Spielplan und Trainingszeiten."));}
+    else if(left<=14){nb.appendChild(el("div","notice","Der Lernplan läuft in "+left+" Tagen aus. Schick Claude bald neue Klausuren, Spielplan und Trainingszeiten."));}
+    var ban=document.getElementById("banners"); ban.innerHTML="";
+    EX.forEach(function(x){
+      if(x[0]===key){
+        var b=el("div","banner","KLAUSUR "+x[1]);
+        b.appendChild(el("small",null,"Heute nur das Nötigste. Früh ins Bett."));
+        ban.appendChild(b);
+      }
+    });
+
+    var list=document.getElementById("list"); list.innerHTML="";
+    var now=new Date(); var nm=now.getHours()*60+now.getMinutes();
+    var shown=0, total=0, done=0;
+    blocks.forEach(function(b,idx){
+      var cat=b[3];
+      var k="done:"+key+":"+idx+":"+b[2];
+      var isDone=load(k);
+      total++; if(isDone)done++;
+      if(filter && filter!==cat)return;
+      shown++;
+      var s=mins(b[0]), e=mins(b[1]);
+      var row=el("li","row"+(isDone?" done":"")+((isToday&&nm>=e)?" past":"")+((isToday&&nm>=s&&nm<e)?" now":""));
+      row.style.setProperty("--cat","var(--"+cat+")");
+      var tm=el("div","time",b[0]); tm.appendChild(el("small",null,b[1]));
+      var mid=el("div");
+      var tag=el("div","tag",CATS[cat].n);
+      if(isToday&&nm>=s&&nm<e){tag.appendChild(el("span","now-tag","jetzt"));}
+      mid.appendChild(tag);
+      mid.appendChild(el("div","t",b[2]));
+      if(b[4]){mid.appendChild(el("div","n",b[4]));}
+      var chk=el("button","check",isDone?"✓":"");
+      chk.setAttribute("aria-pressed",isDone?"true":"false");
+      chk.setAttribute("aria-label","Erledigt: "+b[2]);
+      chk.addEventListener("click",function(){save(k,!isDone);render();});
+      row.appendChild(tm); row.appendChild(mid); row.appendChild(chk);
+      list.appendChild(row);
+    });
+    if(!shown){list.appendChild(el("li","empty","Nichts in dieser Kategorie an diesem Tag."));}
+    document.getElementById("ptext").textContent=done+" von "+total+" erledigt";
+    document.getElementById("pbar").style.width=(total?Math.round(done/total*100):0)+"%";
+  }
+
+  document.getElementById("prev").addEventListener("click",function(){weekOffset--;render();});
+  document.getElementById("next").addEventListener("click",function(){weekOffset++;render();});
+  render();
+})();
+</script>
+</body>
+</html>
