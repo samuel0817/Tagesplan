@@ -32,7 +32,52 @@
     "change": "+1,20 %",
     "note": "11.11., Schluss",
     "srcName": "dpa-AFX via ariva",
-    "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-12203717"
+    "url": "https://www.ariva.de/news/aktien-frankfurt-schluss-dax-weiter-erholt-und-knapp-unter-12203717",
+    "movers": {
+     "note": "Xetra-Schluss 11.11.",
+     "srcName": "finanzen.at/finanzen.ch",
+     "url": "https://www.finanzen.at/nachrichten/aktien/starker-wochentag-in-frankfurt-dax-zum-handelsende-starker-1036750490",
+     "up": [
+      {
+       "name": "Siemens Energy",
+       "change": "+10,78 %",
+       "why": "Rekordjahr, Dividende 2,30 Euro, bis zu 9 Mrd. Euro Aktienrückkauf, neue Ziele bis 2030."
+      },
+      {
+       "name": "Infineon",
+       "change": "+6,26 %",
+       "why": "Chipwerte erholt, nachdem CoreWeave die Sorge um den KI-Boom gedämpft hat."
+      },
+      {
+       "name": "Hochtief",
+       "change": "+2,19 %"
+      },
+      {
+       "name": "Deutsche Börse",
+       "change": "+2,09 %"
+      },
+      {
+       "name": "DHL Group",
+       "change": "+2,01 %"
+      }
+     ],
+     "down": [
+      {
+       "name": "Rheinmetall",
+       "change": "−6,94 %",
+       "why": "Rüstungswerte unter Druck nach Prognosesenkung des tschechischen Konzerns CSG."
+      },
+      {
+       "name": "Brenntag",
+       "change": "−3,54 %",
+       "why": "Quartalszahlen, Profitabilität unter den Erwartungen."
+      },
+      {
+       "name": "Zalando",
+       "change": "−1,74 %"
+      }
+     ]
+    }
    },
    {
     "name": "Euro Stoxx 50",
@@ -40,7 +85,48 @@
     "change": "+1,04 %",
     "note": "11.11., Schluss",
     "srcName": "dpa-AFX via ariva",
-    "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-dritter-aufwaertstag-in-folge-12203761"
+    "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-dritter-aufwaertstag-in-folge-12203761",
+    "movers": {
+     "note": "Schluss 11.11.",
+     "srcName": "finanzen.net",
+     "url": "https://www.finanzen.net/nachricht/aktien/zuversicht-in-europa-euro-stoxx-50-zum-ende-des-mittwochshandels-auf-gruenem-terrain-16056976",
+     "up": [
+      {
+       "name": "Siemens Energy",
+       "change": "+10,78 %",
+       "why": "Rekordjahr und Milliarden-Rückkauf."
+      },
+      {
+       "name": "Infineon",
+       "change": "+6,26 %",
+       "why": "Erholung der Chipwerte."
+      },
+      {
+       "name": "Eni",
+       "change": "+2,48 %",
+       "why": "Ölpreis wieder gestiegen."
+      },
+      {
+       "name": "Deutsche Börse",
+       "change": "+2,09 %"
+      }
+     ],
+     "down": [
+      {
+       "name": "Rheinmetall",
+       "change": "−6,94 %",
+       "why": "Prognosesenkung bei CSG belastet Rüstungswerte."
+      },
+      {
+       "name": "Intesa Sanpaolo",
+       "change": "−1,21 %"
+      },
+      {
+       "name": "Münchener Rück",
+       "change": "−1,18 %"
+      }
+     ]
+    }
    },
    {
     "name": "Nasdaq 100",
@@ -48,7 +134,20 @@
     "change": "+2,9 %",
     "note": "11.11., ca. 18 Uhr, Handel lief noch",
     "srcName": "dpa-AFX via finanzen.at",
-    "url": "https://www.finanzen.at/nachrichten/aktien/aktien-europa-schluss-dritter-aufwartstag-in-folge-ki-sorgen-lassen-nach-1036750528"
+    "url": "https://www.finanzen.at/nachrichten/aktien/aktien-europa-schluss-dritter-aufwartstag-in-folge-ki-sorgen-lassen-nach-1036750528",
+    "movers": {
+     "note": "Stand 12:15 Uhr New York, Handel lief noch",
+     "srcName": "Benzinga",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63157251/stock-market-today-nasdaq-100-coreweave-ai-rebound-nvidia",
+     "up": [
+      {
+       "name": "Micron",
+       "change": "+13,2 %",
+       "why": "Chipwerte legen breit zu, KI-Erholung nach den CoreWeave-Zahlen."
+      }
+     ],
+     "down": []
+    }
    },
    {
     "name": "MSCI World",
@@ -255,6 +354,7 @@
  ],
  "notes": [
   "Abendausgabe: Nasdaq 100 mit Stand gegen 18 Uhr, der US-Handel lief noch.",
-  "Die PFAS-Meldung ist vom 5.11. und als älterer Stand gekennzeichnet."
+  "Die PFAS-Meldung ist vom 5.11. und als älterer Stand gekennzeichnet.",
+  "Gewinner und Verlierer im Nasdaq 100 sind heute unvollständig, weil der US-Handel bei Redaktionsschluss noch lief. Ab morgen kommt die Liste mit dem Schlussstand."
  ]
 }
