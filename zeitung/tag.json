@@ -1,27 +1,27 @@
 {
  "kind": "tag",
  "dateLabel": "Samstag, 21. November 2026",
- "updatedAt": "2026-11-21T00:49:20Z",
+ "updatedAt": "2026-11-21T05:51:25Z",
  "top": [
   {
-   "head": "KI-Ausverkauf an der Wall Street:",
-   "text": "Am Freitag brach der Nasdaq 100 um 5,61 % auf 25.028,98 Punkte ein, der Nasdaq Composite fiel um 5,28 % und hat damit sein gesamtes Jahresplus verloren. Der S&P 500 verlor laut Reuters rund 3,5 % und steckt wie der Dow in der Korrektur, mehr als 10 % unter dem Rekord. Der Halbleiterindex der Börse Philadelphia sackte um 10,7 % ab. Für S&P 500 und Nasdaq war es die schwächste Woche seit April 2025."
+   "head": "KI-Ausverkauf eskaliert:",
+   "text": "Der Nasdaq 100 fiel am Freitag um 5,61 %, S&P 500 und Dow sind nun mehr als 10 % unter ihren Rekorden und damit offiziell in der Korrektur. Der Nasdaq 100 hat die schwächste Woche seit 2020 hinter sich und liegt rund 20 % unter dem Hoch von Anfang Oktober."
   },
   {
-   "head": "US-Börsenaufsicht prüft Nvidias Bilanzierung:",
-   "text": "Laut Reuters untersucht die SEC mögliche Unregelmäßigkeiten in der Rechnungslegung von Nvidia, wie zwei eingeweihte Personen am Freitag sagten. Die Aktie fiel um 14 % und erlebte die schlechteste Woche seit Oktober 2008. Im Raum stehen Fragen zu Umsätzen über Singapur und zu Finanzierungsgarantien für KI-Kunden. Eine Untersuchung ist noch kein Beleg für Fehlverhalten, aber nach dem Rücktritt von Jensen Huang verliert der wichtigste KI-Wert weiter an Vertrauen."
+   "head": "Nvidia unter Bilanz-Verdacht:",
+   "text": "Laut Reuters prüft die US-Börsenaufsicht SEC die Bilanzierung des Chipkonzerns. Die Aktie verlor am Freitag 14 %, in der Woche fast 23 %, das ist der schlimmste Wochenverlust seit 2008."
   },
   {
-   "head": "Dax fällt unter 25.000 Punkte:",
-   "text": "Der Leitindex schloss am Freitag 2,60 % tiefer bei 24.802,78 Punkten, es war der sechste Verlusttag in Folge und ein Wochenminus von mehr als 7 %. Seit dem Rekord von 27.001 Punkten vor gut einer Woche sind rund 8 % weg, der Dax liegt unter seiner 200-Tage-Linie. Der Euro Stoxx 50 verlor 2,81 % auf 5.941,95 Punkte und steht so tief wie seit Mai nicht mehr, ASML brach um 9,3 % ein."
+   "head": "DAX bricht unter 25.000 Punkte:",
+   "text": "Minus 2,6 % am Freitag, mehr als 7 % in der Woche, nur eine Woche nach dem Rekord bei knapp 27.002 Punkten. Der Euro Stoxx 50 fiel auf den tiefsten Stand seit Mai."
   },
   {
-   "head": "Fed-Gouverneurin Cook verlangt höhere Zinsen:",
-   "text": "Lisa Cook sagte am Freitag, der Leitzins von 3,75 bis 4,00 % reiche nicht aus, um die Inflation zu senken, und warnte davor, zu spät zu handeln. Die Märkte rechnen mit einer Zinserhöhung auf der Sitzung am 8. und 9. Dezember und weiteren Schritten 2027. Steigende Zinsen sind neben den KI-Zweifeln der zweite Grund, warum hoch bewertete Tech-Aktien unter Druck stehen."
+   "head": "Asien im freien Fall:",
+   "text": "Taiwans Leitindex erlebte am Freitag die schlechteste Woche seit 1991 mit einem Minus von fast 18 %, Kospi und Nikkei verloren am Freitag jeweils mehr als 5 %."
   },
   {
-   "head": "Asien mit Crash-Woche:",
-   "text": "Am Freitag fiel der taiwanische Taiex um 6,23 % und verlor auf Wochensicht 17,5 %, der Kospi rutschte um 5,21 % ab, der Nikkei 225 um 5,1 %. Getroffen wurden vor allem Chipwerte wie Samsung, SK Hynix und TSMC. Die Region hängt stark am KI-Investitionszyklus, ein Rückgang der Rechenzentrums-Ausgaben würde sie besonders treffen."
+   "head": "Fed vor Zinserhöhung:",
+   "text": "Die Märkte preisen eine fast sichere Anhebung um 0,25 Prozentpunkte im Dezember ein. Fed-Gouverneurin Cook sagte am Freitag, der Leitzins sei nicht hoch genug, um die Inflation zu bremsen; das nimmt den Aktienmärkten den Rettungsanker."
   }
  ],
  "markets": {
@@ -31,12 +31,12 @@
     "value": "24.802,78",
     "change": "−2,60 %",
     "note": "20.11., Xetra-Schluss",
-    "srcName": "finanzen.net (dpa-AFX)",
-    "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-techs-16079117",
+    "srcName": "dpa-AFX über MarketScreener, 20.11. 17:49 Uhr",
+    "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622",
     "movers": {
      "note": "Xetra-Schluss 20.11.",
-     "srcName": "finanzen.net",
-     "url": "https://finanzen.net/nachricht/aktien/schwacher-handel-in-frankfurt-dax-verliert-schlussendlich-16079056",
+     "srcName": "dpa-AFX über MarketScreener und finanzen.at, 20.11.",
+     "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622",
      "up": [
       {
        "name": "Fresenius Medical Care",
@@ -51,7 +51,7 @@
        "change": "+1,15 %"
       },
       {
-       "name": "Münchener Rück",
+       "name": "Munich Re",
        "change": "+0,90 %"
       },
       {
@@ -63,17 +63,17 @@
       {
        "name": "Scout24",
        "change": "−8,03 %",
-       "why": "JPMorgan strich die Kaufempfehlung und fürchtet, dass KI das margenstarke Werbegeschäft verdrängt."
+       "why": "JPMorgan strich die Kaufempfehlung, weil KI margenstarke Werbeerlöse gefährden könnte."
       },
       {
        "name": "Infineon",
        "change": "−7,91 %",
-       "why": "Weltweiter Ausverkauf bei Chip- und Tech-Werten."
+       "why": "Mitgerissen vom Ausverkauf bei Chip- und Techwerten."
       },
       {
        "name": "Siemens Energy",
        "change": "−6,61 %",
-       "why": "Als Profiteur des KI-Booms von der Tech-Schwäche mitgerissen."
+       "why": "Belastet vom Druck auf den Technologiesektor."
       }
      ]
     }
@@ -83,11 +83,11 @@
     "value": "5.941,95",
     "change": "−2,81 %",
     "note": "20.11., Schluss",
-    "srcName": "dpa-AFX über ariva",
-    "url": "https://www.ariva.de/news/roundup-aktien-europa-schluss-erneut-tech-ausverkauf-12215576",
+    "srcName": "dpa-AFX über onvista, 20.11. 16:56 Uhr",
+    "url": "https://www.onvista.de/news/2026/11-20-aktien-europa-schluss-erneut-tech-ausverkauf-eurostoxx-tief-seit-mai-0-10-26578958",
     "movers": {
-     "note": "Schluss 20.11.; nur zwei Werte im Plus",
-     "srcName": "finanzen.at, ASML: dpa-AFX",
+     "note": "Schluss 20.11.",
+     "srcName": "finanzen.at, 20.11.",
      "url": "https://www.finanzen.at/nachrichten/aktien/anleger-in-europa-halten-sich-zurueck-euro-stoxx-50-zeigt-sich-schlussendlich-schwacher-1036788506",
      "up": [
       {
@@ -95,25 +95,23 @@
        "change": "+1,15 %"
       },
       {
-       "name": "Münchener Rück",
+       "name": "Munich Re",
        "change": "+0,90 %"
       }
      ],
      "down": [
       {
-       "name": "ASML",
-       "change": "−9,3 %",
-       "why": "Laut dpa-AFX Schlusslicht im Index, Tech-Ausverkauf."
-      },
-      {
        "name": "Infineon",
        "change": "−7,91 %",
-       "why": "Weltweiter Ausverkauf bei Chip-Werten."
+       "why": "Mitgerissen vom Ausverkauf bei Chip- und Techwerten."
       },
       {
        "name": "Siemens Energy",
-       "change": "−6,61 %",
-       "why": "Als KI-Profiteur von der Tech-Schwäche mitgerissen."
+       "change": "−6,61 %"
+      },
+      {
+       "name": "Siemens",
+       "change": "−4,59 %"
       }
      ]
     }
@@ -122,16 +120,20 @@
     "name": "Nasdaq 100",
     "value": "25.028,98",
     "change": "−5,61 %",
-    "note": "20.11., Schluss",
-    "srcName": "Nasdaq.com",
-    "url": "https://www.nasdaq.com/market-activity",
+    "note": "20.11., Schluss New York",
+    "srcName": "finanzen.net, 20.11. 22:32 Uhr",
+    "url": "https://www.finanzen.net/nachricht/aktien/schwacher-handel-nasdaq-100-zum-handelsende-tief-im-minus-16079399",
     "movers": {
-     "note": "Schluss 20.11.; Nvidia −14,01 %",
-     "srcName": "stockanalysis.com",
-     "url": "https://stockanalysis.com/list/nasdaq-100-stocks/",
+     "note": "Schluss 20.11.",
+     "srcName": "finanzen.net, 20.11. 22:32 Uhr",
+     "url": "https://www.finanzen.net/nachricht/aktien/schwacher-handel-nasdaq-100-zum-handelsende-tief-im-minus-16079399",
      "up": [
       {
        "name": "T-Mobile US",
+       "change": "+1,89 %"
+      },
+      {
+       "name": "Kraft Heinz",
        "change": "+1,89 %"
       },
       {
@@ -140,59 +142,56 @@
       },
       {
        "name": "Keurig Dr Pepper",
-       "change": "+1,25 %"
+       "change": "+1,29 %"
       },
       {
        "name": "PepsiCo",
-       "change": "+1,11 %"
-      },
-      {
-       "name": "Paychex",
-       "change": "+1,10 %"
+       "change": "+1,14 %"
       }
      ],
      "down": [
       {
        "name": "Nebius",
-       "change": "−16,11 %"
-      },
-      {
-       "name": "Sandisk",
-       "change": "−16,05 %"
+       "change": "−16,08 %"
       },
       {
        "name": "Astera Labs",
-       "change": "−14,77 %"
+       "change": "−14,73 %"
+      },
+      {
+       "name": "Nvidia",
+       "change": "−14,01 %",
+       "why": "Bericht, dass die SEC die Bilanzierung des Konzerns prüft."
       }
      ]
     }
    },
    {
     "name": "MSCI World",
-    "value": "4.460,12",
-    "change": "−3,33 %",
-    "note": "20.11., Schluss laut onvista, Datum dort nicht ausgewiesen",
-    "srcName": "onvista",
-    "url": "https://www.onvista.de/index/MSCI-WORLD-Index-3193857"
+    "value": "4.463,65",
+    "change": "−3,04 %",
+    "note": "20.11., 21:34 Uhr, indikativ, kein bestätigter Schluss",
+    "srcName": "boerse.de, 20.11. 21:34 Uhr",
+    "url": "https://www.boerse.de/historische-kurse-tage/MSCI-World/XC0009692739"
    },
    {
     "name": "Shanghai",
-    "value": "3.533,80",
-    "change": "−1,23 %",
-    "note": "20.11., Schluss",
-    "srcName": "Trading Economics",
-    "url": "https://tradingeconomics.com/china/stock-market"
+    "value": "nicht gefunden",
+    "change": "−1,2 %",
+    "note": "20.11., Schluss; tiefster Schluss seit Juli 2025",
+    "srcName": "Reuters über Business Recorder, 21.11. (Uhrzeit unklar)",
+    "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment"
    },
    {
     "name": "Stärkste Bewegung: Taiex",
-    "value": "36.033,29",
-    "change": "−6,23 %",
-    "note": "20.11., Schluss",
-    "srcName": "Trading Economics",
-    "url": "https://tradingeconomics.com/taiwan/stock-market"
+    "value": "nicht gefunden",
+    "change": "nicht gefunden",
+    "note": "20.11., Schluss; Tagesminus je nach Bericht 6,2 bis 6,6 %, Wochenminus fast 18 %",
+    "srcName": "Bloomberg, 20.11.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn"
    }
   ],
-  "comment": "Der Rekord-Börsengang von Anthropic hat die KI-Zweifel nicht beendet, sondern verstärkt; dazu kamen die SEC-Prüfung bei Nvidia und die Aussicht auf eine Zinserhöhung der Fed im Dezember. Gefragt waren nur defensive Werte wie Versicherer, Telekom und Lebensmittelhersteller."
+  "comment": "Der Ausverkauf bei KI- und Chipwerten hat sich am Freitag weltweit beschleunigt: Bilanz-Ermittlungen gegen Nvidia, ein schwacher zweiter Börsentag von Anthropic und die Aussicht auf eine Fed-Zinserhöhung im Dezember trieben Anleger in Staatsanleihen und Dollar. Nur defensive Werte wie Versicherer, Telekom und Konsumgüter hielten sich."
  },
  "sections": [
   {
@@ -200,101 +199,125 @@
    "items": [
     {
      "region": "USA",
+     "topic": "Regulierung",
+     "head": "SEC nimmt Nvidias Bilanzierung ins Visier",
+     "text": "Nach einem Reuters-Bericht vom Freitag prüfen Ermittler der US-Börsenaufsicht die Rechnungslegung von Nvidia; welche Praktiken genau, ist offen, weder SEC noch Nvidia äußerten sich. Die Aktie fiel am Freitag um 14 % auf rund 125 Dollar, den tiefsten Stand seit Mai 2025, und hat sich seit Anfang Oktober fast halbiert. Dazu kommt Druck aus dem Kongress wegen Chipexporten nach China, und seit dem Rücktritt von Jensen Huang am 12.11. führt nur eine Interims-Chefin. Für den gesamten KI-Sektor ist das ein Vertrauensschock, weil Nvidia als Taktgeber der Investitionswelle gilt.",
+     "sources": [
+      {
+       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
+      },
+      {
+       "name": "Reuters über Yahoo Finance, 20.11.",
+       "url": "https://finance.yahoo.com/technology/articles/nvidia-accounting-practices-focus-probe-194532555.html"
+      }
+     ]
+    },
+    {
+     "region": "USA",
+     "topic": "Zinsen",
+     "head": "Fed-Zinserhöhung im Dezember gilt als nahezu sicher",
+     "text": "Fed-Gouverneurin Lisa Cook sagte am Freitag, der Leitzins sei nicht hoch genug, um die Inflation in den Griff zu bekommen. Laut CME FedWatch rechnen die Märkte fast sicher mit einer Anhebung um 0,25 Prozentpunkte im Dezember; die Oktober-Inflation war höher als erwartet, nächste Woche kommen die PCE-Preisdaten. Steigende Zinsen treffen hoch bewertete Techwerte besonders hart und verteuern Kredite für Unternehmen und Verbraucher.",
+     "sources": [
+      {
+       "name": "Reuters über Yahoo Finance, 20.11. 22:36 Uhr",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
+      }
+     ]
+    },
+    {
+     "region": "DE",
+     "topic": "Konjunktur",
+     "head": "IG Metall startet erste 24-Stunden-Streiks seit acht Jahren",
+     "text": "Seit Donnerstag und am Freitag legten Tausende Beschäftigte in fast ganz Deutschland für einen ganzen Tag die Arbeit nieder, darunter Werften im Norden, Zulieferer in Baden-Württemberg sowie die BMW- und Audi-Werke in Bayern. Die Gewerkschaft fordert 5 % mehr Lohn bei zwölf Monaten Laufzeit, die Arbeitgeber bieten eine Einmalzahlung und 1,3 % erst 2028. Ein Termin für eine vierte Runde fehlt, für Anfang nächster Woche sind weitere Streiks angekündigt; das kostet die ohnehin schwache Industrie Produktion.",
+     "sources": [
+      {
+       "name": "ZDFheute, 20.11. 08:34 Uhr",
+       "url": "https://www.zdfheute.de/wirtschaft/warnstreiks-24-stunden-ig-metall-100.html"
+      }
+     ]
+    },
+    {
+     "region": "USA",
      "topic": "Unternehmen",
-     "head": "Anthropic-Aktie fällt fast auf den Ausgabepreis",
-     "text": "Am zweiten Handelstag am Freitag verlor die Anthropic-Aktie 8,5 % und schloss nur knapp über dem Ausgabepreis von 83 Dollar, nachdem sie am Donnerstag noch 17 % darüber gelegen hatte. Der Börsengang hatte mit über 107 Milliarden Dollar den größten Emissionserlös der Geschichte gebracht. Händler vermuten, dass Fonds andere Tech-Aktien verkauft haben, um Platz für das neue Schwergewicht zu schaffen. Das schwache Debüt zeigt, wie wenig Anleger derzeit bereit sind, für KI-Wachstum ohne Gewinne zu zahlen.",
+     "head": "Anthropic verliert am zweiten Börsentag 9 %",
+     "text": "Nach dem Plus von 17 % beim Debüt am Donnerstag fiel die Aktie des KI-Entwicklers am Freitag um rund 9 % auf 88,91 Dollar, liegt aber noch über dem Ausgabepreis von 83 Dollar. Der größte Börsengang des Jahres sollte dem KI-Handel neuen Schwung geben, hat die Sorgen über hohe Bewertungen und Milliardenausgaben aber nicht zerstreut. Für weitere geplante KI-Börsengänge ist das ein schlechtes Signal.",
      "sources": [
       {
-       "name": "Reuters über investing.com, 20.11. 22:12 Uhr",
-       "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450"
+       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
       },
       {
-       "name": "ZDFheute, 20.11. 21:48 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/boerse-ki-aktien-verlust-100.html"
-      }
-     ]
-    },
-    {
-     "region": "Welt",
-     "topic": "Handel",
-     "head": "Gipfel von Trump, Xi und Putin bringt wenig für den Handel",
-     "text": "Beim Dreiertreffen in Shenzhen am Donnerstag vereinbarten die drei Staatschefs, an weniger Energiesanktionen zu arbeiten und die Produktion von Ölprodukten zu steigern. Beim Handelsstreit zwischen den USA und China gab es kaum Fortschritte, der Zollfrieden läuft im Januar aus. US-Finanzminister Bessent sagte am Freitag, die Exportregel für Nvidias H200-Chips nach China bleibe unverändert. Chinas Börsen fanden in dem Gipfel keinen Kaufgrund, der Shanghai Composite fiel am Freitag um 1,2 %.",
-     "sources": [
-      {
-       "name": "CNBC, 19.11.",
-       "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
-      },
-      {
-       "name": "CNBC, 20.11. 16:52 Uhr",
-       "url": "https://cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
-      }
-     ]
-    },
-    {
-     "region": "Welt",
-     "topic": "Energie",
-     "head": "Öl vor drittem Wochenverlust trotz Angriffen in der Straße von Hormus",
-     "text": "Brent kostete am Freitagnachmittag rund 92 Dollar je Barrel und lag damit knapp 4 % unter dem Stand der Vorwoche, im November steht ein Minus von mehr als 20 %. Die Lieferungen durch die Straße von Hormus sind fast auf das Vorkriegsniveau zurück, Händler erwarten deshalb ein Überangebot. Laut der Bank UOB greift Iran im November aber etwa einmal täglich Tanker an, am Donnerstag sollen zwei Schiffe auf Minen gelaufen sein. Am 29. November entscheidet die Opec+ über die Fördermengen für 2027.",
-     "sources": [
-      {
-       "name": "CNBC, 20.11. 06:01 Uhr, aktualisiert am Abend",
-       "url": "https://www.cnbc.com/2026/11/20/oil-wti-brent-hormuz.html"
+       "name": "Reuters über Yahoo Finance, 20.11. 22:36 Uhr",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
       }
      ]
     },
     {
      "region": "Welt",
      "topic": "Konjunktur",
-     "head": "Gold und Bitcoin fallen mit den Aktien",
-     "text": "Gold verlor am Freitag 2,5 % auf 3.533 Dollar je Feinunze und auf Wochensicht rund 8 %, so viel wie seit Mitte März nicht. Bitcoin fiel erstmals seit Juli unter 60.000 Dollar. Dass auch sichere Häfen verkauft werden, deutet darauf hin, dass Anleger Verluste bei Aktien mit Verkäufen anderswo decken.",
+     "head": "Asiens Chipbörsen mit historischem Einbruch",
+     "text": "Taiwans Leitindex fiel am Freitag um mehr als 6 % und verlor in der Woche fast 18 %, so viel wie seit 1991 nicht mehr; zweimal verschärfte Leerverkaufsregeln in diesem Monat haben den Markt nicht stabilisiert. Auch Südkoreas Kospi und der japanische Nikkei verloren jeweils mehr als 5 %. Taiwan und Korea hängen besonders stark an Chipexporten für KI-Rechenzentren, ein Abflauen des Booms trifft dort direkt Wachstum und Steuereinnahmen.",
      "sources": [
       {
-       "name": "ZDFheute, 20.11. 21:48 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/boerse-ki-aktien-verlust-100.html"
+       "name": "Bloomberg, 20.11.",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn"
       },
       {
-       "name": "Euronews, 20.11. 06:48 Uhr",
-       "url": "https://www.euronews.com/2026/11/20/stocks-gold-and-silver-fall-after-blockbuster-anthropic-ipo"
+       "name": "Reuters über Business Recorder, 21.11. (Uhrzeit unklar)",
+       "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment"
+      }
+     ]
+    },
+    {
+     "region": "China",
+     "topic": "Handel",
+     "head": "China-Börsen auf Tief seit Juli 2025, Chip-Konflikt verschärft sich",
+     "text": "Der Shanghai Composite schloss am Freitag 1,2 % tiefer auf dem niedrigsten Stand seit Juli 2025, in der Woche minus 2,8 %; chinesische Chipwerte verloren 3,9 %. Belastet haben Anzeichen, dass Washington die Technologie-Beschränkungen gegen China verschärft, und Berichte, wonach TSMC Aufträge chinesischer Chipentwickler für moderne Fertigung einschränkt. Chinas Außenministerium warnte am Freitag, strengere US-Exportkontrollen gefährdeten die globalen Lieferketten.",
+     "sources": [
+      {
+       "name": "Reuters über Business Recorder, 21.11. (Uhrzeit unklar)",
+       "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment"
       }
      ]
     },
     {
      "region": "DE",
-     "topic": "Unternehmen",
-     "head": "IG Metall streikt erstmals seit acht Jahren 24 Stunden lang",
-     "text": "Am Freitag legten in vielen Teilen Deutschlands Beschäftigte der Metall- und Elektroindustrie ganztägig die Arbeit nieder, darunter Zulieferer in Baden-Württemberg sowie BMW und Audi in Bayern. Die IG Metall fordert 5 % mehr Lohn für zwölf Monate, die Arbeitgeber bieten eine Einmalzahlung und erst 2028 ein Plus von 1,3 %. Bei VW verlangt der Konzern seit Donnerstag sogar Nullrunden für 2027 und 2028 und eine flexible 35-Stunden-Woche ohne Lohnausgleich. Ganztägige Streiks treffen eine Industrie, die ohnehin mit schwacher Nachfrage und Stellenabbau kämpft.",
+     "topic": "Politik",
+     "head": "Bundesrat: Höhere Beitragsgrenzen 2027, Länder zahlen beim Tankrabatt mit",
+     "text": "Der Bundesrat billigte am Freitag die Rechengrößen für 2027: Die Beitragsbemessungsgrenze der Rentenversicherung steigt auf 8.850 Euro im Monat, in der Kranken- und Pflegeversicherung auf 6.375 Euro. Das erhöht die Lohnnebenkosten für Gutverdiener und ihre Arbeitgeber. Über das Finanzausgleichsgesetz erhält der Bund 2026 und 2027 je 625 Millionen Euro mehr Umsatzsteuer, mit denen sich die Länder am Tankrabatt beteiligen; zudem passierte die Frühstartrente mit 10 Euro pro Kind und Monat ab 2027.",
      "sources": [
       {
-       "name": "ZDFheute, 20.11. 08:34 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/warnstreiks-24-stunden-ig-metall-100.html"
+       "name": "Bundesrat, 20.11.",
+       "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/1070-pk.html"
+      }
+     ]
+    },
+    {
+     "region": "Welt",
+     "topic": "Energie",
+     "head": "Ölpreis trotz Hormus-Risiken mit drittem Wochenminus",
+     "text": "Brent schloss am Freitag bei 92,57 Dollar, 0,6 % höher, verlor aber 3,4 % in der Woche. Die Ölflüsse durch die Straße von Hormus erweisen sich als stabiler als befürchtet, und die IEA erwartet für das vierte Quartal ein Überangebot von 1,7 Millionen Barrel pro Tag, im nächsten Jahr sogar rund 3,8 Millionen. Ein starker Dollar drückte zusätzlich; für Verbraucher und Industrie in Europa ist das eine leichte Entlastung.",
+     "sources": [
+      {
+       "name": "WSJ über Yahoo Finance, 20.11. 22:16 Uhr",
+       "url": "https://finance.yahoo.com/energy/articles/oil-prices-retreat-traders-assess-123700195.html"
+      }
+     ]
+    },
+    {
+     "region": "USA",
+     "topic": "Unternehmen",
+     "head": "Bitcoin unter 60.000 Dollar, Krypto-Aktien brechen ein",
+     "text": "Mit dem allgemeinen Ausverkauf fiel Bitcoin am Freitag unter 60.000 Dollar. Coinbase, Strategy und Robinhood verloren zwischen 6,3 und 9,6 %; Strategy ist mit gut 30 % Wochenminus der schwächste Wert im Nasdaq 100. Anleger fliehen breit aus riskanten Anlagen bis hin zu Hochzinsanleihen und Edelmetallen.",
+     "sources": [
+      {
+       "name": "Reuters über Yahoo Finance, 20.11. 22:36 Uhr",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
       },
       {
-       "name": "ZDFheute, 19.11. 15:49 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/unternehmen/volkswagen-nullrunde-100.html"
-      }
-     ]
-    },
-    {
-     "region": "DE",
-     "topic": "Unternehmen",
-     "head": "Bund gibt Widerstand gegen Commerzbank-Übernahme auf",
-     "text": "Schon am Donnerstag erklärte Finanzminister Klingbeil, Bund und Unicredit hätten sich auf einen geordneten Übergang der Kontrolle geeinigt. Die Commerzbank bleibt eine börsennotierte AG mit Sitz in Frankfurt, Unicredit hält knapp 50 %, der Bund gut 13 %. EU-Kommission, Fed und EZB-Aufsicht haben zugestimmt, im ersten Quartal 2027 soll eine Hauptversammlung den Aufsichtsrat neu besetzen. Verdi warnt vor bis zu 15.000 gefährdeten Stellen.",
-     "sources": [
-      {
-       "name": "ZDFheute, 19.11. 12:32 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/commerzbank-uebernahme-unicredit-bundesregierung-100.html"
-      }
-     ]
-    },
-    {
-     "region": "DE",
-     "topic": "Unternehmen",
-     "head": "Neue Vorwürfe gegen die Deutsche Bank im 1MDB-Skandal",
-     "text": "Aus dem Datenleck um die Deutsche Bank wurde am Freitag bekannt, dass die Bank nach internen Warnungen 2015 weiter Überweisungen im Umfeld des malaysischen Staatsfonds 1MDB abwickelte. 1MDB fordert von der Bank mehr als 1,1 Milliarden Dollar, der Prozess soll im Dezember beginnen. Die Bank weist die Vorwürfe zurück. Das Leak mit über 15 Millionen Dokumenten hatte die Aktie schon am Dienstag um bis zu 6 % gedrückt.",
-     "sources": [
-      {
-       "name": "ZDFheute, 20.11. 19:05 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/deutsche-bank-malaysia-1mdb-100.html"
+       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
       }
      ]
     }
@@ -304,44 +327,30 @@
    "name": "Veröffentlichte Zahlen",
    "items": [
     {
-     "head": "Intuit: Quartal stark, Ausblick enttäuscht",
-     "text": "Der Softwarekonzern hinter TurboTax und QuickBooks steigerte den Umsatz im ersten Geschäftsquartal bis Ende Oktober um 12 % auf 4,35 Milliarden Dollar, der Nettogewinn stieg von 446 auf 695 Millionen Dollar. Für das laufende Quartal erwartet Intuit einen bereinigten Gewinn je Aktie von 3,17 bis 3,22 Dollar, Analysten hatten 3,73 Dollar erwartet. Zudem verkauft Intuit Mailchimp für rund 3,7 Milliarden Dollar an Bending Spoons. Die Aktie verlor am Freitag 12,8 %.",
+     "head": "Intuit: Zahlen über Erwartung, aber schwächerer Ausblick und Mailchimp-Verkauf",
+     "text": "Der Software-Konzern meldete am Donnerstagabend für das erste Geschäftsquartal einen Umsatz von 4,354 Milliarden Dollar, 12 % mehr als im Vorjahr und über den Erwartungen; der Gewinn je Aktie stieg auf 2,59 Dollar, bereinigt 2,91 Dollar. Für das Gesamtjahr erwartet Intuit 23,08 bis 23,37 Milliarden Dollar Umsatz, also nur 8 bis 9 % Wachstum, und senkte die Prognose für das Verbrauchergeschäft und Credit Karma. Mailchimp geht für rund 3,68 Milliarden Dollar an Bending Spoons. Die Aktie verlor am Freitag fast 13 %.",
      "sources": [
       {
-       "name": "Intuit-Pressemitteilung über SEC, 19.11.",
+       "name": "Intuit-Pressemitteilung bei der SEC, 19.11.",
        "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000043/fy27q1earningspressrelease.htm"
       },
       {
-       "name": "CNBC, 19.11. 22:29 Uhr",
-       "url": "https://www.cnbc.com/2026/11/19/stocks-moving-the-most-today-live-updates.html"
-      },
-      {
-       "name": "stockanalysis.com, Schluss 20.11.",
-       "url": "https://stockanalysis.com/list/nasdaq-100-stocks/"
+       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
       }
      ]
     },
     {
-     "head": "Ross Stores: Weihnachtsquartal schwächer als erhofft",
-     "text": "Der US-Discounter erwartet für das vierte Quartal einen Gewinn je Aktie von 2,16 bis 2,25 Dollar, Analysten hatten 2,28 Dollar erwartet. Beim vergleichbaren Umsatz rechnet Ross mit 4 bis 5 % Wachstum statt der erwarteten 5,1 %. Die Aktie fiel nachbörslich am Donnerstag um 7 % und schloss am Freitag 2,9 % tiefer.",
+     "head": "Gap: Gewinn deutlich höher, Prognose gesenkt",
+     "text": "Der Modekonzern steigerte im dritten Quartal den Umsatz um 2 % auf 4,011 Milliarden Dollar, vergleichbare Umsätze stagnierten. Der Nettogewinn stieg auf 311 Millionen Dollar nach 236 Millionen, je Aktie 0,86 Dollar, bereinigt 0,82 Dollar. Für das Gesamtjahr erwartet Gap nun nur noch einen etwa stabilen Umsatz statt plus 1 bis 1,5 % und senkte die bereinigte Gewinnprognose auf 2,29 bis 2,34 Dollar je Aktie. Die Aktie stieg am Freitag trotzdem um mehr als 11 %, weil Analysten die Markenentwicklung lobten.",
      "sources": [
       {
-       "name": "CNBC, 19.11. 22:51 Uhr",
-       "url": "https://www.cnbc.com/2026/11/19/stocks-moving-the-most-today-live-updates.html"
-      }
-     ]
-    },
-    {
-     "head": "Gap: Gewinn besser, Jahresumsatz nur noch stabil",
-     "text": "Der Modekonzern verdiente bereinigt 82 Cent je Aktie, erwartet waren 78 Cent, der Umsatz lag mit 4,01 Milliarden Dollar knapp unter der Prognose. Für das Gesamtjahr rechnet Gap nur noch mit einem etwa stabilen Umsatz statt 1 bis 1,5 % Wachstum. Die Aktie gehörte trotzdem am Freitag mit rund 11 % Plus zu den stärksten Werten in einem fallenden Markt.",
-     "sources": [
-      {
-       "name": "CNBC, 19.11. 22:44 Uhr",
-       "url": "https://www.cnbc.com/2026/11/19/stocks-moving-the-most-today-live-updates.html"
+       "name": "Gap-Pressemitteilung bei der SEC, 19.11.",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000039911/000162828026075088/q32026eprexhibit991.htm"
       },
       {
-       "name": "Morningstar, 20.11.",
-       "url": "https://www.morningstar.com/markets/movers"
+       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
       }
      ]
     }
@@ -349,14 +358,13 @@
   }
  ],
  "notes": [
-  "Stand der Ausgabe: Samstag, 21.11.2026, 01:50 Uhr. Kurse: Schluss vom 20.11.2026.",
-  "Nasdaq 100: Der Schlussstand stammt laut Suchergebnis von Nasdaq.com, die Seite selbst war beim Abruf nicht erreichbar. Er passt zur Liste der Einzelwerte von stockanalysis.com.",
-  "S&P 500: Die Schlusswerte weichen je nach Quelle ab, 6.924,67 Punkte und minus 3,5 % laut Reuters-Text auf investing.com, andere nennen 6.910 Punkte und minus 3,7 %.",
-  "MSCI World: Der Wert von onvista hat keinen eindeutigen Datumsstempel, der Vortagesschluss vom 19.11. passt aber. Shanghai und Taiex nur über Trading Economics belegt, dort beruhen die Kurse auf Daten Dritter. Für Shanghai, MSCI World und Taiex keine Gewinner-Verlierer-Liste.",
-  "Euro Stoxx 50: Die Liste von finanzen.at nennt nur zwei Gewinner und führt ASML nicht auf. ASML mit minus 9,3 % ist aus dem dpa-AFX-Schlussbericht ergänzt. Die finanzen.at-Meldung nennt für den Index minus 2,64 %, der dpa-AFX-Schluss minus 2,81 %.",
-  "Nasdaq 100: Für die einzelnen Gewinner und Verlierer nennt keine seriöse Quelle einen konkreten Grund. CNN spricht allgemein von einer Umschichtung aus Tech in defensive Branchen.",
-  "Anthropic: Die Angaben zum Schlusskurs weichen ab, finanzen.net nennt zwischenzeitlich 87,60 Dollar und knapp minus 10 %. Hier gilt der Reuters-Wert von minus 8,5 %.",
-  "Nur eine Quelle: Ölmeldung nur CNBC, Commerzbank und Deutsche Bank nur ZDFheute, Ross Stores nur CNBC ohne Umsatz- und Gewinnzahlen. Die Uhrzeiten der CNBC-Einträge vom 19.11. sind von US-Ostküstenzeit umgerechnet.",
-  "Nicht gefunden: eine neue Gesetzes- oder Regulierungsmeldung aus Berlin oder Brüssel vom Freitag sowie die endgültige Verbraucherstimmung der Uni Michigan für November. Nicht aufgenommen, weil älter als 48 Stunden: die Fusion von DPD und GLS vom 18.11. und die Tesla-Investition in Grünheide vom 16.11."
+  "Stand der Ausgabe: 21.11.2026, 06:51 Uhr deutscher Zeit. Kurse: Schluss vom 20.11.2026.",
+  "MSCI World: nur indikativer Stand von 21:34 Uhr gefunden, kein bestätigter Schlusskurs.",
+  "Shanghai: Schlussstand nicht aus einer erlaubten Quelle belegt; Reuters nennt nur das Minus von 1,2 %. Trading Economics gibt 3.533,79 Punkte an.",
+  "Stärkste Bewegung Taiex: Tagesminus je nach Quelle 6,2 bis 6,6 %, Schlussstand 36.033,29 nur bei 24/7 Wall St gefunden, daher nicht übernommen. Kospi −5,2 % und Nikkei −5,1 % ebenfalls nur schwach belegt.",
+  "Euro Stoxx 50: finanzen.at nennt im Text 5.952,45 Punkte und −2,64 %, im Kopf 5.941,95 und −2,81 %; übernommen ist der dpa-AFX-Schlusswert. Gewinnerliste nur mit zwei Werten gefunden.",
+  "Nasdaq 100: Sandisk erscheint bei finanzen.net mit −89,51 %, vermutlich ein Datenfehler; dpa-AFX nennt −16 %. Deshalb nicht in der Verliererliste.",
+  "Bei Gewinnern im DAX und Nasdaq 100 nennt keine seriöse Quelle Einzelgründe; allgemein flüchteten Anleger in defensive Werte.",
+  "Die Einigung von Bund und Unicredit zur Commerzbank (Donnerstag, 19.11.) und die Stromsteuer-Einigung (Mittwoch, 18.11.) sind nicht neu und fehlen deshalb."
  ]
 }
