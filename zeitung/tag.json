@@ -1,27 +1,27 @@
 {
  "kind": "tag",
- "dateLabel": "Samstag, 21. November 2026",
- "updatedAt": "2026-11-21T05:51:25Z",
+ "dateLabel": "Sonntag, 22. November 2026",
+ "updatedAt": "2026-11-22T05:50:42Z",
  "top": [
   {
-   "head": "KI-Ausverkauf eskaliert:",
-   "text": "Der Nasdaq 100 fiel am Freitag um 5,61 %, S&P 500 und Dow sind nun mehr als 10 % unter ihren Rekorden und damit offiziell in der Korrektur. Der Nasdaq 100 hat die schwächste Woche seit 2020 hinter sich und liegt rund 20 % unter dem Hoch von Anfang Oktober."
+   "head": "Hormus eskaliert erneut:",
+   "text": "Am Samstag wurden mindestens drei Tanker in oder nahe der Straße von Hormus getroffen, und Iran will mit mehr als 14 Tankern die US-Blockade seiner Häfen durchbrechen. Für den Ölpreis droht zum Wochenstart ein neuer Risikoaufschlag."
   },
   {
-   "head": "Nvidia unter Bilanz-Verdacht:",
-   "text": "Laut Reuters prüft die US-Börsenaufsicht SEC die Bilanzierung des Chipkonzerns. Die Aktie verlor am Freitag 14 %, in der Woche fast 23 %, das ist der schlimmste Wochenverlust seit 2008."
+   "head": "EU plant Digitalsteuer für Big Tech:",
+   "text": "Ratspräsident Costa schlug am Samstag 3 % auf Online-Werbe- und Plattformumsätze großer Konzerne vor, um den Haushalt 2028 bis 2034 zu finanzieren. Merz nennt den Entwurf einen ersten Schritt, aber noch zu teuer für Deutschland."
   },
   {
-   "head": "DAX bricht unter 25.000 Punkte:",
-   "text": "Minus 2,6 % am Freitag, mehr als 7 % in der Woche, nur eine Woche nach dem Rekord bei knapp 27.002 Punkten. Der Euro Stoxx 50 fiel auf den tiefsten Stand seit Mai."
+   "head": "Spritpreisdeckel mit Ausnahme:",
+   "text": "Wirtschaftsministerin Reiche will Autobahntankstellen vom geplanten Höchstpreis für Benzin und Diesel ausnehmen. Das Kabinett soll am 2. Dezember entscheiden, der Deckel soll ab 1. Januar den Tankrabatt ablösen."
   },
   {
-   "head": "Asien im freien Fall:",
-   "text": "Taiwans Leitindex erlebte am Freitag die schlechteste Woche seit 1991 mit einem Minus von fast 18 %, Kospi und Nikkei verloren am Freitag jeweils mehr als 5 %."
+   "head": "EU und Indonesien besiegeln Freihandel:",
+   "text": "Das am Samstag unterzeichnete Abkommen streicht Zölle auf bis zu 98,5 % der Waren und öffnet den Zugang zu Nickel und Kobalt für Batterien. Europäische Autobauer profitieren am stärksten."
   },
   {
-   "head": "Fed vor Zinserhöhung:",
-   "text": "Die Märkte preisen eine fast sichere Anhebung um 0,25 Prozentpunkte im Dezember ein. Fed-Gouverneurin Cook sagte am Freitag, der Leitzins sei nicht hoch genug, um die Inflation zu bremsen; das nimmt den Aktienmärkten den Rettungsanker."
+   "head": "Bayer räumt Glyphosat-Risiko weitgehend ab:",
+   "text": "Ein US-Richter hat am Freitag den Sammelvergleich über bis zu 7,25 Milliarden Dollar endgültig genehmigt. Ein Einspruch ist noch möglich und würde die Zahlungen stoppen."
   }
  ],
  "markets": {
@@ -198,159 +198,90 @@
    "name": "Meldungen",
    "items": [
     {
-     "region": "USA",
-     "topic": "Regulierung",
-     "head": "SEC nimmt Nvidias Bilanzierung ins Visier",
-     "text": "Nach einem Reuters-Bericht vom Freitag prüfen Ermittler der US-Börsenaufsicht die Rechnungslegung von Nvidia; welche Praktiken genau, ist offen, weder SEC noch Nvidia äußerten sich. Die Aktie fiel am Freitag um 14 % auf rund 125 Dollar, den tiefsten Stand seit Mai 2025, und hat sich seit Anfang Oktober fast halbiert. Dazu kommt Druck aus dem Kongress wegen Chipexporten nach China, und seit dem Rücktritt von Jensen Huang am 12.11. führt nur eine Interims-Chefin. Für den gesamten KI-Sektor ist das ein Vertrauensschock, weil Nvidia als Taktgeber der Investitionswelle gilt.",
+     "region": "Welt",
+     "topic": "Konflikt",
+     "head": "Drei Tanker bei Hormus getroffen, Iran droht mit Bruch der US-Blockade",
+     "text": "Am Samstag wurden laut britischer Seesicherheitsbehörde zwei Tanker beim Verlassen des Persischen Golfs von Geschossen getroffen, ein dritter lief nach iranischen Angaben auf eine Seemine und geriet in Brand. Zugleich liegen laut Euronews mehr als 14 iranische Tanker vor der Insel Charg bereit, um die US-Seeblockade in Richtung China zu durchbrechen; Teheran droht für den Fall eines US-Eingreifens mit Angriffen auf die Energieinfrastruktur am Golf. Iran meldete außerdem Angriffe auf US-Stützpunkte in Bahrain, die weder Bahrain noch die USA bestätigten. Für Öl und Tankerversicherungen ist das die schärfste Lage seit Wochen; Ölpreise werden erst ab Sonntagabend wieder gehandelt.",
      "sources": [
       {
-       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
+       "name": "AP über Daily Enterprise, 21.11.",
+       "url": "https://www.dailygazette.com/ade/ap/national/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_cd62a8e8-e2b9-5097-a4ab-3b3788fb888d.html"
       },
       {
-       "name": "Reuters über Yahoo Finance, 20.11.",
-       "url": "https://finance.yahoo.com/technology/articles/nvidia-accounting-practices-focus-probe-194532555.html"
+       "name": "Euronews, 21.11. 22:32 Uhr",
+       "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
       }
      ]
     },
     {
-     "region": "USA",
-     "topic": "Zinsen",
-     "head": "Fed-Zinserhöhung im Dezember gilt als nahezu sicher",
-     "text": "Fed-Gouverneurin Lisa Cook sagte am Freitag, der Leitzins sei nicht hoch genug, um die Inflation in den Griff zu bekommen. Laut CME FedWatch rechnen die Märkte fast sicher mit einer Anhebung um 0,25 Prozentpunkte im Dezember; die Oktober-Inflation war höher als erwartet, nächste Woche kommen die PCE-Preisdaten. Steigende Zinsen treffen hoch bewertete Techwerte besonders hart und verteuern Kredite für Unternehmen und Verbraucher.",
+     "region": "EU",
+     "topic": "Regulierung",
+     "head": "EU-Haushalt: Costa will Digitalsteuer und weitere Kürzungen",
+     "text": "EU-Ratspräsident Costa hat am Samstag einen neuen Entwurf für den Haushalt 2028 bis 2034 vorgelegt: 1,582 Billionen Euro, rund 180 Milliarden weniger als der ursprüngliche Kommissionsvorschlag. Gekürzt wird vor allem beim Wettbewerbsfonds, bei Verteidigung und Außenhilfe, Agrar- und Kohäsionsmittel bleiben weitgehend geschont. Neu ist eine Steuer von 3 % auf Umsätze mit Online-Werbung, Plattformdiensten und Nutzerdaten für Konzerne mit mehr als 50 Millionen Euro EU-Umsatz und 750 Millionen weltweit, geschätzt rund 5 Milliarden Euro pro Jahr; sie träfe vor allem US-Techkonzerne und birgt das Risiko von US-Vergeltung. Merz hält den Entwurf für zu hoch, Frankreich und das EU-Parlament lehnen ihn ab; der Sondergipfel folgt am 26. und 27. November.",
      "sources": [
       {
-       "name": "Reuters über Yahoo Finance, 20.11. 22:36 Uhr",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
+       "name": "Reuters über WHBL, 21.11.",
+       "url": "https://whbl.com/2026/11/21/eu-leaders-chair-proposes-new-cuts-to-eu-2028-2034-budget-draft-suggests-digital-tax/"
+      },
+      {
+       "name": "Euronews, 21.11. 13:29 Uhr",
+       "url": "https://euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock"
       }
      ]
     },
     {
      "region": "DE",
-     "topic": "Konjunktur",
-     "head": "IG Metall startet erste 24-Stunden-Streiks seit acht Jahren",
-     "text": "Seit Donnerstag und am Freitag legten Tausende Beschäftigte in fast ganz Deutschland für einen ganzen Tag die Arbeit nieder, darunter Werften im Norden, Zulieferer in Baden-Württemberg sowie die BMW- und Audi-Werke in Bayern. Die Gewerkschaft fordert 5 % mehr Lohn bei zwölf Monaten Laufzeit, die Arbeitgeber bieten eine Einmalzahlung und 1,3 % erst 2028. Ein Termin für eine vierte Runde fehlt, für Anfang nächster Woche sind weitere Streiks angekündigt; das kostet die ohnehin schwache Industrie Produktion.",
+     "topic": "Regulierung",
+     "head": "Spritpreisdeckel: Reiche will Autobahntankstellen ausnehmen",
+     "text": "Laut einem neuen Entwurf, über den das Handelsblatt am Samstag berichtete, soll der geplante Höchstpreis für Benzin und Diesel nicht an Autobahntankstellen gelten, wohl aber an Autohöfen. Das Ministerium begründet das mit höheren Pachten und der Pflicht zum Rund-um-die-Uhr-Betrieb; die Länder sollen bei abweichenden Beschaffungs- und Transportkosten vom bundesweiten Deckel abweichen dürfen. Das Kabinett soll am 2. Dezember entscheiden, ab 1. Januar soll der Deckel den Tankrabatt ersetzen. Das Ministerium selbst hält einkommensabhängige Direktzahlungen für besser und warnt, ein zu niedriger Deckel könne die Versorgung gefährden.",
      "sources": [
       {
-       "name": "ZDFheute, 20.11. 08:34 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/warnstreiks-24-stunden-ig-metall-100.html"
+       "name": "ZDFheute, 21.11. 14:18 Uhr",
+       "url": "https://www.zdfheute.de/politik/deutschland/reiche-preisdeckel-ausnahme-autobahntankstellen-100.html"
+      },
+      {
+       "name": "dpa-AFX über finanzen.net, 21.11. 16:54 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen-16079899"
+      }
+     ]
+    },
+    {
+     "region": "EU",
+     "topic": "Handel",
+     "head": "EU und Indonesien unterzeichnen Freihandelsabkommen",
+     "text": "Nach fast zehn Jahren Verhandlungen haben die EU und Indonesien am Samstag in Brüssel ein Freihandels- und ein Investitionsschutzabkommen unterzeichnet. Zölle auf bis zu 98,5 % der Warengruppen sollen fallen, Indonesiens Einfuhrzölle von bis zu 50 % auf europäische Autos binnen fünf Jahren. Die Kommission rechnet mit rund 600 Millionen Euro Zollersparnis pro Jahr für EU-Exporteure; zudem verbietet das Abkommen Exportmonopole bei Rohstoffen wie Nickel und Kobalt. Das EU-Parlament muss noch zustimmen, vorläufig gelten soll es ab Anfang 2027.",
+     "sources": [
+      {
+       "name": "dpa-AFX über onvista, 21.11. 13:24 Uhr",
+       "url": "https://onvista.de/news/2026/11-21-eu-und-indonesien-unterzeichnen-weitreichenden-handelsdeal-0-10-26579059"
       }
      ]
     },
     {
      "region": "USA",
      "topic": "Unternehmen",
-     "head": "Anthropic verliert am zweiten Börsentag 9 %",
-     "text": "Nach dem Plus von 17 % beim Debüt am Donnerstag fiel die Aktie des KI-Entwicklers am Freitag um rund 9 % auf 88,91 Dollar, liegt aber noch über dem Ausgabepreis von 83 Dollar. Der größte Börsengang des Jahres sollte dem KI-Handel neuen Schwung geben, hat die Sorgen über hohe Bewertungen und Milliardenausgaben aber nicht zerstreut. Für weitere geplante KI-Börsengänge ist das ein schlechtes Signal.",
+     "head": "Bayer: Glyphosat-Vergleich über 7,25 Milliarden Dollar endgültig genehmigt",
+     "text": "Richter Timothy Boyer in Missouri hat am Freitag den Sammelvergleich zu Roundup-Krebsklagen als fair gebilligt; die Meldung kam erst nach Börsenschluss in Europa. Bayer zahlt über bis zu 21 Jahre bis zu 7,25 Milliarden Dollar, Betroffene erhalten je nach Fall 10.000 bis 165.000 Dollar, auch künftige Erkrankungen sind abgedeckt. Zusammen mit dem Supreme-Court-Urteil vom Juni ist das größte Rechtsrisiko des Konzerns damit weitgehend begrenzt. Offen bleibt, ob Kläger Berufung einlegen; dann würden weitere Einzahlungen in den Fonds bis zur Entscheidung ruhen.",
      "sources": [
       {
-       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
+       "name": "ZDFheute, 21.11. 10:30 Uhr",
+       "url": "https://www.zdfheute.de/wirtschaft/unternehmen/bayer-glyphosat-sammelvergleich-usa-richter-100.html"
       },
       {
-       "name": "Reuters über Yahoo Finance, 20.11. 22:36 Uhr",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
-      }
-     ]
-    },
-    {
-     "region": "Welt",
-     "topic": "Konjunktur",
-     "head": "Asiens Chipbörsen mit historischem Einbruch",
-     "text": "Taiwans Leitindex fiel am Freitag um mehr als 6 % und verlor in der Woche fast 18 %, so viel wie seit 1991 nicht mehr; zweimal verschärfte Leerverkaufsregeln in diesem Monat haben den Markt nicht stabilisiert. Auch Südkoreas Kospi und der japanische Nikkei verloren jeweils mehr als 5 %. Taiwan und Korea hängen besonders stark an Chipexporten für KI-Rechenzentren, ein Abflauen des Booms trifft dort direkt Wachstum und Steuereinnahmen.",
-     "sources": [
-      {
-       "name": "Bloomberg, 20.11.",
-       "url": "https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn"
-      },
-      {
-       "name": "Reuters über Business Recorder, 21.11. (Uhrzeit unklar)",
-       "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment"
+       "name": "NPR über OPB, 21.11. (US-Ortszeit)",
+       "url": "https://www.opb.org/article/2026/11/21/bayer-agrees-to-pay-roundup-claims-in-settlement-that-could-cost-billions/"
       }
      ]
     },
     {
      "region": "China",
-     "topic": "Handel",
-     "head": "China-Börsen auf Tief seit Juli 2025, Chip-Konflikt verschärft sich",
-     "text": "Der Shanghai Composite schloss am Freitag 1,2 % tiefer auf dem niedrigsten Stand seit Juli 2025, in der Woche minus 2,8 %; chinesische Chipwerte verloren 3,9 %. Belastet haben Anzeichen, dass Washington die Technologie-Beschränkungen gegen China verschärft, und Berichte, wonach TSMC Aufträge chinesischer Chipentwickler für moderne Fertigung einschränkt. Chinas Außenministerium warnte am Freitag, strengere US-Exportkontrollen gefährdeten die globalen Lieferketten.",
+     "topic": "Konjunktur",
+     "head": "Chinas Hauspreise fallen weiter, aber langsamer",
+     "text": "Neue Wohnungen in China waren im Oktober 0,1 % billiger als im Vormonat und 2,4 % billiger als vor einem Jahr, nach 2,8 % im September; das ist der langsamste Rückgang seit fast einem Jahr, wie Reuters am Sonntag aus Daten der Statistikbehörde berechnete. Immobilieninvestitionen, Verkäufe und Baubeginne liegen in den ersten zehn Monaten aber jeweils zweistellig im Minus. Die Krise belastet weiter Konsum, Vertrauen und die Einnahmen der Lokalregierungen, eine Wende ist nicht in Sicht.",
      "sources": [
       {
-       "name": "Reuters über Business Recorder, 21.11. (Uhrzeit unklar)",
-       "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment"
-      }
-     ]
-    },
-    {
-     "region": "DE",
-     "topic": "Politik",
-     "head": "Bundesrat: Höhere Beitragsgrenzen 2027, Länder zahlen beim Tankrabatt mit",
-     "text": "Der Bundesrat billigte am Freitag die Rechengrößen für 2027: Die Beitragsbemessungsgrenze der Rentenversicherung steigt auf 8.850 Euro im Monat, in der Kranken- und Pflegeversicherung auf 6.375 Euro. Das erhöht die Lohnnebenkosten für Gutverdiener und ihre Arbeitgeber. Über das Finanzausgleichsgesetz erhält der Bund 2026 und 2027 je 625 Millionen Euro mehr Umsatzsteuer, mit denen sich die Länder am Tankrabatt beteiligen; zudem passierte die Frühstartrente mit 10 Euro pro Kind und Monat ab 2027.",
-     "sources": [
-      {
-       "name": "Bundesrat, 20.11.",
-       "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/1070-pk.html"
-      }
-     ]
-    },
-    {
-     "region": "Welt",
-     "topic": "Energie",
-     "head": "Ölpreis trotz Hormus-Risiken mit drittem Wochenminus",
-     "text": "Brent schloss am Freitag bei 92,57 Dollar, 0,6 % höher, verlor aber 3,4 % in der Woche. Die Ölflüsse durch die Straße von Hormus erweisen sich als stabiler als befürchtet, und die IEA erwartet für das vierte Quartal ein Überangebot von 1,7 Millionen Barrel pro Tag, im nächsten Jahr sogar rund 3,8 Millionen. Ein starker Dollar drückte zusätzlich; für Verbraucher und Industrie in Europa ist das eine leichte Entlastung.",
-     "sources": [
-      {
-       "name": "WSJ über Yahoo Finance, 20.11. 22:16 Uhr",
-       "url": "https://finance.yahoo.com/energy/articles/oil-prices-retreat-traders-assess-123700195.html"
-      }
-     ]
-    },
-    {
-     "region": "USA",
-     "topic": "Unternehmen",
-     "head": "Bitcoin unter 60.000 Dollar, Krypto-Aktien brechen ein",
-     "text": "Mit dem allgemeinen Ausverkauf fiel Bitcoin am Freitag unter 60.000 Dollar. Coinbase, Strategy und Robinhood verloren zwischen 6,3 und 9,6 %; Strategy ist mit gut 30 % Wochenminus der schwächste Wert im Nasdaq 100. Anleger fliehen breit aus riskanten Anlagen bis hin zu Hochzinsanleihen und Edelmetallen.",
-     "sources": [
-      {
-       "name": "Reuters über Yahoo Finance, 20.11. 22:36 Uhr",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
-      },
-      {
-       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Veröffentlichte Zahlen",
-   "items": [
-    {
-     "head": "Intuit: Zahlen über Erwartung, aber schwächerer Ausblick und Mailchimp-Verkauf",
-     "text": "Der Software-Konzern meldete am Donnerstagabend für das erste Geschäftsquartal einen Umsatz von 4,354 Milliarden Dollar, 12 % mehr als im Vorjahr und über den Erwartungen; der Gewinn je Aktie stieg auf 2,59 Dollar, bereinigt 2,91 Dollar. Für das Gesamtjahr erwartet Intuit 23,08 bis 23,37 Milliarden Dollar Umsatz, also nur 8 bis 9 % Wachstum, und senkte die Prognose für das Verbrauchergeschäft und Credit Karma. Mailchimp geht für rund 3,68 Milliarden Dollar an Bending Spoons. Die Aktie verlor am Freitag fast 13 %.",
-     "sources": [
-      {
-       "name": "Intuit-Pressemitteilung bei der SEC, 19.11.",
-       "url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000043/fy27q1earningspressrelease.htm"
-      },
-      {
-       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
-      }
-     ]
-    },
-    {
-     "head": "Gap: Gewinn deutlich höher, Prognose gesenkt",
-     "text": "Der Modekonzern steigerte im dritten Quartal den Umsatz um 2 % auf 4,011 Milliarden Dollar, vergleichbare Umsätze stagnierten. Der Nettogewinn stieg auf 311 Millionen Dollar nach 236 Millionen, je Aktie 0,86 Dollar, bereinigt 0,82 Dollar. Für das Gesamtjahr erwartet Gap nun nur noch einen etwa stabilen Umsatz statt plus 1 bis 1,5 % und senkte die bereinigte Gewinnprognose auf 2,29 bis 2,34 Dollar je Aktie. Die Aktie stieg am Freitag trotzdem um mehr als 11 %, weil Analysten die Markenentwicklung lobten.",
-     "sources": [
-      {
-       "name": "Gap-Pressemitteilung bei der SEC, 19.11.",
-       "url": "https://www.sec.gov/Archives/edgar/data/0000039911/000162828026075088/q32026eprexhibit991.htm"
-      },
-      {
-       "name": "dpa-AFX über finanzen.net, 20.11. 22:40 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/roundup-aktien-new-york-schluss-beschleunigter-ausverkauf-auf-breiter-front-16079413"
+       "name": "Reuters über Business Recorder, 22.11. (Uhrzeit unklar)",
+       "url": "https://www.brecorder.com/news/40450147/chinas-new-home-prices-fall-again-in-oct"
       }
      ]
     }
@@ -358,13 +289,12 @@
   }
  ],
  "notes": [
-  "Stand der Ausgabe: 21.11.2026, 06:51 Uhr deutscher Zeit. Kurse: Schluss vom 20.11.2026.",
-  "MSCI World: nur indikativer Stand von 21:34 Uhr gefunden, kein bestätigter Schlusskurs.",
-  "Shanghai: Schlussstand nicht aus einer erlaubten Quelle belegt; Reuters nennt nur das Minus von 1,2 %. Trading Economics gibt 3.533,79 Punkte an.",
-  "Stärkste Bewegung Taiex: Tagesminus je nach Quelle 6,2 bis 6,6 %, Schlussstand 36.033,29 nur bei 24/7 Wall St gefunden, daher nicht übernommen. Kospi −5,2 % und Nikkei −5,1 % ebenfalls nur schwach belegt.",
-  "Euro Stoxx 50: finanzen.at nennt im Text 5.952,45 Punkte und −2,64 %, im Kopf 5.941,95 und −2,81 %; übernommen ist der dpa-AFX-Schlusswert. Gewinnerliste nur mit zwei Werten gefunden.",
-  "Nasdaq 100: Sandisk erscheint bei finanzen.net mit −89,51 %, vermutlich ein Datenfehler; dpa-AFX nennt −16 %. Deshalb nicht in der Verliererliste.",
-  "Bei Gewinnern im DAX und Nasdaq 100 nennt keine seriöse Quelle Einzelgründe; allgemein flüchteten Anleger in defensive Werte.",
-  "Die Einigung von Bund und Unicredit zur Commerzbank (Donnerstag, 19.11.) und die Stromsteuer-Einigung (Mittwoch, 18.11.) sind nicht neu und fehlen deshalb."
+  "Stand der Ausgabe: 22.11.2026, 06:50 Uhr deutscher Zeit. Kurse: Schluss vom 20.11.2026.",
+  "Heute ist Sonntag, daher gab es seit der Samstagsausgabe keinen Börsenhandel. Die Kurskästen samt Gewinnern und Verlierern sind unverändert vom Freitagsschluss übernommen, mit denselben Lücken wie gestern: MSCI World nur indikativ, Shanghai-Schlussstand und Taiex-Werte nicht aus erlaubter Quelle belegt.",
+  "Diese Ausgabe ist kurz, weil am Wochenende wenig Neues kam. Es gibt keine neuen Quartalszahlen, deshalb fehlt der Abschnitt dazu.",
+  "Bitcoin fiel am Samstag zeitweise auf rund 55.000 Dollar, das Tief seit September 2024, und erholte sich danach auf etwa 60.000. Das ist nur in Krypto-Fachmedien belegt, deshalb keine eigene Meldung.",
+  "COP31 in Antalya: Laut Reuters lag am Sonntagmorgen ein Kompromisstext vor, die Verabschiedung war für 07:00 Uhr deutscher Zeit angesetzt. Ein Ergebnis war bei Redaktionsschluss nicht bestätigt, deshalb keine Meldung.",
+  "Bei den EU-Haushaltszahlen nennen Quellen unterschiedliche Größen: Reuters 1,582 Billionen Euro, Euronews 1,78 Billionen, vermutlich in anderer Preisbasis. Übernommen ist die Reuters-Zahl.",
+  "Lufthansa streicht 1.000 Stellen an den Drehkreuzen: Das wurde schon am Donnerstag, 19.11., bekannt und ist deshalb nicht dabei."
  ]
 }
