@@ -1,197 +1,197 @@
 {
  "kind": "tag",
- "dateLabel": "Sonntag, 22. November 2026",
- "updatedAt": "2026-11-22T05:50:42Z",
+ "dateLabel": "Montag, 23. November 2026",
+ "updatedAt": "2026-11-23T05:51:51Z",
  "top": [
   {
-   "head": "Hormus eskaliert erneut:",
-   "text": "Am Samstag wurden mindestens drei Tanker in oder nahe der Straße von Hormus getroffen, und Iran will mit mehr als 14 Tankern die US-Blockade seiner Häfen durchbrechen. Für den Ölpreis droht zum Wochenstart ein neuer Risikoaufschlag."
+   "head": "Asien rutscht weiter ab:",
+   "text": "Der Kospi fiel am Montag um rund 5 %, Seoul droht mit Stabilisierungsfonds, Taiwan schränkt nach dem Taiex-Absturz um 6,23 % am Freitag Leerverkäufe ein."
   },
   {
-   "head": "EU plant Digitalsteuer für Big Tech:",
-   "text": "Ratspräsident Costa schlug am Samstag 3 % auf Online-Werbe- und Plattformumsätze großer Konzerne vor, um den Haushalt 2028 bis 2034 zu finanzieren. Merz nennt den Entwurf einen ersten Schritt, aber noch zu teuer für Deutschland."
+   "head": "Trump droht mit Strafsteuer auf Rechenzentren im Ausland:",
+   "text": "US-Konzerne sollen laut seiner Ankündigung vom Freitag keine Rechenzentren mehr außerhalb der USA bauen; Details fehlen, betroffen wären Alphabet, Amazon, Microsoft, Meta und Oracle."
   },
   {
-   "head": "Spritpreisdeckel mit Ausnahme:",
-   "text": "Wirtschaftsministerin Reiche will Autobahntankstellen vom geplanten Höchstpreis für Benzin und Diesel ausnehmen. Das Kabinett soll am 2. Dezember entscheiden, der Deckel soll ab 1. Januar den Tankrabatt ablösen."
+   "head": "Hormus wird gefährlicher:",
+   "text": "Am Sonntagabend meldete UKMTO einen Tanker-Zwischenfall mit Militär an der US-Blockadelinie, Iran droht mit Angriffen auf Golf-Energieanlagen; Brent bleibt wegen des Überangebots bei rund 92 Dollar."
   },
   {
-   "head": "EU und Indonesien besiegeln Freihandel:",
-   "text": "Das am Samstag unterzeichnete Abkommen streicht Zölle auf bis zu 98,5 % der Waren und öffnet den Zugang zu Nickel und Kobalt für Batterien. Europäische Autobauer profitieren am stärksten."
+   "head": "US-Futures drehen ins Plus:",
+   "text": "S&P 500 und Nasdaq 100 lagen am Montagmorgen rund 2 bis 2,8 % höher; entscheidend wird der PCE-Preisindex am Mittwoch vor der Fed-Sitzung am 9. Dezember."
   },
   {
-   "head": "Bayer räumt Glyphosat-Risiko weitgehend ab:",
-   "text": "Ein US-Richter hat am Freitag den Sammelvergleich über bis zu 7,25 Milliarden Dollar endgültig genehmigt. Ein Einspruch ist noch möglich und würde die Zahlungen stoppen."
+   "head": "CrowdStrike will Zscaler kaufen:",
+   "text": "Die Gespräche über einen der größten Cybersecurity-Deals wurden am Freitagabend bekannt; Zscaler stieg nachbörslich um 17 %, CrowdStrike fiel um 8 %."
   }
  ],
  "markets": {
+  "comment": "Der Ausverkauf bei KI- und Chipwerten hat am Freitag alle großen Indizes erfasst: Ermittlungen gegen Nvidia, ein schwacher zweiter Börsentag von Anthropic und die Aussicht auf eine Fed-Zinserhöhung im Dezember trieben Anleger in defensive Werte. Am Montagmorgen fiel der Kospi in Seoul um rund 5 %, die US-Futures lagen dagegen rund 2 % im Plus.",
   "rows": [
    {
-    "name": "DAX",
-    "value": "24.802,78",
     "change": "−2,60 %",
-    "note": "20.11., Xetra-Schluss",
-    "srcName": "dpa-AFX über MarketScreener, 20.11. 17:49 Uhr",
-    "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622",
     "movers": {
-     "note": "Xetra-Schluss 20.11.",
-     "srcName": "dpa-AFX über MarketScreener und finanzen.at, 20.11.",
-     "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622",
-     "up": [
-      {
-       "name": "Fresenius Medical Care",
-       "change": "+2,40 %"
-      },
-      {
-       "name": "Hannover Rück",
-       "change": "+1,73 %"
-      },
-      {
-       "name": "Deutsche Telekom",
-       "change": "+1,15 %"
-      },
-      {
-       "name": "Munich Re",
-       "change": "+0,90 %"
-      },
-      {
-       "name": "Vonovia",
-       "change": "+0,54 %"
-      }
-     ],
      "down": [
       {
-       "name": "Scout24",
        "change": "−8,03 %",
+       "name": "Scout24",
        "why": "JPMorgan strich die Kaufempfehlung, weil KI margenstarke Werbeerlöse gefährden könnte."
       },
       {
-       "name": "Infineon",
        "change": "−7,91 %",
+       "name": "Infineon",
        "why": "Mitgerissen vom Ausverkauf bei Chip- und Techwerten."
       },
       {
-       "name": "Siemens Energy",
        "change": "−6,61 %",
+       "name": "Siemens Energy",
        "why": "Belastet vom Druck auf den Technologiesektor."
       }
-     ]
-    }
+     ],
+     "note": "Xetra-Schluss 20.11.",
+     "srcName": "dpa-AFX über MarketScreener und finanzen.at, 20.11.",
+     "up": [
+      {
+       "change": "+2,40 %",
+       "name": "Fresenius Medical Care"
+      },
+      {
+       "change": "+1,73 %",
+       "name": "Hannover Rück"
+      },
+      {
+       "change": "+1,15 %",
+       "name": "Deutsche Telekom"
+      },
+      {
+       "change": "+0,90 %",
+       "name": "Munich Re"
+      },
+      {
+       "change": "+0,54 %",
+       "name": "Vonovia"
+      }
+     ],
+     "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622"
+    },
+    "name": "DAX",
+    "note": "20.11., Xetra-Schluss",
+    "srcName": "dpa-AFX über MarketScreener, 20.11. 17:49 Uhr",
+    "url": "https://de.marketscreener.com/boerse-nachrichten/aktien-frankfurt-schluss-dax-faellt-unter-25-000-punkte-schwache-tech-werte-ce785ed3da80f622",
+    "value": "24.802,78"
    },
    {
-    "name": "Euro Stoxx 50",
-    "value": "5.941,95",
     "change": "−2,81 %",
+    "movers": {
+     "down": [
+      {
+       "change": "−7,91 %",
+       "name": "Infineon",
+       "why": "Mitgerissen vom Ausverkauf bei Chip- und Techwerten."
+      },
+      {
+       "change": "−6,61 %",
+       "name": "Siemens Energy"
+      },
+      {
+       "change": "−4,59 %",
+       "name": "Siemens"
+      }
+     ],
+     "note": "Schluss 20.11.",
+     "srcName": "finanzen.at, 20.11.",
+     "up": [
+      {
+       "change": "+1,15 %",
+       "name": "Deutsche Telekom"
+      },
+      {
+       "change": "+0,90 %",
+       "name": "Munich Re"
+      }
+     ],
+     "url": "https://www.finanzen.at/nachrichten/aktien/anleger-in-europa-halten-sich-zurueck-euro-stoxx-50-zeigt-sich-schlussendlich-schwacher-1036788506"
+    },
+    "name": "Euro Stoxx 50",
     "note": "20.11., Schluss",
     "srcName": "dpa-AFX über onvista, 20.11. 16:56 Uhr",
     "url": "https://www.onvista.de/news/2026/11-20-aktien-europa-schluss-erneut-tech-ausverkauf-eurostoxx-tief-seit-mai-0-10-26578958",
-    "movers": {
-     "note": "Schluss 20.11.",
-     "srcName": "finanzen.at, 20.11.",
-     "url": "https://www.finanzen.at/nachrichten/aktien/anleger-in-europa-halten-sich-zurueck-euro-stoxx-50-zeigt-sich-schlussendlich-schwacher-1036788506",
-     "up": [
-      {
-       "name": "Deutsche Telekom",
-       "change": "+1,15 %"
-      },
-      {
-       "name": "Munich Re",
-       "change": "+0,90 %"
-      }
-     ],
-     "down": [
-      {
-       "name": "Infineon",
-       "change": "−7,91 %",
-       "why": "Mitgerissen vom Ausverkauf bei Chip- und Techwerten."
-      },
-      {
-       "name": "Siemens Energy",
-       "change": "−6,61 %"
-      },
-      {
-       "name": "Siemens",
-       "change": "−4,59 %"
-      }
-     ]
-    }
+    "value": "5.941,95"
    },
    {
-    "name": "Nasdaq 100",
-    "value": "25.028,98",
     "change": "−5,61 %",
+    "movers": {
+     "down": [
+      {
+       "change": "−16,08 %",
+       "name": "Nebius"
+      },
+      {
+       "change": "−14,73 %",
+       "name": "Astera Labs"
+      },
+      {
+       "change": "−14,01 %",
+       "name": "Nvidia",
+       "why": "Bericht, dass die SEC die Bilanzierung des Konzerns prüft."
+      }
+     ],
+     "note": "Schluss 20.11.",
+     "srcName": "finanzen.net, 20.11. 22:32 Uhr",
+     "up": [
+      {
+       "change": "+1,89 %",
+       "name": "T-Mobile US"
+      },
+      {
+       "change": "+1,89 %",
+       "name": "Kraft Heinz"
+      },
+      {
+       "change": "+1,52 %",
+       "name": "Walmart"
+      },
+      {
+       "change": "+1,29 %",
+       "name": "Keurig Dr Pepper"
+      },
+      {
+       "change": "+1,14 %",
+       "name": "PepsiCo"
+      }
+     ],
+     "url": "https://www.finanzen.net/nachricht/aktien/schwacher-handel-nasdaq-100-zum-handelsende-tief-im-minus-16079399"
+    },
+    "name": "Nasdaq 100",
     "note": "20.11., Schluss New York",
     "srcName": "finanzen.net, 20.11. 22:32 Uhr",
     "url": "https://www.finanzen.net/nachricht/aktien/schwacher-handel-nasdaq-100-zum-handelsende-tief-im-minus-16079399",
-    "movers": {
-     "note": "Schluss 20.11.",
-     "srcName": "finanzen.net, 20.11. 22:32 Uhr",
-     "url": "https://www.finanzen.net/nachricht/aktien/schwacher-handel-nasdaq-100-zum-handelsende-tief-im-minus-16079399",
-     "up": [
-      {
-       "name": "T-Mobile US",
-       "change": "+1,89 %"
-      },
-      {
-       "name": "Kraft Heinz",
-       "change": "+1,89 %"
-      },
-      {
-       "name": "Walmart",
-       "change": "+1,52 %"
-      },
-      {
-       "name": "Keurig Dr Pepper",
-       "change": "+1,29 %"
-      },
-      {
-       "name": "PepsiCo",
-       "change": "+1,14 %"
-      }
-     ],
-     "down": [
-      {
-       "name": "Nebius",
-       "change": "−16,08 %"
-      },
-      {
-       "name": "Astera Labs",
-       "change": "−14,73 %"
-      },
-      {
-       "name": "Nvidia",
-       "change": "−14,01 %",
-       "why": "Bericht, dass die SEC die Bilanzierung des Konzerns prüft."
-      }
-     ]
-    }
+    "value": "25.028,98"
    },
    {
-    "name": "MSCI World",
-    "value": "4.463,65",
     "change": "−3,04 %",
+    "name": "MSCI World",
     "note": "20.11., 21:34 Uhr, indikativ, kein bestätigter Schluss",
     "srcName": "boerse.de, 20.11. 21:34 Uhr",
-    "url": "https://www.boerse.de/historische-kurse-tage/MSCI-World/XC0009692739"
+    "url": "https://www.boerse.de/historische-kurse-tage/MSCI-World/XC0009692739",
+    "value": "4.463,65"
    },
    {
-    "name": "Shanghai",
-    "value": "nicht gefunden",
     "change": "−1,2 %",
+    "name": "Shanghai",
     "note": "20.11., Schluss; tiefster Schluss seit Juli 2025",
     "srcName": "Reuters über Business Recorder, 21.11. (Uhrzeit unklar)",
-    "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment"
+    "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment",
+    "value": "nicht gefunden"
    },
    {
     "name": "Stärkste Bewegung: Taiex",
-    "value": "nicht gefunden",
-    "change": "nicht gefunden",
-    "note": "20.11., Schluss; Tagesminus je nach Bericht 6,2 bis 6,6 %, Wochenminus fast 18 %",
-    "srcName": "Bloomberg, 20.11.",
-    "url": "https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn"
+    "value": "36.033,29",
+    "change": "−6,23 %",
+    "note": "20.11., Schluss Taipeh; Wochenminus 17,5 %",
+    "srcName": "Focus Taiwan, 20.11.",
+    "url": "https://focustaiwan.tw/business/202611200007"
    }
-  ],
-  "comment": "Der Ausverkauf bei KI- und Chipwerten hat sich am Freitag weltweit beschleunigt: Bilanz-Ermittlungen gegen Nvidia, ein schwacher zweiter Börsentag von Anthropic und die Aussicht auf eine Fed-Zinserhöhung im Dezember trieben Anleger in Staatsanleihen und Dollar. Nur defensive Werte wie Versicherer, Telekom und Konsumgüter hielten sich."
+  ]
  },
  "sections": [
   {
@@ -199,89 +199,109 @@
    "items": [
     {
      "region": "Welt",
+     "topic": "Konjunktur",
+     "head": "Asien-Börsen brechen am Montag weiter ein, Seoul und Taipeh greifen ein",
+     "text": "Der südkoreanische Kospi fiel am Montagvormittag um rund 5 %, Samsung Electronics und SK Hynix verloren jeweils mehrere Prozent; Hongkong und Festlandchina gaben ebenfalls nach, Tokio blieb wegen eines Feiertags geschlossen. Seoul kündigte schon am Sonntag an, Stabilisierungsfonds sofort einzusetzen, falls sich die Lage verschlechtert; Finanzminister Lee Hyoung-il will zudem illegale Leerverkäufe schärfer verfolgen. Taiwan hatte nach dem Einbruch des Taiex um 6,23 % am Freitag, der schlechtesten Woche seit 1991, Leerverkäufe unter dem Vortagesschluss ab Montag untersagt. Dass Regierungen in den wichtigsten Chip-Ländern Asiens eingreifen, zeigt, wie tief der KI-Ausverkauf inzwischen reicht.",
+     "sources": [
+      {
+       "name": "Reuters über MarketScreener, 23.11. 04:18 Uhr",
+       "url": "https://www.marketscreener.com/news/south-korea-vows-to-stabilise-stock-market-after-kospi-drops-5-ce785ed3d180f023"
+      },
+      {
+       "name": "Focus Taiwan, 20.11.",
+       "url": "https://focustaiwan.tw/business/202611200007"
+      },
+      {
+       "name": "CNBC, 23.11. 06:43 Uhr",
+       "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+      }
+     ]
+    },
+    {
+     "region": "USA",
+     "topic": "Regulierung",
+     "head": "Trump droht US-Konzernen mit Strafsteuer für Rechenzentren im Ausland",
+     "text": "Trump kündigte am Freitag im Weißen Haus an, US-Firmen den Bau von Rechenzentren im Ausland zu untersagen; wer trotzdem baue, bekomme eine „gewaltige Steuer“. Begründung: China würde sich diese Anlagen sonst sichern. Steuersatz, Rechtsgrundlage und Zeitplan nannte er nicht, nach eigener Aussage hatte er nicht einmal seine Mitarbeiter informiert. Betroffen wären vor allem Alphabet, Amazon, Microsoft, Meta und Oracle, die weltweit Rechenzentren bauen, auch in Europa; das kommt zu den ohnehin wachsenden Zweifeln am KI-Ausbau hinzu.",
+     "sources": [
+      {
+       "name": "CNBC, 20.11. 18:45 Uhr",
+       "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+      },
+      {
+       "name": "NBC News, 20.11.",
+       "url": "https://www.nbcnews.com/business/corporations/trump-data-centers-overseas-penalties-rcna610445"
+      }
+     ]
+    },
+    {
+     "region": "Welt",
      "topic": "Konflikt",
-     "head": "Drei Tanker bei Hormus getroffen, Iran droht mit Bruch der US-Blockade",
-     "text": "Am Samstag wurden laut britischer Seesicherheitsbehörde zwei Tanker beim Verlassen des Persischen Golfs von Geschossen getroffen, ein dritter lief nach iranischen Angaben auf eine Seemine und geriet in Brand. Zugleich liegen laut Euronews mehr als 14 iranische Tanker vor der Insel Charg bereit, um die US-Seeblockade in Richtung China zu durchbrechen; Teheran droht für den Fall eines US-Eingreifens mit Angriffen auf die Energieinfrastruktur am Golf. Iran meldete außerdem Angriffe auf US-Stützpunkte in Bahrain, die weder Bahrain noch die USA bestätigten. Für Öl und Tankerversicherungen ist das die schärfste Lage seit Wochen; Ölpreise werden erst ab Sonntagabend wieder gehandelt.",
+     "head": "Hormus: Zwischenfall mit Militär an der US-Blockadelinie",
+     "text": "Die britische Seesicherheitsbehörde UKMTO meldete am Sonntagabend einen Tanker, der im Golf von Oman „in einen Zwischenfall mit Streitkräften“ verwickelt war, nahe der US-Blockadelinie; das deutet auf ein Eingreifen der US-Marine hin. Zuvor gab es widersprüchliche Berichte, ein iranischer Tanker habe die Insel Charg verlassen, um die Blockade zu durchbrechen; laut iranischen Medien gerieten zudem zwei Supertanker nach Minentreffern in Brand. Trump sagte, die Tanker würden sonst „auf dem Meeresgrund“ landen, und erwägt neue Angriffe nach Neujahr; Iran droht mit Schlägen auf Energieanlagen am Golf. Brent reagierte bisher kaum und lag am Montagmorgen bei rund 92 Dollar, weil das Überangebot am Ölmarkt die Kriegsprämie dämpft; das Risiko eines Preissprungs ist aber deutlich gestiegen.",
      "sources": [
       {
-       "name": "AP über Daily Enterprise, 21.11.",
-       "url": "https://www.dailygazette.com/ade/ap/national/iran-strikes-3-tankers-as-it-shows-off-missile-launchers-and-other-mideast-news/article_cd62a8e8-e2b9-5097-a4ab-3b3788fb888d.html"
+       "name": "Euronews, 22.11. 19:07 Uhr",
+       "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz"
       },
       {
-       "name": "Euronews, 21.11. 22:32 Uhr",
-       "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade"
-      }
-     ]
-    },
-    {
-     "region": "EU",
-     "topic": "Regulierung",
-     "head": "EU-Haushalt: Costa will Digitalsteuer und weitere Kürzungen",
-     "text": "EU-Ratspräsident Costa hat am Samstag einen neuen Entwurf für den Haushalt 2028 bis 2034 vorgelegt: 1,582 Billionen Euro, rund 180 Milliarden weniger als der ursprüngliche Kommissionsvorschlag. Gekürzt wird vor allem beim Wettbewerbsfonds, bei Verteidigung und Außenhilfe, Agrar- und Kohäsionsmittel bleiben weitgehend geschont. Neu ist eine Steuer von 3 % auf Umsätze mit Online-Werbung, Plattformdiensten und Nutzerdaten für Konzerne mit mehr als 50 Millionen Euro EU-Umsatz und 750 Millionen weltweit, geschätzt rund 5 Milliarden Euro pro Jahr; sie träfe vor allem US-Techkonzerne und birgt das Risiko von US-Vergeltung. Merz hält den Entwurf für zu hoch, Frankreich und das EU-Parlament lehnen ihn ab; der Sondergipfel folgt am 26. und 27. November.",
-     "sources": [
-      {
-       "name": "Reuters über WHBL, 21.11.",
-       "url": "https://whbl.com/2026/11/21/eu-leaders-chair-proposes-new-cuts-to-eu-2028-2034-budget-draft-suggests-digital-tax/"
-      },
-      {
-       "name": "Euronews, 21.11. 13:29 Uhr",
-       "url": "https://euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock"
-      }
-     ]
-    },
-    {
-     "region": "DE",
-     "topic": "Regulierung",
-     "head": "Spritpreisdeckel: Reiche will Autobahntankstellen ausnehmen",
-     "text": "Laut einem neuen Entwurf, über den das Handelsblatt am Samstag berichtete, soll der geplante Höchstpreis für Benzin und Diesel nicht an Autobahntankstellen gelten, wohl aber an Autohöfen. Das Ministerium begründet das mit höheren Pachten und der Pflicht zum Rund-um-die-Uhr-Betrieb; die Länder sollen bei abweichenden Beschaffungs- und Transportkosten vom bundesweiten Deckel abweichen dürfen. Das Kabinett soll am 2. Dezember entscheiden, ab 1. Januar soll der Deckel den Tankrabatt ersetzen. Das Ministerium selbst hält einkommensabhängige Direktzahlungen für besser und warnt, ein zu niedriger Deckel könne die Versorgung gefährden.",
-     "sources": [
-      {
-       "name": "ZDFheute, 21.11. 14:18 Uhr",
-       "url": "https://www.zdfheute.de/politik/deutschland/reiche-preisdeckel-ausnahme-autobahntankstellen-100.html"
-      },
-      {
-       "name": "dpa-AFX über finanzen.net, 21.11. 16:54 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen-16079899"
-      }
-     ]
-    },
-    {
-     "region": "EU",
-     "topic": "Handel",
-     "head": "EU und Indonesien unterzeichnen Freihandelsabkommen",
-     "text": "Nach fast zehn Jahren Verhandlungen haben die EU und Indonesien am Samstag in Brüssel ein Freihandels- und ein Investitionsschutzabkommen unterzeichnet. Zölle auf bis zu 98,5 % der Warengruppen sollen fallen, Indonesiens Einfuhrzölle von bis zu 50 % auf europäische Autos binnen fünf Jahren. Die Kommission rechnet mit rund 600 Millionen Euro Zollersparnis pro Jahr für EU-Exporteure; zudem verbietet das Abkommen Exportmonopole bei Rohstoffen wie Nickel und Kobalt. Das EU-Parlament muss noch zustimmen, vorläufig gelten soll es ab Anfang 2027.",
-     "sources": [
-      {
-       "name": "dpa-AFX über onvista, 21.11. 13:24 Uhr",
-       "url": "https://onvista.de/news/2026/11-21-eu-und-indonesien-unterzeichnen-weitreichenden-handelsdeal-0-10-26579059"
+       "name": "dpa-AFX über finanzen.net, 23.11. 06:28 Uhr",
+       "url": "https://www.finanzen.net/nachricht/rohstoffe/seemine-und-projektile-drei-tankerangriffe-seit-freitag-oelpreis-reagiert-auf-eskalation-in-hormus-16079906"
       }
      ]
     },
     {
      "region": "USA",
      "topic": "Unternehmen",
-     "head": "Bayer: Glyphosat-Vergleich über 7,25 Milliarden Dollar endgültig genehmigt",
-     "text": "Richter Timothy Boyer in Missouri hat am Freitag den Sammelvergleich zu Roundup-Krebsklagen als fair gebilligt; die Meldung kam erst nach Börsenschluss in Europa. Bayer zahlt über bis zu 21 Jahre bis zu 7,25 Milliarden Dollar, Betroffene erhalten je nach Fall 10.000 bis 165.000 Dollar, auch künftige Erkrankungen sind abgedeckt. Zusammen mit dem Supreme-Court-Urteil vom Juni ist das größte Rechtsrisiko des Konzerns damit weitgehend begrenzt. Offen bleibt, ob Kläger Berufung einlegen; dann würden weitere Einzahlungen in den Fonds bis zur Entscheidung ruhen.",
+     "head": "CrowdStrike verhandelt über Übernahme von Zscaler",
+     "text": "CrowdStrike spricht laut Reuters und Bloomberg mit dem Rivalen Zscaler über eine Übernahme, wie am Freitagabend nach US-Börsenschluss bekannt wurde. Zscaler ist rund 33,5 Milliarden Dollar wert, die Aktie stieg nachbörslich um 17 %, CrowdStrike verlor 8 %. Der Deal würde CrowdStrikes Lücke bei Netzwerksicherheit schließen und den Druck auf Palo Alto Networks erhöhen; Kunden wollen weniger Sicherheitsanbieter. Ein Abschluss ist nicht sicher, beide Firmen äußerten sich nicht.",
      "sources": [
       {
-       "name": "ZDFheute, 21.11. 10:30 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/unternehmen/bayer-glyphosat-sammelvergleich-usa-richter-100.html"
-      },
-      {
-       "name": "NPR über OPB, 21.11. (US-Ortszeit)",
-       "url": "https://www.opb.org/article/2026/11/21/bayer-agrees-to-pay-roundup-claims-in-settlement-that-could-cost-billions/"
+       "name": "Reuters über Investing.com, 20.11. 22:46 Uhr",
+       "url": "https://www.investing.com/news/stock-market-news/crowdstrike-in-talks-to-acquire-zscaler-sources-say-5042720"
       }
      ]
     },
     {
-     "region": "China",
+     "region": "USA",
      "topic": "Konjunktur",
-     "head": "Chinas Hauspreise fallen weiter, aber langsamer",
-     "text": "Neue Wohnungen in China waren im Oktober 0,1 % billiger als im Vormonat und 2,4 % billiger als vor einem Jahr, nach 2,8 % im September; das ist der langsamste Rückgang seit fast einem Jahr, wie Reuters am Sonntag aus Daten der Statistikbehörde berechnete. Immobilieninvestitionen, Verkäufe und Baubeginne liegen in den ersten zehn Monaten aber jeweils zweistellig im Minus. Die Krise belastet weiter Konsum, Vertrauen und die Einnahmen der Lokalregierungen, eine Wende ist nicht in Sicht.",
+     "head": "US-Futures erholen sich, Inflationsdaten am Mittwoch entscheiden",
+     "text": "Die Terminkontrakte auf den S&P 500 lagen am Montagmorgen deutscher Zeit rund 2 % im Plus, die auf den Nasdaq 100 fast 2,8 %, nach der schlechtesten Woche für Nasdaq und Dow seit über sechs Jahren. Ob die Erholung hält, hängt vor allem am Mittwoch ab, wenn der von der Fed bevorzugte Preisindex PCE für Oktober kommt; die Commerzbank erwartet 3,8 %, was eine Zinserhöhung am 9. Dezember weiter stützen würde. In Deutschland folgt am Dienstag der Ifo-Index; am Donnerstag ruht der US-Handel wegen Thanksgiving, am Freitag schließt er früher.",
      "sources": [
       {
-       "name": "Reuters über Business Recorder, 22.11. (Uhrzeit unklar)",
-       "url": "https://www.brecorder.com/news/40450147/chinas-new-home-prices-fall-again-in-oct"
+       "name": "CNBC, 23.11. 06:43 Uhr",
+       "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+      },
+      {
+       "name": "dpa-AFX über ARIVA, 23.11. 05:50 Uhr",
+       "url": "https://www.ariva.de/news/wochenausblick-getruebte-aussicht-auf-jahresendrally-beim-12216548"
+      }
+     ]
+    },
+    {
+     "region": "USA",
+     "topic": "Unternehmen",
+     "head": "GTA 6 bringt Take-Two Rekordumsatz am ersten Tag",
+     "text": "Take-Two meldete am Freitag, dass „Grand Theft Auto VI“ am Erscheinungstag 3,79 Milliarden Dollar Handelsumsatz erzielt hat, nach eigener Aussage ein Rekord für Unterhaltung in jedem Medium. Vorab wurden 32,5 Millionen Exemplare verkauft. Die Zahl liegt rund doppelt so hoch wie frühere Schätzungen von Sensor Tower und stützt die Jahresziele des Nasdaq-100-Konzerns; gegen den Ausverkauf am Freitag konnte sie die Aktie aber nicht abschirmen.",
+     "sources": [
+      {
+       "name": "Take-Two, Pflichtmitteilung an die SEC, 20.11.",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm"
+      },
+      {
+       "name": "dpa-AFX über ARIVA, 22.11. 20:35 Uhr",
+       "url": "https://www.ariva.de/news/dpa-afx-ueberblick-unternehmen-die-wichtigsten-meldungen-12216430"
+      }
+     ]
+    },
+    {
+     "region": "DE",
+     "topic": "Unternehmen",
+     "head": "Thyssenkrupp Nucera mit höherem Verlust als erwartet",
+     "text": "Der Elektrolyse-Spezialist meldete am Freitagabend überraschend einen operativen Verlust von 136 Millionen Euro für das Geschäftsjahr bis Ende September. Gründe sind Nachbesserungen und Mehrkosten bei neuen Anlagen sowie eine Abschreibung auf eine Pilotanlage. Der Verlust fiel laut dpa-AFX höher aus als erwartet und zeigt, wie schwer sich das Geschäft mit grünem Wasserstoff tut.",
+     "sources": [
+      {
+       "name": "dpa-AFX über ARIVA, 22.11. 20:35 Uhr",
+       "url": "https://www.ariva.de/news/dpa-afx-ueberblick-unternehmen-die-wichtigsten-meldungen-12216430"
       }
      ]
     }
@@ -289,12 +309,13 @@
   }
  ],
  "notes": [
-  "Stand der Ausgabe: 22.11.2026, 06:50 Uhr deutscher Zeit. Kurse: Schluss vom 20.11.2026.",
-  "Heute ist Sonntag, daher gab es seit der Samstagsausgabe keinen Börsenhandel. Die Kurskästen samt Gewinnern und Verlierern sind unverändert vom Freitagsschluss übernommen, mit denselben Lücken wie gestern: MSCI World nur indikativ, Shanghai-Schlussstand und Taiex-Werte nicht aus erlaubter Quelle belegt.",
-  "Diese Ausgabe ist kurz, weil am Wochenende wenig Neues kam. Es gibt keine neuen Quartalszahlen, deshalb fehlt der Abschnitt dazu.",
-  "Bitcoin fiel am Samstag zeitweise auf rund 55.000 Dollar, das Tief seit September 2024, und erholte sich danach auf etwa 60.000. Das ist nur in Krypto-Fachmedien belegt, deshalb keine eigene Meldung.",
-  "COP31 in Antalya: Laut Reuters lag am Sonntagmorgen ein Kompromisstext vor, die Verabschiedung war für 07:00 Uhr deutscher Zeit angesetzt. Ein Ergebnis war bei Redaktionsschluss nicht bestätigt, deshalb keine Meldung.",
-  "Bei den EU-Haushaltszahlen nennen Quellen unterschiedliche Größen: Reuters 1,582 Billionen Euro, Euronews 1,78 Billionen, vermutlich in anderer Preisbasis. Übernommen ist die Reuters-Zahl.",
-  "Lufthansa streicht 1.000 Stellen an den Drehkreuzen: Das wurde schon am Donnerstag, 19.11., bekannt und ist deshalb nicht dabei."
+  "Stand der Ausgabe: 23.11.2026, 06:51 Uhr deutscher Zeit. Kurse: Schluss vom 20.11.2026.",
+  "Montag: Seit Freitag gab es keinen Börsenhandel in Europa und den USA, deshalb sind DAX, Euro Stoxx 50, Nasdaq 100, MSCI World und Shanghai samt Gewinnern und Verlierern unverändert vom Freitagsschluss übernommen. MSCI World ist nur indikativ von 21:34 Uhr, der Shanghai-Schlussstand weiterhin nicht aus erlaubter Quelle belegt.",
+  "Sechster Kasten neu belegt: Taiex −6,23 % auf 36.033,29 laut Focus Taiwan; für den Taiex gibt es keine belastbare Liste der Gewinner und Verlierer.",
+  "Kospi am Montag: Angaben schwanken je nach Uhrzeit zwischen −3,2 % und −5,8 %; Reuters nennt rund 5 %. Ein Schlussstand lag bei Redaktionsschluss nicht vor.",
+  "Keine neuen Quartalszahlen großer Konzerne seit der letzten Ausgabe, deshalb fehlt der Abschnitt dazu. Diese Woche berichten unter anderem HPE (Montag), Dell und Workday (Dienstag).",
+  "Nur aus einer erlaubten Quelle belegt: CrowdStrike/Zscaler (Reuters) und Thyssenkrupp Nucera (dpa-AFX). Die Nucera-Zahl von 136 Millionen Euro Ebit-Verlust stammt aus dem dpa-AFX-Überblick, eine Mitteilung des Unternehmens wurde nicht gefunden.",
+  "Trump, Xi und Putin trafen sich am Donnerstag zu einem Dreiergipfel in China, laut CNBC ohne greifbare Ergebnisse; deshalb keine eigene Meldung.",
+  "COP31 in Antalya: Ein bestätigtes Endergebnis wurde nicht gefunden, deshalb keine Meldung."
  ]
 }
