@@ -1,202 +1,210 @@
 {
  "kind": "tag",
- "dateLabel": "Dienstag, 24. November 2026",
- "updatedAt": "2026-11-24T11:14:23Z",
+ "dateLabel": "Mittwoch, 25. November 2026",
+ "updatedAt": "2026-11-25T11:10:46Z",
  "top": [
   {
-   "head": "Huang zurück, Tech-Rally:",
-   "text": "Nvidia hat Jensen Huang am Montag wieder zum Chef gemacht, die Aktie sprang um rund 31 Prozent, der Nasdaq 100 schloss 6,86 Prozent höher. Der Abverkauf bei KI-Werten ist damit vorerst gestoppt, die Fragen zur Spionageaffäre sind es nicht."
+   "head": "Neue US-Zölle gegen EU, China und 14 weitere Länder stehen bevor:",
+   "text": "Laut AP, Reuters, Bloomberg und WSJ will das Büro des US-Handelsbeauftragten in den nächsten Tagen, womöglich schon am Mittwoch, die Ergebnisse seiner Untersuchung zu Industriesubventionen vorlegen und darauf neue Zölle stützen. Sie sollen die vom Supreme Court im Februar gekippten Zölle ersetzen; die Höhe soll sich nach den bisherigen Deals mit Trump richten. Für Europas Exporteure kehrt damit die Unsicherheit zurück, Logistiker wie DHL verloren am Dienstag bereits 3,1 Prozent."
   },
   {
-   "head": "CrowdStrike kauft Zscaler:",
-   "text": "Die Übernahme in Aktien bewertet Zscaler mit 43,9 Milliarden Dollar, bekanntgegeben am Montag. Es ist einer der größten Deals der Cybersicherheitsbranche; Zscaler-Aktionäre jubeln, CrowdStrike verlor rund 9 Prozent."
+   "head": "Tech-Abverkauf nach nur einem Erholungstag:",
+   "text": "Am Dienstag fiel der Nasdaq 100 um 2,0 Prozent, Nvidia gab nach dem Kurssprung von 31 Prozent am Montag 5,9 Prozent ab, der DAX schloss 1,26 Prozent tiefer bei 25.017 Punkten. Belastend waren Zweifel an der Rentabilität der KI-Investitionen, die Zollberichte und ein Einbruch von Analog Devices um 17 Prozent nach einem schwachen Ausblick. Am Mittwochmorgen folgten Asiens Börsen, der Kospi verlor 6,2 Prozent."
   },
   {
-   "head": "Öl auf Dreimonatstief trotz Hormus-Minen:",
-   "text": "Brent fiel am Montag um fast 3 Prozent und lag am Dienstagmorgen bei rund 89 Dollar, obwohl Irans Revolutionsgarden drei Tankerbrände durch Minen meldeten. Mehr Angebot aus Nahost und Libyen wiegt derzeit schwerer als das Kriegsrisiko."
+   "head": "Deutsche Wirtschaft wuchs im Sommer nur um 0,1 Prozent:",
+   "text": "Das Statistische Bundesamt korrigierte am Mittwoch das BIP-Wachstum im dritten Quartal von 0,2 auf 0,1 Prozent. Die Exporte sanken um 1,0 Prozent, die Ausrüstungsinvestitionen brachen um 3,5 Prozent ein, getragen wurde das Plus nur vom Konsum. Die Stimmungsbesserung laut ifo kommt in den harten Zahlen bisher kaum an."
   },
   {
-   "head": "Ifo-Index auf Hoch seit Frühjahr 2023:",
-   "text": "Das Geschäftsklima stieg am Dienstag auf 90,6 Punkte, der siebte Anstieg in Folge. Die Industrie bekam aber einen Dämpfer, laut Ifo fehlt der Erholung die Breite."
+   "head": "EU deckelt Importe chinesischer Hybridautos ab Dezember:",
+   "text": "Die EU-Kommission teilte am Dienstag mit, dass ab Dezember vorläufig höchstens rund 350.000 Hybride und Plug-in-Hybride pro Jahr aus China eingeführt werden dürfen, etwa 15 Prozent mehr als im Vorjahr. Die Quote gilt zunächst höchstens 200 Tage, danach müssen die Mitgliedstaaten einer dauerhaften Regel zustimmen. Sie schließt die Lücke, die chinesische Hersteller nach den E-Auto-Sonderzöllen von 2024 mit Plug-in-Hybriden genutzt hatten."
   },
   {
-   "head": "EU deckelt China-Hybride:",
-   "text": "Ab Dezember gilt eine vorläufige Importquote von rund 350.000 Hybridautos pro Jahr, vor allem gegen China gerichtet. Das bremst den Vormarsch chinesischer Hersteller im Segment, in dem sie die E-Auto-Zölle bisher umgehen."
+   "head": "Huawei in den USA schuldig gesprochen:",
+   "text": "Eine Jury in Brooklyn befand den chinesischen Konzern am Dienstag in 10 von 12 Anklagepunkten schuldig, darunter Bankbetrug, Verschwörung zum Diebstahl von Geschäftsgeheimnissen und Verstöße gegen Iran-Sanktionen; vom Vorwurf der organisierten Kriminalität wurde er freigesprochen. Peking spricht von Unterdrückung chinesischer Firmen. Das Urteil verschärft den Technologiestreit zwischen beiden Ländern kurz vor neuen US-Zöllen."
   }
  ],
  "markets": {
   "rows": [
    {
     "name": "DAX",
-    "value": "25.363,70",
-    "change": "+2,26 %",
-    "note": "23.11., Xetra-Schluss",
-    "srcName": "finanzen.net (dpa-AFX), 23.11. 17:57 Uhr",
-    "url": "https://www.finanzen.net/nachricht/aktien/handel-in-frankfurt-dax-klettert-schlussendlich-16082320",
+    "value": "25.017,81",
+    "change": "−1,26 %",
+    "note": "24.11., Xetra-Schluss",
+    "srcName": "boerse.de (dpa-AFX), 24.11. 17:54 Uhr",
+    "url": "https://www.boerse.de/nachrichten/ROUNDUP-Aktien-Frankfurt-Schluss-Rueckschlag-Tech-Rally-fehlen-Anschlusskaeufe/38736743",
     "movers": {
-     "note": "Xetra-Schluss 23.11.",
-     "srcName": "finanzen.net",
-     "url": "https://www.finanzen.net/nachricht/aktien/handel-in-frankfurt-dax-klettert-schlussendlich-16082320",
+     "note": "Xetra-Handelsende 24.11. (Stand 17:58 Uhr)",
+     "srcName": "finanzen.at",
+     "url": "https://www.finanzen.at/nachrichten/aktien/zurueckhaltung-in-frankfurt-dax-zum-ende-des-dienstagshandels-mit-abgaben-1036796573",
      "up": [
       {
-       "name": "Siemens Energy",
-       "change": "+6,88 %"
+       "name": "Deutsche Telekom",
+       "change": "+2,17 %"
       },
       {
-       "name": "Infineon",
-       "change": "+6,56 %",
-       "why": "Chipwerte erholten sich mit der Tech-Rally; die Aktie hatte seit Juni rund die Hälfte verloren."
+       "name": "Beiersdorf",
+       "change": "+2,10 %"
       },
       {
-       "name": "Hochtief",
-       "change": "+5,38 %"
+       "name": "SAP",
+       "change": "+2,01 %"
       },
       {
-       "name": "Deutsche Bank",
-       "change": "+4,79 %"
+       "name": "Deutsche Börse",
+       "change": "+1,77 %"
       },
       {
-       "name": "Rheinmetall",
-       "change": "+4,59 %",
-       "why": "Gegenbewegung nach dem Tief seit 2025 am Freitag."
+       "name": "Scout24",
+       "change": "+1,47 %"
       }
      ],
      "down": [
       {
-       "name": "Deutsche Börse",
-       "change": "−1,33 %"
+       "name": "Infineon",
+       "change": "−9,68 %",
+       "why": "KI-Werte wurden nach der Nvidia-Erholung vom Montag wieder verkauft."
       },
       {
-       "name": "Bayer",
-       "change": "−0,71 %",
-       "why": "Gewinnmitnahmen trotz US-Genehmigung des Glyphosat-Vergleichs."
+       "name": "Siemens Energy",
+       "change": "−6,78 %",
+       "why": "KI-Werte wurden nach der Nvidia-Erholung vom Montag wieder verkauft."
       },
       {
-       "name": "Deutsche Telekom",
-       "change": "−0,34 %"
+       "name": "Hochtief",
+       "change": "−5,39 %"
       }
      ]
     }
    },
    {
     "name": "Euro Stoxx 50",
-    "value": "6.077,06",
-    "change": "+2,27 %",
-    "note": "23.11., Schluss",
-    "srcName": "finanzen.ch, 23.11. 17:58 Uhr",
-    "url": "https://www.finanzen.ch/nachrichten/aktien/pluszeichen-in-europa-euro-stoxx-50-liegt-letztendlich-im-plus-1036792703",
+    "value": "6.003,19",
+    "change": "−1,17 %",
+    "note": "24.11., Schluss",
+    "srcName": "finanzen.net, 24.11. 17:57 Uhr",
+    "url": "https://www.finanzen.net/nachricht/aktien/zurueckhaltung-in-europa-euro-stoxx-50-zeigt-sich-schlussendlich-leichter-16084466",
     "movers": {
-     "note": "Schluss 23.11.",
-     "srcName": "finanzen.ch",
-     "url": "https://www.finanzen.ch/nachrichten/aktien/pluszeichen-in-europa-euro-stoxx-50-liegt-letztendlich-im-plus-1036792703",
+     "note": "Handelsende 24.11.",
+     "srcName": "finanzen.net",
+     "url": "https://www.finanzen.net/nachricht/aktien/zurueckhaltung-in-europa-euro-stoxx-50-zeigt-sich-schlussendlich-leichter-16084466",
      "up": [
       {
-       "name": "Siemens Energy",
-       "change": "+6,88 %"
+       "name": "Deutsche Telekom",
+       "change": "+2,17 %"
       },
       {
-       "name": "Infineon",
-       "change": "+6,56 %"
+       "name": "SAP",
+       "change": "+2,01 %"
       },
       {
-       "name": "Deutsche Bank",
-       "change": "+4,79 %"
+       "name": "Deutsche Börse",
+       "change": "+1,77 %"
       },
       {
        "name": "Rheinmetall",
-       "change": "+4,59 %"
+       "change": "+1,28 %",
+       "why": "Rüstungswerte gefragt, Anleger warten auf den Kapitalmarkttag Ende der Woche."
       },
       {
-       "name": "Siemens",
-       "change": "+4,12 %"
+       "name": "Munich Re",
+       "change": "+0,76 %"
       }
      ],
      "down": [
       {
-       "name": "Intesa Sanpaolo",
-       "change": "−1,74 %"
+       "name": "Infineon",
+       "change": "−9,68 %",
+       "why": "KI-Werte wurden nach der Nvidia-Erholung vom Montag wieder verkauft."
       },
       {
-       "name": "Deutsche Börse",
-       "change": "−1,33 %"
+       "name": "Siemens Energy",
+       "change": "−6,78 %",
+       "why": "KI-Werte wurden nach der Nvidia-Erholung vom Montag wieder verkauft."
       },
       {
-       "name": "UniCredit",
-       "change": "−1,32 %"
+       "name": "Siemens",
+       "change": "−3,96 %"
       }
      ]
     }
    },
    {
     "name": "Nasdaq 100",
-    "value": "26.746,10",
-    "change": "+6,86 %",
-    "note": "23.11., Schluss New York",
-    "srcName": "finanzen.at (dpa-AFX), 23.11. 22:35 Uhr",
-    "url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-new-york-schluss-euphorie-nach-rueckkehr-von-nvidia-chef-1036793750",
+    "value": "26.214,17",
+    "change": "−1,99 %",
+    "note": "24.11., Schluss",
+    "srcName": "finanzen.net, 24.11.",
+    "url": "https://www.finanzen.net/nachricht/aktien/zurueckhaltung-in-new-york-nasdaq-100-legt-schlussendlich-den-rueckwaertsgang-ein-16084858",
     "movers": {
-     "note": "Schluss 23.11., Werte laut dpa-AFX gerundet",
-     "srcName": "finanzen.at (dpa-AFX)",
-     "url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-new-york-schluss-euphorie-nach-rueckkehr-von-nvidia-chef-1036793750",
+     "note": "Schluss 24.11.",
+     "srcName": "finanzen.net",
+     "url": "https://www.finanzen.net/nachricht/aktien/zurueckhaltung-in-new-york-nasdaq-100-legt-schlussendlich-den-rueckwaertsgang-ein-16084858",
      "up": [
       {
-       "name": "Nvidia",
-       "change": "+31 %",
-       "why": "Jensen Huang kehrt als Chef zurück."
+       "name": "Moderna",
+       "change": "+7,21 %"
       },
       {
-       "name": "Zscaler",
-       "change": "+18 %",
-       "why": "Übernahmeangebot von CrowdStrike."
+       "name": "Amgen",
+       "change": "+5,54 %"
       },
       {
-       "name": "Intel",
-       "change": "+16 %"
+       "name": "Alnylam Pharmaceuticals",
+       "change": "+5,53 %"
       },
       {
-       "name": "Arm Holdings",
-       "change": "+16 %"
+       "name": "Take-Two",
+       "change": "+5,28 %"
       },
       {
-       "name": "Micron",
-       "change": "+16 %"
+       "name": "Regeneron",
+       "change": "+4,76 %"
       }
      ],
      "down": [
       {
-       "name": "CrowdStrike",
-       "change": "−9 %",
-       "why": "Teure Übernahme von Zscaler in Aktien."
+       "name": "Analog Devices",
+       "change": "−17,37 %",
+       "why": "Ausblick auf das erste Quartal mit stagnierendem Umsatz enttäuschte trotz Rekordquartal."
+      },
+      {
+       "name": "Astera Labs",
+       "change": "−13,88 %"
+      },
+      {
+       "name": "CoreWeave",
+       "change": "−11,85 %"
       }
      ]
     }
    },
    {
     "name": "MSCI World",
-    "value": "4.636,51",
-    "change": "+3,87 %",
-    "note": "23.11., Indikation 22:05 Uhr",
-    "srcName": "boerse.de, 23.11. 22:05 Uhr",
-    "url": "https://www.boerse.de/historische-kurse/MSCI-World/XC0009692739"
+    "value": "4.613,03",
+    "change": "−0,18 %",
+    "note": "24.11., Schluss",
+    "srcName": "investing.com, 24.11.",
+    "url": "https://www.investing.com/indices/msci-world-historical-data"
    },
    {
     "name": "Shanghai",
-    "value": "3.538,95",
-    "change": "+0,15 %",
-    "note": "23.11., Schluss",
-    "srcName": "ad-hoc-news, 23.11.",
-    "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/shanghai-composite-rebounds-0-15-prozent-after-early-slide/70546604"
+    "value": "3.548,37",
+    "change": "+0,27 %",
+    "note": "24.11., Schluss",
+    "srcName": "investing.com, 24.11.",
+    "url": "https://www.investing.com/indices/shanghai-composite-historical-data"
    },
    {
-    "name": "Stärkste Bewegung: S&P 500",
-    "value": "7.237,17",
-    "change": "+4,73 %",
-    "note": "23.11., Schluss New York",
-    "srcName": "finanzen.at (dpa-AFX), 23.11. 22:35 Uhr",
-    "url": "https://www.finanzen.at/nachrichten/aktien/roundup-aktien-new-york-schluss-euphorie-nach-rueckkehr-von-nvidia-chef-1036793750"
+    "name": "Stärkste Bewegung: Kospi",
+    "value": "5.006,03",
+    "change": "+6,32 %",
+    "note": "24.11., Schluss",
+    "srcName": "investing.com, 24.11.",
+    "url": "https://www.investing.com/indices/kospi-historical-data"
    }
   ],
-  "comment": "Die Rückkehr von Huang an die Nvidia-Spitze löste am Montag die stärkste Tech-Rally seit April 2025 aus, viele Leerverkäufer mussten eindecken. Am Dienstag zogen Kospi (+6,3 %) und Taiwan (fast +9 %) nach, während US-Futures und der DAX leicht nachgaben."
+  "comment": "Am Dienstag verpuffte die Nvidia-Euphorie vom Montag: Chipwerte wurden weltweit verkauft, dazu kamen Berichte über neue US-Zölle. Asien hatte am Dienstag noch die Erholung nachgeholt und brach am Mittwoch ein, Kospi −6,16 %, Shanghai −2,03 %."
  },
  "sections": [
   {
@@ -204,125 +212,161 @@
    "items": [
     {
      "region": "USA",
-     "topic": "Zinsen",
-     "head": "Fed-Zinserhöhung im Dezember gilt als fast sicher",
-     "text": "Nach Daten der Deutschen Bank preisen die Märkte am Dienstag eine Anhebung um 0,25 Prozentpunkte im Dezember nahezu vollständig ein, dazu weitere 0,7 Punkte bis September 2027. Die US-Einkaufsmanagerindizes vom Montag mit 53,7 in der Industrie und 54,7 bei Dienstleistern zeigen eine Wirtschaft, die das zulässt. Für die Tech-Rally bleibt das der größte Gegenwind.",
+     "topic": "Regulierung",
+     "head": "USA setzen Alibaba-Tochter und Megaspeed-Firmen auf schwarze Liste",
+     "text": "Das US-Handelsministerium hat sieben Firmen in Singapur, Malaysia und Thailand auf die Entity List gesetzt, darunter die Alibaba-Tochter Apex und sechs Gesellschaften des Nvidia-Kunden Megaspeed; berichtet wurde darüber am Dienstag, die Eintragung ist auf Montag datiert. US-Lieferanten brauchen nun für jeden Verkauf an sie eine Lizenz, es geht um mögliche Umleitung von KI-Chips nach China. Alibaba nennt die Listung falsch und will rechtlich dagegen vorgehen. Justizminister Blanche wich am Dienstag Fragen nach Ermittlungen gegen Nvidia aus; Huang soll kommende Woche vor dem Kongress aussagen.",
      "sources": [
       {
-       "name": "ARIVA.DE (dpa-AFX), 24.11.",
-       "url": "https://www.ariva.de/news/aktien-asien-technologielastige-maerkte-legen-deutlich-zu-12218233"
+       "name": "Bloomberg, 24.11.",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions"
       },
       {
-       "name": "CNBC, 23.11. 22:10 Uhr",
-       "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+       "name": "BBC, 24.11.",
+       "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo"
+      },
+      {
+       "name": "ZDFheute, 24.11. 07:01 Uhr",
+       "url": "https://www.zdfheute.de/wirtschaft/unternehmen/nvidia-spionageverdacht-megaspeed-sperrliste-chips-usa-100.html"
       }
      ]
     },
     {
-     "region": "USA",
-     "topic": "Regulierung",
-     "head": "Washington zieht Chip-Schrauben gegen China weiter an",
-     "text": "Die US-Regierung hat den Chiphändler Megaspeed aus Singapur und sechs weitere Firmen auf eine Sperrliste gesetzt; sie dürfen Nvidia-Chips nur noch mit Sondergenehmigung kaufen, berichtet das ZDF am Dienstag. Bereits am Freitag hatte Trump Strafen für US-Firmen angekündigt, die Rechenzentren im Ausland bauen. Chinas Leitindex fiel am Montag zeitweise auf ein 16-Monats-Tief.",
+     "region": "China",
+     "topic": "Handel",
+     "head": "China verlängert Aussetzung des Exportverbots für Gallium und Germanium",
+     "text": "Peking hat am Dienstag die Aussetzung seines Exportverbots für Gallium, Germanium und Antimon in die USA bis zum 27. Januar verlängert; sonst wäre es am Freitag in Kraft getreten. Die Metalle sind für Chips und Rüstungsgüter wichtig. Die Frist ist kurz, und die Zwischenvereinbarung mit den USA läuft am 10. Januar aus, das Druckmittel bleibt also in Chinas Hand.",
      "sources": [
       {
-       "name": "ZDFheute, 24.11. 07:01 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/unternehmen/nvidia-spionageverdacht-megaspeed-sperrliste-chips-usa-100.html"
-      },
+       "name": "BBC, 25.11. 01:38 Uhr",
+       "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+      }
+     ]
+    },
+    {
+     "region": "Welt",
+     "topic": "Energie",
+     "head": "Britische Energierechnungen steigen ab Januar um 26 Prozent",
+     "text": "Die Regulierungsbehörde Ofgem hat am Mittwoch die Preisobergrenze für Strom und Gas angehoben, eine typische Jahresrechnung steigt von 1.723 auf 2.166 Pfund. Grund sind laut Ofgem allein die Großhandelspreise für Gas, die wegen des Iran-Kriegs in drei Monaten um 33 Prozent gestiegen sind. Das zeigt, wie stark der Krieg inzwischen auf europäische Haushalte durchschlägt.",
+     "sources": [
       {
-       "name": "Reuters via Business Recorder, 24.11.",
-       "url": "https://www.brecorder.com/news/40450433/china-stocks-end-off-16-month-low-but-us-chip-curbs-sour-mood"
+       "name": "BBC, 25.11. 01:03 Uhr",
+       "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o"
       }
      ]
     },
     {
      "region": "Welt",
      "topic": "Konflikt",
-     "head": "Hormus: Minen-Meldung und neue US-Sanktionen gegen Iran",
-     "text": "Irans Revolutionsgarden meldeten in der Nacht zu Dienstag drei brennende Tanker nach Minentreffern in der Straße von Hormus, trotz US-Geleitschutz; unabhängig bestätigt ist das nicht. Das US-Finanzministerium belegte am Montag mehr als zwei Dutzend iranische Wechselstuben und Tarnfirmen mit Sanktionen. Der Ölpreis reagierte kaum, JPMorgan erwartet wegen Überangebots sogar Preise im hohen 70-Dollar-Bereich im ersten Halbjahr 2027.",
+     "head": "Ölpreis stabil trotz Angriffen auf Tanker in der Straße von Hormus",
+     "text": "Brent kostete am Dienstag rund 89,8 Dollar je Barrel, nachdem der Preis am Montag zeitweise über 93 Dollar lag. Gedrückt hatte ihn vorsichtiger Optimismus bei den Gesprächen zwischen USA und Iran; US-Vizepräsident Vance traf den Regierungschef des Vermittlers Katar. Gleichzeitig wurden Tanker in der Straße von Hormus getroffen; Commerzbank-Expertin Nguyen hält eine neue militärische Eskalation kurzfristig für unwahrscheinlich, eine Lösung aber nicht für sicher.",
      "sources": [
       {
-       "name": "CNBC, 24.11. 06:05 Uhr",
-       "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
-      },
-      {
-       "name": "CNBC, 23.11. 19:27 Uhr",
-       "url": "https://www.cnbc.com/2026/11/23/oil-prices-fall-amid-equity-sell-off-though-iran-war-attacks-limit-losses.html"
-      },
-      {
-       "name": "Reuters via Investing.com, 24.11.",
-       "url": "https://www.investing.com/news/commodities-news/oil-holds-near-threemonth-low-as-rising-supply-offsets-hormuz-threat-5046916"
-      }
-     ]
-    },
-    {
-     "region": "DE",
-     "topic": "Politik",
-     "head": "Bundeshaushalt 2027: Schlussabstimmung am Freitag",
-     "text": "Der Bundestag berät diese Woche abschließend den Etat 2027, die Schlussabstimmung ist für Freitag angesetzt. Nach den Änderungen des Haushaltsausschusses sind Ausgaben von 560,92 Milliarden Euro vorgesehen, 36,38 Milliarden mehr als 2026, bei einer Nettokreditaufnahme von 122,97 Milliarden Euro. Für Investitionen sind 61,85 Milliarden Euro eingeplant.",
-     "sources": [
-      {
-       "name": "Bundestag, 23.11.",
-       "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-haushaltsgesetz-2027-dritte-lesung-1232350"
+       "name": "Spiegel, 24.11. 16:59 Uhr",
+       "url": "https://www.spiegel.de/wirtschaft/oel-preise-stabilisieren-sich-sich-nach-vortagsverlusten-a-bc31a2d2-29a0-493f-990a-53971fb94289"
       }
      ]
     },
     {
      "region": "DE",
      "topic": "Konjunktur",
-     "head": "IG Metall: 90.000 im Ganztagesstreik, Maschinenbau folgt",
-     "text": "Am Montag streikten in Baden-Württemberg nach Gewerkschaftsangaben rund 90.000 Beschäftigte in 45 Betrieben ganztägig, darunter Mercedes in Sindelfingen, Untertürkheim und Rastatt sowie Porsche in Zuffenhausen. Am Dienstag folgen 23 Maschinenbau-Betriebe. Am Mittwoch wird in Mannheim weiterverhandelt; die Produktionsausfälle treffen die ohnehin schwache Autoindustrie.",
+     "head": "ifo-Index steigt zum siebten Mal in Folge",
+     "text": "Der ifo-Geschäftsklimaindex stieg am Dienstag im November auf 90,6 Punkte nach 90,1 im Oktober, der höchste Stand seit Frühjahr 2023. Allerdings trübte sich die Stimmung in der Industrie und am Bau ein; ifo-Präsident Fuest sagt, dem Aufschwung fehle die Breite. Die am Mittwoch nach unten korrigierten BIP-Zahlen bestätigen das.",
      "sources": [
       {
-       "name": "IG Metall Baden-Württemberg, 23.11.",
-       "url": "https://baden-wuerttemberg.igmetall.de/2026/2026-11-23-pressemitteilung-51-2026"
-      },
+       "name": "tagesschau.de, 24.11. 11:28 Uhr",
+       "url": "https://www.tagesschau.de/wirtschaft/konjunktur/ifo-geschaeftsklima-110.html"
+      }
+     ]
+    },
+    {
+     "region": "USA",
+     "topic": "Zinsen",
+     "head": "Märkte erwarten Zinserhöhung der Fed im Dezember",
+     "text": "An den Finanzmärkten wird mehrheitlich mit einer Anhebung des US-Leitzinses um 25 Basispunkte im Dezember gerechnet. Am Mittwoch kommt der PCE-Preisindex, das bevorzugte Inflationsmaß der Fed. Das US-Verbrauchervertrauen stieg im November auf den höchsten Stand seit fast zwei Jahren, was den Spielraum für eine Straffung eher vergrößert.",
+     "sources": [
       {
-       "name": "ZDFheute, Datum unklar",
-       "url": "https://www.zdfheute.de/wirtschaft/ig-metall-streik-mercedes-sindelfingen-100.html"
+       "name": "n-tv.de, 24.11. 23:31 Uhr",
+       "url": "https://www.n-tv.de/wirtschaft/Tech-Werte-und-Furcht-vor-neuen-US-Strafzoellen-belasten-die-Wall-Street-id31573726.html"
+      }
+     ]
+    },
+    {
+     "region": "EU",
+     "topic": "Zinsen",
+     "head": "EZB vertagt Entscheidung über höhere Mindestreserve",
+     "text": "Der EZB-Rat hat am Mittwoch laut Handelsblatt keine Verdopplung der Mindestreserve von 1 auf 2 Prozent der Einlagen beschlossen. Eine Entscheidung sei frühestens im Dezember, womöglich erst im Frühjahr 2027 zu erwarten. Für die Banken im Euroraum wäre eine Verdopplung eine spürbare Belastung, weil die Reserve unverzinst ist.",
+     "sources": [
+      {
+       "name": "finanzen.net (Dow Jones), 25.11. 11:39 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/ezb-rat-entscheidet-fruehestens-im-dezember-ueber-mindestreserve-zeitung-16085955"
       }
      ]
     },
     {
      "region": "DE",
-     "topic": "Unternehmen",
-     "head": "ABB kauft Ventilatorenhersteller Ziehl-Abegg",
-     "text": "Der Schweizer Konzern übernimmt das Familienunternehmen aus Künzelsau für 2,65 Milliarden Dollar, angekündigt am Montag. Ziehl-Abegg erwartet 2026 rund 1,4 Milliarden Dollar Umsatz bei mittlerer einstelliger Marge; ABB zahlt das 18,6-Fache des Ebitda und setzt auf Kühlung für Gebäude und Rechenzentren. Der Sitz in Künzelsau soll bleiben.",
+     "topic": "Regulierung",
+     "head": "Experten halten Reiches Spritpreisdeckel für zahnlos",
+     "text": "Der Referentenentwurf des Wirtschaftsministeriums sieht einen bundesweiten Höchstpreis vor, der sich an den teuersten Großhandelspreisen von elf Tanklagerregionen plus 15 bis 20 Cent Marge orientiert; Autobahntankstellen sind ausgenommen. Der ADAC warnt am Mittwoch vor überhöhten Erwartungen, der Analyst Steffen Bukold nennt den Entwurf zahnlos, weil er den Anbietern zu weit entgegenkomme. Gekappt würden höchstens die Preisspitzen um 12 Uhr.",
      "sources": [
       {
-       "name": "finanzen.net (dpa-AFX), 23.11. 16:30 Uhr",
-       "url": "https://finanzen.net/nachricht/aktien/deal-voraus-abb-aktie-im-plus-milliardenschwere-uebernahme-von-deutscher-ziehl-abegg-geplant-16080914"
+       "name": "n-tv.de, 25.11. 07:32 Uhr",
+       "url": "https://www.n-tv.de/wirtschaft/Experten-zerreissen-Reiches-Entwurf-fuer-Spritpreisdeckel-id31574126.html"
+      }
+     ]
+    },
+    {
+     "region": "EU",
+     "topic": "Unternehmen",
+     "head": "BYD will früheres Smart-Werk in Lothringen kaufen",
+     "text": "Chinas größter Autobauer hat am Dienstag exklusive Verhandlungen über das Werk in Hambach aufgenommen, in dem Mercedes bis 2020 den Smart baute und das zuletzt Ineos gehörte. Bisher kommt jeder in Europa verkaufte BYD aus China. Hintergrund ist der geplante Industrial Accelerator Act der EU, der E-Auto-Förderung an Montage und Teile aus Europa knüpfen soll.",
+     "sources": [
+      {
+       "name": "Spiegel, 24.11. 16:38 Uhr",
+       "url": "https://www.spiegel.de/wirtschaft/unternehmen/autohersteller-byd-will-ehemalige-smart-fabrik-in-lothringen-kaufen-a-44e5dc8a-e3da-4da7-a649-ee629bffa281"
+      }
+     ]
+    },
+    {
+     "region": "EU",
+     "topic": "Konjunktur",
+     "head": "E-Auto-Zulassungen in der EU steigen im Oktober um 61 Prozent",
+     "text": "Laut Herstellerverband Acea wurden im Oktober knapp 280.000 E-Autos neu zugelassen, 61,4 Prozent mehr als vor einem Jahr; Diesel und Benziner brachen stark ein. Der Marktanteil der E-Autos liegt bei knapp 30 Prozent. Profitiert haben vor allem chinesische Hersteller, die europäischen nur bedingt.",
+     "sources": [
+      {
+       "name": "n-tv.de, 24.11. 09:57 Uhr",
+       "url": "https://www.n-tv.de/wirtschaft/Zulassungen-von-E-Autos-schiessen-in-der-EU-in-die-Hoehe-id31570313.html"
+      },
+      {
+       "name": "Spiegel, 24.11. 13:29 Uhr",
+       "url": "https://www.spiegel.de/wirtschaft/unternehmen/e-auto-elektrofahrzeuge-boomen-in-der-eu-rekordanteil-von-chinesischen-modellen-a-5a77379f-8945-4230-94a7-3e7a5acd5b01"
       }
      ]
     },
     {
      "region": "USA",
      "topic": "Unternehmen",
-     "head": "Bayer: US-Richter genehmigt Glyphosat-Vergleich endgültig",
-     "text": "Ein Richter in Missouri hat den Sammelvergleich über 7,25 Milliarden Dollar gebilligt, gemeldet am Samstag. Zahlungen laufen bis zu 21 Jahre und decken auch künftige Klagen ab, damit ist das größte Rechtsrisiko des Konzerns weitgehend begrenzt. Die Aktie fiel am Montag dennoch um 0,71 Prozent, Anleger nahmen nach dem starken Jahreslauf Gewinne mit.",
+     "head": "Anthropic-Aktie fällt unter den Ausgabepreis",
+     "text": "Die Aktie des KI-Entwicklers schloss am Dienstag 6,5 Prozent tiefer und damit erstmals unter dem Ausgabepreis von 83 Dollar. Am ersten Handelstag vergangene Woche hatte der erste Kurs noch bei 111,50 Dollar gelegen; der Börsengang brachte mit 107,3 Milliarden Dollar den größten Erlös aller Zeiten. Der Absturz zeigt, wie schnell die Stimmung für KI-Werte gekippt ist.",
      "sources": [
       {
-       "name": "ZDFheute, 21.11. 10:30 Uhr",
-       "url": "https://www.zdfheute.de/wirtschaft/unternehmen/bayer-glyphosat-sammelvergleich-usa-richter-100.html"
+       "name": "tagesschau.de, 25.11. 10:22 Uhr",
+       "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-nikkei-dax-nasdaq-100.html"
       },
       {
-       "name": "finanzen.net (dpa-AFX), 23.11. 14:38 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-dax-in-erholung-auf-bewaehrung-16081662"
+       "name": "n-tv.de, 24.11. 16:14 Uhr",
+       "url": "https://www.n-tv.de/wirtschaft/Anthropic-Aktie-faellt-unter-den-Ausgabepreis-id31572716.html"
       }
      ]
     },
     {
      "region": "DE",
      "topic": "Unternehmen",
-     "head": "VW: Letzter großer Dieselprozess soll starten",
-     "text": "Am Landgericht Braunschweig soll am Dienstag das wohl letzte große Strafverfahren der Dieselaffäre gegen sieben frühere Führungskräfte und Mitarbeiter beginnen, angesetzt sind 150 Verhandlungstage bis Ende 2028. Ob der Auftakt wie geplant stattfand, war bei Redaktionsschluss nicht bestätigt.",
+     "head": "Hannover Rück peilt für 2027 mehr Gewinn an",
+     "text": "Der DAX-Konzern stellte am Mittwoch für 2027 einen Gewinn von 2,9 Milliarden Euro in Aussicht, sieben Prozent mehr als die für 2026 angepeilten 2,7 Milliarden. Das gilt trotz sinkender Preise in der Rückversicherung, die die Branche seit Monaten belasten.",
      "sources": [
       {
-       "name": "finanzen.net, 24.11. 08:00 Uhr",
-       "url": "https://www.finanzen.net/nachricht/aktien/10-vor-9-diese-10-wichtigen-fakten-sollten-sie-heute-an-der-boerse-wissen-dell-zieht-bilanz-16068179"
-      },
-      {
-       "name": "marketscreener (dpa-AFX), Datum unklar",
-       "url": "https://www.marketscreener.com/news/new-diesel-trial-proceedings-against-volkswagen-s-second-tier-ce7d5fdcd98df622"
+       "name": "tagesschau.de, 25.11. 10:22 Uhr",
+       "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-nikkei-dax-nasdaq-100.html"
       }
      ]
     }
@@ -332,40 +376,40 @@
    "name": "Veröffentlichte Zahlen",
    "items": [
     {
-     "head": "HPE: Ausblick klar über Erwartungen, Aktie gibt nachbörslich nach",
-     "text": "Hewlett Packard Enterprise meldete am Montagabend für das vierte Geschäftsquartal 14,55 Milliarden Dollar Umsatz, knapp über den erwarteten 14,50 Milliarden; der freie Cashflow lag mit 1,92 Milliarden deutlich über Plan. Für das erste Quartal stellt HPE 1,30 bis 1,40 Dollar Gewinn je Aktie in Aussicht, erwartet waren 1,07. Dazu kommen 5 Milliarden Dollar für Rückkäufe und 22,8 Prozent mehr Dividende. Die Aktie hatte tagsüber 13 Prozent gewonnen und gab nachbörslich rund 5 Prozent ab.",
+     "head": "Dell: Umsatz verdoppelt, Ziele erhöht, Aktie trotzdem schwächer",
+     "text": "Im dritten Quartal bis Ende Oktober verdoppelte Dell den Umsatz auf 54,9 Milliarden Dollar, der Nettogewinn stieg um knapp 270 Prozent auf 5,7 Milliarden Dollar, das bereinigte Ergebnis je Aktie auf 9,45 Dollar. Die Jahresprognose steigt von 192 auf 202 Milliarden Dollar Umsatz, der KI-Auftragsbestand liegt bei 132 Milliarden, Aktienrückkäufe werden um 25 Milliarden aufgestockt; Quartal und Ausblick lagen über den Erwartungen. Weil die Servermarge im vierten Quartal von 17 auf 15 Prozent sinken soll, fiel die Aktie vorbörslich am Mittwoch um 7 Prozent.",
      "sources": [
       {
-       "name": "CNBC, 23.11. 23:46 Uhr",
-       "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html"
+       "name": "finanzen.net (dpa-AFX), 25.11. 11:44 Uhr",
+       "url": "https://www.finanzen.net/nachricht/aktien/roundup-weiter-starke-ki-server-nachfrage-dell-hebt-jahresziele-an-kursminus-16085959"
       }
      ]
     },
     {
-     "head": "Agilent: Zahlen und Ausblick über Erwartungen",
-     "text": "Agilent verdiente im vierten Geschäftsquartal bereinigt 1,86 Dollar je Aktie, 13 Cent mehr als erwartet, veröffentlicht am Montagabend. Für das laufende Quartal peilt der Konzern 1,54 bis 1,57 Dollar je Aktie an, über dem Konsens von 1,50; auch der Jahresausblick liegt über den Schätzungen. Die Aktie stieg nachbörslich um rund 7 bis 8 Prozent.",
+     "head": "Analog Devices: Rekordquartal, aber flacher Ausblick",
+     "text": "Der Chipkonzern steigerte den Umsatz im vierten Quartal um 42 Prozent auf 4,37 Milliarden Dollar, das Ergebnis je Aktie verdoppelte sich auf 3,40 Dollar; im Gesamtjahr stieg der Umsatz um 38 Prozent auf 15,2 Milliarden. Für das erste Quartal erwartet ADI aber nur 4,4 Milliarden Dollar Umsatz und ein bereinigtes Ergebnis je Aktie von 3,82 Dollar, das lag unter den Schätzungen. Die Aktie stürzte am Dienstag um 17,4 Prozent ab und zog Texas Instruments mit 11 Prozent nach unten.",
      "sources": [
       {
-       "name": "CNBC, 23.11.",
-       "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html"
+       "name": "Analog Devices / SEC, 24.11.",
+       "url": "https://www.sec.gov/Archives/edgar/data/0000006281/000000628126000087/adiq426exhibit991.htm"
       },
       {
-       "name": "Investing.com, 23.11.",
-       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-agilent-tops-q4-2026-estimates-shares-jump-93CH-5046651"
+       "name": "finanzen.net, 24.11.",
+       "url": "https://www.finanzen.net/nachricht/aktien/zurueckhaltung-in-new-york-nasdaq-100-legt-schlussendlich-den-rueckwaertsgang-ein-16084858"
       }
      ]
     },
     {
-     "head": "Zoom: Gewinn über Erwartung, erste Dividende",
-     "text": "Zoom meldete am Montagabend bereinigt 1,59 Dollar Gewinn je Aktie bei erwarteten 1,49 und 1,29 Milliarden Dollar Umsatz, leicht über den erwarteten 1,28 Milliarden und rund 5 Prozent mehr als vor einem Jahr mit 1,23 Milliarden. Der Konzern hob die Gewinnprognose für das Gesamtjahr an und zahlt erstmals eine Quartalsdividende von 25 Cent. Die Aktie blieb nachbörslich nahezu unverändert, nachdem sie tagsüber fast 6 Prozent zugelegt hatte.",
+     "head": "Workday: Zahlen über den Erwartungen, Wachstum bremst",
+     "text": "Der Softwarekonzern steigerte den Umsatz im dritten Quartal um 11,2 Prozent auf 2,705 Milliarden Dollar, das bereinigte Ergebnis je Aktie stieg von 2,32 auf 2,82 Dollar, belastet von Umbaukosten von 51 Millionen. Die Jahresprognose für Abo-Erlöse steigt auf 9,958 Milliarden Dollar, für das vierte Quartal wird aber nur noch rund 10 Prozent Wachstum erwartet. Die Aktie fiel nachbörslich am Dienstag um mehr als 7 Prozent.",
      "sources": [
       {
-       "name": "CNBC, 23.11.",
-       "url": "https://www.cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html"
+       "name": "Workday / SEC, 24.11.",
+       "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000057/wday-10312026x991.htm"
       },
       {
-       "name": "Zoom Investor Relations (Vorjahreswert), Nov. 2025",
-       "url": "https://investors.zoom.us/news-releases/news-release-details/zoom-communications-reports-financial-results-third-quarter-0"
+       "name": "investing.com, Datum unklar",
+       "url": "https://www.investing.com/news/company-news/workday-q3-fy27-slides-ai-arr-surges-130-but-stock-falls-on-outlook-93CH-5049301"
       }
      ]
     }
@@ -373,13 +417,13 @@
   }
  ],
  "notes": [
-  "Stand der Ausgabe: 24.11.2026, 12:15 Uhr. Kurse: Schluss vom 23.11.2026.",
-  "Die Ausgabe erscheint später als sonst; Medtronic, Analog Devices und Best Buy legen erst am Dienstagnachmittag deutscher Zeit Zahlen vor, Dell am Abend. Sie fehlen deshalb hier.",
-  "MSCI World: kein bestätigter Schlusskurs gefunden, angegeben ist die Ariva-Indikation von 22:05 Uhr; Investing.com nennt 4.621,41 Punkte (+3,65 %).",
-  "Shanghai: Schlussstand nur aus einer Quelle (ad-hoc-news) belegt; Reuters bestätigt nur, dass der Index nahezu unverändert schloss.",
-  "Nasdaq 100: Gewinner und Verlierer laut dpa-AFX nur gerundet; als Verlierer ist nur CrowdStrike namentlich belegt. Laut Forbes fielen am Montag nur sechs Nasdaq-100-Werte.",
-  "Sechster Kasten: Der Nasdaq Composite (+6,51 %) bewegte sich stärker als der S&P 500, wurde aber als Fast-Dublette des Nasdaq 100 nicht genommen. Gewinner und Verlierer für S&P 500, MSCI World und Shanghai nicht belegt.",
-  "Die Hormus-Minenmeldung stammt von Iran und ist unabhängig nicht bestätigt. Trumps Aussage zu 250 weiteren Boeing-Jets für China wurde mangels zweiter Quelle weggelassen.",
-  "Zahlen von HPE und Agilent: Vorjahresvergleiche nicht gefunden; HPE-Zahlen nur über CNBC belegt."
+  "Stand der Ausgabe: 25.11.2026, 12:10 Uhr. Kurse: Schluss vom 24.11.2026.",
+  "Die neuen US-Zölle waren bei Redaktionsschluss noch nicht offiziell verkündet; Höhe und Zeitpunkt beruhen auf Insiderberichten.",
+  "DAX-Gewinner und -Verlierer stammen aus dem finanzen.at-Bericht zum Handelsende (17:58 Uhr) und können von den endgültigen Schlusskursen leicht abweichen; finanzen.at nennt für den DAX 25.005,51 Punkte, dpa-AFX 25.017,81.",
+  "MSCI World, Shanghai und Kospi nur aus einer Quelle (investing.com) belegt; für den MSCI World passt das kleine Minus nicht recht zum Nasdaq-Rückgang, daher mit Vorsicht lesen. Keine belastbaren Gewinner/Verlierer-Listen für MSCI World, Shanghai und Kospi gefunden.",
+  "Für die meisten Gewinner im DAX, Euro Stoxx 50 und Nasdaq 100 nennt keine seriöse Quelle einen konkreten Grund, daher ohne Begründung.",
+  "China-Rohstoffmeldung, Ofgem, Ölpreis, EZB-Mindestreserve, Spritpreisdeckel und Hannover Rück jeweils nur aus einer Quelle belegt.",
+  "Kursreaktion bei Workday nur nachbörslich und nur aus einer Quelle mit unklarem Datum. Autodesk und HP haben ebenfalls Zahlen vorgelegt, ließen sich aber nicht aus erlaubten Quellen belegen.",
+  "Zur VW-Tarifrunde, die am Dienstag in Emden begann, war kein belastbares Ergebnis zu finden."
  ]
 }
