@@ -100,6 +100,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .lead li:first-child { border-top: 0; }
 .lead li::before { content: counter(n); position: absolute; left: 0; top: 7px; font-family: var(--font-display); font-weight: 700; font-size: 24px; line-height: 1; color: var(--accent); width: 24px; text-align: center; }
 .lead b { font-weight: 700; }
+.tl { all: unset; display: block; cursor: pointer; font-weight: 700; line-height: 1.35; -webkit-tap-highlight-color: transparent; }
+.tl:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.tl::after { content: " ↓"; font-family: var(--font-label); font-weight: 600; color: var(--accent); }
+.item[id^="top-"] { scroll-margin-top: 12px; }
+.num { font-family: var(--font-display); font-weight: 700; color: var(--accent); margin-right: 6px; }
 
 section.sec { margin-top: 26px; }
 .sec > h2 { font-family: var(--font-display); font-size: 28px; line-height: 1.1; margin: 0 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--rule); text-wrap: balance; }
@@ -166,6 +171,7 @@ ul.plain li { padding: 3px 0; }
   }
   function safeUrl(u) { return typeof u === "string" && /^https?:\/\//i.test(u) ? u : null; }
   function arr(x) { return Array.isArray(x) ? x : []; }
+  function cleanHead(s) { return String(s || "").replace(/\s*:\s*$/, ""); }
 
   function sources(list) {
     var box = el("div", "src");
@@ -197,10 +203,15 @@ ul.plain li { padding: 3px 0; }
       var lead = el("div", "lead");
       lead.appendChild(el("h2", null, key === "woche" ? "Die Woche in Kürze" : "Die 5 wichtigsten Nachrichten"));
       var ol = el("ol");
-      d.top.forEach(function (p) {
+      d.top.forEach(function (p, i) {
         var li = el("li");
-        if (p.head) { li.appendChild(el("b", null, p.head)); li.appendChild(document.createTextNode(" ")); }
-        li.appendChild(document.createTextNode(p.text || ""));
+        var b = el("button", "tl", cleanHead(p.head || p.text));
+        b.type = "button";
+        b.addEventListener("click", function () {
+          var t = document.getElementById("top-" + (i + 1));
+          if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+        li.appendChild(b);
         ol.appendChild(li);
       });
       lead.appendChild(ol); frag.appendChild(lead);
@@ -264,20 +275,27 @@ ul.plain li { padding: 3px 0; }
       frag.appendChild(ms);
     }
 
-    arr(d.sections).forEach(function (sec) {
+    function article(it, n) {
+      var art = el("article", "item");
+      if (n) art.id = "top-" + n;
+      var h = el("h3");
+      if (n) h.appendChild(el("span", "num", n + "."));
+      var lab = [it.region, it.topic].filter(Boolean).join(" · ");
+      if (lab) h.appendChild(el("span", "reg", lab));
+      h.appendChild(document.createTextNode(n ? cleanHead(it.head) : (it.head || "")));
+      art.appendChild(h);
+      art.appendChild(el("p", null, it.text || ""));
+      var sr = sources(it.sources); if (sr) art.appendChild(sr);
+      return art;
+    }
+    var secs = arr(d.sections);
+    var tops = arr(d.top);
+    if (tops.length && !secs.length) secs = [{ name: "Meldungen", items: [] }];
+    secs.forEach(function (sec, si) {
       var s = el("section", "sec");
       s.appendChild(el("h2", null, sec.name || ""));
-      arr(sec.items).forEach(function (it) {
-        var art = el("article", "item");
-        var h = el("h3");
-        var lab = [it.region, it.topic].filter(Boolean).join(" · ");
-        if (lab) h.appendChild(el("span", "reg", lab));
-        h.appendChild(document.createTextNode(it.head || ""));
-        art.appendChild(h);
-        art.appendChild(el("p", null, it.text || ""));
-        var sr = sources(it.sources); if (sr) art.appendChild(sr);
-        s.appendChild(art);
-      });
+      if (si === 0) tops.forEach(function (it, i) { s.appendChild(article(it, i + 1)); });
+      arr(sec.items).forEach(function (it) { s.appendChild(article(it)); });
       frag.appendChild(s);
     });
 
