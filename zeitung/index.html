@@ -100,9 +100,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .lead li:first-child { border-top: 0; }
 .lead li::before { content: counter(n); position: absolute; left: 0; top: 7px; font-family: var(--font-display); font-weight: 700; font-size: 24px; line-height: 1; color: var(--accent); width: 24px; text-align: center; }
 .lead b { font-weight: 700; }
-.tl { all: unset; display: block; cursor: pointer; font-weight: 700; line-height: 1.35; -webkit-tap-highlight-color: transparent; }
+.lead li::before { top: 50%; transform: translateY(-50%); }
+.tl { all: unset; display: block; width: 100%; box-sizing: border-box; position: relative; cursor: pointer; padding-right: 24px; -webkit-tap-highlight-color: transparent; }
 .tl:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-.tl::after { content: " ↓"; font-family: var(--font-label); font-weight: 600; color: var(--accent); }
+.tl::after { content: "↓"; position: absolute; right: 2px; top: 50%; transform: translateY(-50%); font-family: var(--font-label); font-weight: 600; color: var(--accent); }
+.tlbox { height: 2.7em; display: flex; align-items: center; line-height: 1.35; }
+.tlh { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font-weight: 700; }
+.tlw { display: block; height: 1.4em; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: var(--font-label); font-size: 12px; line-height: 1.4em; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
 .item[id^="top-"] { scroll-margin-top: 12px; }
 .num { font-family: var(--font-display); font-weight: 700; color: var(--accent); margin-right: 6px; }
 
@@ -172,6 +176,11 @@ ul.plain li { padding: 3px 0; }
   function safeUrl(u) { return typeof u === "string" && /^https?:\/\//i.test(u) ? u : null; }
   function arr(x) { return Array.isArray(x) ? x : []; }
   function cleanHead(s) { return String(s || "").replace(/\s*:\s*$/, ""); }
+  function whenOf(p) {
+    if (p && p.when) return String(p.when);
+    var m = /^([^:.!?]{2,45}):\s/.exec((p && p.text) || "");
+    return m ? m[1] : "";
+  }
 
   function sources(list) {
     var box = el("div", "src");
@@ -205,8 +214,12 @@ ul.plain li { padding: 3px 0; }
       var ol = el("ol");
       d.top.forEach(function (p, i) {
         var li = el("li");
-        var b = el("button", "tl", cleanHead(p.head || p.text));
+        var b = el("button", "tl");
         b.type = "button";
+        var box = el("span", "tlbox");
+        box.appendChild(el("span", "tlh", cleanHead(p.head || p.text)));
+        b.appendChild(box);
+        b.appendChild(el("span", "tlw", whenOf(p) || " "));
         b.addEventListener("click", function () {
           var t = document.getElementById("top-" + (i + 1));
           if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
